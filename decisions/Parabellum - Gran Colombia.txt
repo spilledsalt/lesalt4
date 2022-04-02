@@ -1,0 +1,444 @@
+political_decisions = {
+
+Legacy_of_the_liberator_ecu = {
+	    picture = "form_chad_colombia"
+		potential = {
+		  IA = no
+		  NOT = {
+				has_country_flag = legacy_clm_ecu
+			}
+     	  OR = { tag = ECU }
+		  
+			NOT = {	exists = GCO}
+		 }	
+		 allow = {
+		    romanticism = 1
+			war = no
+		 }
+		
+		 effect = {
+			prestige = 5
+			set_country_flag = legacy_clm_ecu
+			war = {
+   target = CLM 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+}
+
+Legacy_of_the_liberator_alt_ecu = {
+	    picture = "form_chad_colombia"
+		potential = {
+		IA = no
+		has_country_flag = legacy_clm_ecu
+		NOT = {
+				has_country_flag = legacy_vnz_ecu
+			}
+     	OR = { tag = ECU }
+			NOT = {	exists = GCO}
+		}	
+		allow = {
+		    romanticism = 1
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = legacy_vnz_ecu
+			war = {
+   target = VNZ 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+}
+	
+	Legacy_of_the_liberator = {
+	    picture = "form_chad_colombia"
+		potential = {
+		IA = yes
+		NOT = {
+				has_country_flag = legacy_vnz_clm
+			}
+		OR = { tag = CLM }
+		NOT = {exists = GCO}
+		}	
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = legacy_vnz_clm
+			war = {
+   target = VNZ 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+					ai_will_do = {
+			factor = 0
+	}
+}
+
+Legacy_of_the_liberator_alt = {
+	    picture = "form_chad_colombia"
+		potential = {
+		IA = yes
+		has_country_flag = legacy_vnz_clm
+		NOT = {
+				has_country_flag = legacy_ecu_clm
+			}
+		OR = { tag = CLM }
+		NOT = {exists = GCO}
+		}	
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = legacy_ecu_clm
+			war = {
+   target = ECU 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+					ai_will_do = {
+			factor = 1
+	}
+}
+	
+	Legacy_of_the_liberator_vnz = {
+	    picture = "form_chad_colombia"
+		potential = {
+		IA = no
+		NOT = {
+				has_country_flag = legacy_clm_vnz
+			}
+     	OR = { tag = VNZ }
+			NOT = {	exists = GCO}
+		}	
+		allow = {
+		    romanticism = 1
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = legacy_clm_vnz
+			war = {
+   target = CLM 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+}
+Legacy_of_the_liberator_alt_vnz = {
+	    picture = "form_chad_colombia"
+		potential = {
+		IA = no
+		has_country_flag = legacy_clm_vnz
+		NOT = {
+				has_country_flag = legacy_ecu_vnz
+			}
+     	OR = { tag = VNZ }
+			NOT = {	exists = GCO}
+		}	
+		allow = {
+		    romanticism = 1
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = legacy_ecu_vnz
+			war = {
+   target = ECU 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+}
+
+Following_liberator = {
+	    picture = "peru_bolivia"
+		potential = {
+		IA = no
+		exists = PEU
+		NOT = {
+				has_country_flag = peru_fall
+				}
+		OR = { tag = GCO }
+		}	
+		allow = {
+		    impressionism = 1
+			war = no
+		}
+		
+		effect = {
+			prestige = 25
+			set_country_flag = peru_fall
+			war = {
+   target = PEU 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+					ai_will_do = {
+			factor = 1
+	}
+}
+
+Following_liberator_bol = {
+	    picture = "peru_bolivia"
+		potential = {
+		IA = no
+		tag = GCO
+		exists = BOL
+		has_country_flag = peru_fall
+				
+		NOT = {
+				has_country_flag = bolivia_fall
+				}
+		}	
+		allow = {
+		    impressionism = 1
+			war = no
+		}
+		
+		effect = {
+		add_accepted_culture = south_andean
+			prestige = 25
+			set_country_flag = bolivia_fall
+			war = {
+   target = BOL 
+   call_ally = yes
+attacker_goal = {
+casus_belli = lebensraum_cb
+}
+		}
+	}
+					ai_will_do = {
+			factor = 1
+	}
+}
+form_federal_republic_of_latin_america = {
+        picture = usca_constitution
+        potential = {
+			OR = {
+			tag = UCA
+			tag = MEX
+			tag = CLM
+			tag = VNZ
+			tag = ECU
+			tag = PNM
+			}
+        }
+
+        allow = {
+            2189 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			2194 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			2200 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			2202 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			2264 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			2269 = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    
+			}
+			MEX = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+			PNM = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+			CLM = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+			ECU = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+        }
+
+        effect = {
+            set_global_flag = federal_republic_of_latin_america_formed
+            change_tag = RLA
+			ECU = { all_core = { add_core = RLA } }
+			VNZ = { all_core = { add_core = RLA } }
+			MEX = { all_core = { add_core = RLA } }
+			CLM = { all_core = { add_core = RLA } }
+			PNM = { all_core = { add_core = RLA } }
+			UCA = { all_core = { add_core = RLA } }
+			add_accepted_culture = north_andean
+			add_accepted_culture = mexican
+			add_accepted_culture = central_american
+			RLA = {
+				inherit = ECU
+				inherit = VNZ
+				inherit = UCA
+				inherit = MEX
+				inherit = PNM
+				inherit = CLM
+			}
+     }
+	}
+}

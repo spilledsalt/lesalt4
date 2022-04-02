@@ -1,0 +1,202 @@
+political_decisions = {
+communist_purge = {
+	picture = commie_purge_pic
+		potential = {
+				government = proletarian_dictatorship
+				NOT = {
+				has_country_modifier = commie_purged
+					}
+				}
+			effect = {
+				random = {
+					chance = 40
+					badboy = 20
+					prestige = -25
+
+						}
+			any_pop = {
+				limit = {
+				strata = rich
+						}
+				reduce_pop = 0.1
+				consciousness = 8.0
+				militancy = 8.0			
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = communist
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = socialist
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = anarcho_liberal
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			add_country_modifier = {
+				name = commie_purged
+				duration = 3650
+							}
+			}
+	}
+
+	unethical_human_experiment = {
+	picture = uhe
+		potential = {
+				OR = {
+				government = fascist_dictatorship
+				government = proletarian_dictatorship
+					}
+				NOT = {
+				has_country_modifier = does_uhe
+				has_country_flag = UHEstopped
+					}
+				}
+
+			effect = {
+				badboy = 5
+				prestige = -10
+				add_country_modifier = {
+					name = does_uhe
+					duration = 3650
+							}
+						
+			}
+	}
+	
+	genocide = {
+	picture = holocaust_pic
+		potential = {
+				government = fascist_dictatorship
+				
+			NOT = {
+				has_country_modifier = limpieza
+			}
+				}
+			effect = {
+					badboy = 12
+
+			any_state = {
+				limit = { is_colonial = no }
+				any_pop = {
+				limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+						}
+				reduce_pop = 0.6
+				consciousness = 8.0
+				militancy = 8.0		
+					}
+				}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = conservative
+				}
+				consciousness = -2.0
+				militancy = -1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = reactionary
+				}
+				consciousness = -4.0
+				militancy = -3.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = fascist
+				}
+				consciousness = -5.0
+				militancy = -4.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = socialist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = anarcho_liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = communist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			add_country_modifier = {
+				name = limpieza
+				duration = 3650
+							}
+			set_country_flag = limpieza
+			}
+		ai_will_do = {
+			factor = 0
+		}	
+		
+	}
+	
+the_cult_of_personality_fascista = {
+		picture = indoctrinal_education
+		potential = {
+			government = fascist_dictatorship
+			NOT = { has_country_modifier = cult_of_personality }
+		}
+		
+		allow = {
+			war = no
+			mass_politics = 1
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			plurality = -20
+			add_country_modifier = {
+				name = cult_of_personality
+				duration = -1
+			}
+			any_pop = { limit = { agree_with_ruling_party = 0.40 } 
+				militancy = -2
+				consciousness = -4 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+}

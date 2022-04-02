@@ -1,0 +1,18 @@
+political_decisions = {
+#########################################################################
+# 								RELEASE VASSALS							#
+#########################################################################
+release_vassals = {
+	alert = no
+	picture = gtfo
+	potential = {
+		ai = no
+		num_of_vassals = 1
+	}
+	allow = {
+	}
+	effect = {
+		country_event = { id = 91306 days = 0 }
+	}
+  }
+}

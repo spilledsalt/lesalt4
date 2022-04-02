@@ -1,0 +1,639 @@
+country_event = {
+	id = 60160
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = PBS
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		PBS = { all_core = { remove_core = PBS } }
+		change_tag = PBC
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60161
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = GCS
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		GCS = { all_core = { remove_core = GCS } }
+		change_tag = GCO
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60162
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = LPL
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		LPL = { all_core = { remove_core = LPL } }
+		change_tag = LAP
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60163
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = MXS
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		MXS = { all_core = { remove_core = MXS } }
+		change_tag = MEX
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60164
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = BRS
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		BRS = { all_core = { remove_core = BRS } }
+		change_tag = BRZ
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60165
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = EIC
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		EIC = { all_core = { remove_core = EIC } }
+		change_tag = HND
+		primary_culture =  Indian
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60166
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = NAC
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		NAC = { all_core = { remove_core = NAC } }
+		change_tag = CAN
+		government = democracy
+	}
+}
+
+country_event = {
+	id = 60167
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		tag = EAC
+		is_vassal = no
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		EAC = { all_core = { remove_core = EAC } }
+		change_tag = AST
+		government = hms_government
+	}
+}
+
+country_event = {
+	id = 60050
+	title = "EVTNAME60050"
+	desc = "EVTDESC60050"
+	picture = "Unite"
+	
+	trigger = {
+		OR = {
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+		}
+		civilized = yes
+		NOT = {
+			vote_franschise = none_voting
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60050"
+		government = democracy
+	}
+}
+
+country_event = {
+	id = 60040
+	title = "EVTNAME60040"
+	desc = "EVTDESC60040"
+	picture = "Monarchy"
+	
+	trigger = {
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+		}
+		civilized = yes
+		NOT = { ruling_party_ideology = fascist }
+		NOT = { ruling_party_ideology = anarcho_liberal }
+		NOT = { ruling_party_ideology = communist }
+		vote_franschise = none_voting
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60040"
+		government = absolute_monarchy
+	}
+}
+
+country_event = {
+	id = 60060
+	title = "EVTNAME60060"
+	desc = "EVTDESC60060"
+	picture = "Monarchy"
+	
+	trigger = {
+		government = absolute_monarchy
+		NOT = {
+				vote_franschise = none_voting
+		}	
+		civilized = yes	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTNAME60060"
+		government = prussian_constitutionalism
+	}
+}
+
+country_event = {
+	id = 60060
+	title = "EVTNAME600600"
+	desc = "EVTDESC600600"
+	picture = "Monarchy"
+	
+	trigger = {
+		government = hms_government
+		OR = {
+			political_parties = gerrymandering
+			political_parties = harassment
+			political_parties = underground_parties
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTNAME60060"
+		government = prussian_constitutionalism
+	}
+}
+
+country_event = {
+	id = 60070
+	title = "EVTNAME60070"
+	desc = "EVTDESC60070"
+	picture = "Monarchy"
+	
+	trigger = {
+		government = prussian_constitutionalism
+		OR = {
+			political_parties = secret_ballots
+			political_parties = non_secret_ballots
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60070"
+		government = hms_government
+	}
+}
+
+country_event = {
+	id = 60080
+	title = "EVTNAME60080"
+	desc = "EVTDESC60080"
+	picture = "Administration"
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting		
+		OR = {
+			ruling_party_ideology = conservative
+			ruling_party_ideology = reactionary
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60080"
+		government = presidential_dictatorship
+	}
+}
+
+country_event = {
+	id = 60090
+	title = "EVTNAME60080"
+	desc = "EVTDESC60080"
+	picture = "Administration"
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting
+		OR = {
+			ruling_party_ideology = liberal
+			ruling_party_ideology = anarcho_liberal
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60080"
+		government = bourgeois_dictatorship
+	}
+}
+
+country_event = {
+	id = 60100
+	title = "EVTNAME60080"
+	desc = "EVTDESC60080"
+	picture = "Administration"
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting
+		OR = {
+			ruling_party_ideology = socialist
+			ruling_party_ideology = communist
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60080"
+		government = proletarian_dictatorship
+	}
+}
+
+country_event = {
+	id = 60110
+	title = "EVTNAME60080"
+	desc = "EVTDESC60080"
+	picture = "Administration"
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting
+		ruling_party_ideology = fascist
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60080"
+		government = fascist_dictatorship
+	}
+}
+
+# Annex SoIs
+country_event = {
+	id = 60120
+	title = "EVTNAME60120"
+	desc = "EVTDESC60120"
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = yes
+		war = no
+		part_of_sphere = yes
+		sphere_owner = {
+			is_greater_power = yes
+			is_culture_group = THIS
+			is_cultural_union = yes
+			war = no
+		}
+		NOT = {
+			AND = {
+				OR = {
+					tag = DNB
+					tag = KUK
+				}
+				sphere_owner = {
+					tag = GER
+				}
+				NOT = {
+					exists = HUN
+				}
+			}
+		}
+		NOT = {	
+			tag = ISR 
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA60120"
+		sphere_owner = {
+			country_event = { id=60130 days=0 }
+		}
+	}
+}
+
+country_event = {
+	id = 666666
+	title = "EVTNAME666666"
+	desc = "EVTDESC666666"
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = yes
+		war = no
+		part_of_sphere = yes
+		sphere_owner = {
+			is_greater_power = yes
+			is_culture_group = THIS
+			war = no
+			tag = DNB
+		}
+		NOT = {
+				OR = {
+					tag = AUS
+					tag = KUK
+				} }
+				
+				NOT = {
+					exists = HUN
+				}
+			}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA666666"
+		sphere_owner = {
+			country_event = { id=60130 days=0 }
+		}
+	}
+}
+
+country_event = {
+	id = 666667       
+	title = "EVTNAME666667"
+	desc = "EVTDESC666667"
+	picture = "greatpowers"
+	
+	trigger = {
+		ai = yes
+		war = no
+		part_of_sphere = yes
+		sphere_owner = {
+			is_greater_power = yes
+			is_culture_group = THIS
+			war = no
+			tag = ITA
+		}
+			}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA666667"
+		sphere_owner = {
+			country_event = { id=60130 days=0 }
+		}
+	}
+}
+
+
+# Get them Annexed
+country_event = {
+	id = 60130
+	title = "EVTNAME60130"
+	desc = "EVTDESC60130"
+	picture = "greatpowers"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA60130"
+		prestige = 5
+		inherit = FROM
+	}
+	
+	option = {
+		name = "EVTOPTB60130"
+		any_pop = {
+			militancy = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = 60140
+	title = "EVTNAME60140"
+	desc = "EVTDESC60140"
+	picture = "Administration"
+	
+	trigger = {
+		upper_house_composition = party_appointed
+		ruling_party_ideology = liberal 
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60140"
+		political_reform = appointed
+	}
+}
+
+country_event = {
+	id = 60150
+	title = "EVTNAME60150"
+	desc = "EVTDESC60150"
+	picture = "Unite"
+	
+	trigger = {
+		has_country_modifier = female_suffrage
+		NOT = {
+			OR = {
+				vote_franschise = universal_weighted_voting
+				vote_franschise = universal_voting
+			}	
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60150"
+		remove_country_modifier = female_suffrage
+	}
+}
+
+#Jan Mayen Isolationism
+country_event = {
+	id = 91290
+	title = "Jan Mayen Isolationism"
+
+
+	trigger = {
+		tag = JAN
+		NOT = { has_country_modifier = jan_mayen_isolationism }
+	}
+
+
+	option = {
+		add_country_modifier = { name = jan_mayen_isolationism duration = 362 }
+		any_country = {
+			relation = {
+				who = JAN
+				value = -400
+			}
+		}
+	}
+}
+
+#Leave Jan Mayen
+country_event = {
+	id = 91291
+	title = "Leave World Bank"
+	desc = "Players are not allowed to interact with the World Bank"
+
+	trigger = {
+		OR = {
+			JAN = { in_sphere = THIS }
+			alliance_with = JAN
+			military_access = JAN
+		}
+	}
+
+	option = {
+		name = "I won't do it again."
+		diplomatic_influence = {
+			who = JAN
+			value = -400
+		}
+		end_military_access = JAN
+		leave_alliance = JAN
+		relation = {
+			who = JAN
+			value = -400
+		}
+	}
+}

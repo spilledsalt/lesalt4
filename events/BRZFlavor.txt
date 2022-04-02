@@ -1,0 +1,290 @@
+country_event = {
+	id = 44662
+	title = "EVTNAME44662"
+	desc = "EVTDESC44662"
+	picture = meeting
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44662"
+	}
+}
+
+
+country_event = {
+	id = 44663
+	title = "EVTNAME44663"
+	desc = "EVTDESC44663"
+	picture = treaty
+
+	trigger = {
+		tag = POR
+		NOT = {
+			OR = {
+				AND = {
+					is_our_vassal = BRZ
+					BRZ = { government = colonial_company }
+				}
+				AND = {
+					is_our_vassal = BAH
+					BAH = { government = colonial_company }
+				}
+				AND = {
+					is_our_vassal = MRN
+					MRN = { government = colonial_company }
+				}
+				AND = {
+					is_our_vassal = GRP
+					GRP = { government = colonial_company }
+				}
+				AND = {
+					is_our_vassal = PNB
+					PNB = { government = colonial_company }
+				}
+			}
+		}
+		has_country_flag = portuguese_reconquista
+	}
+
+	option = {
+		name = "EVTOPTA44663"
+		clr_country_flag = portuguese_reconquista
+	}
+}
+
+country_event = {
+	id = 44664
+	title = "EVTNAME44664"
+	desc = "EVTDESC44664"
+	picture = "celebration"
+
+	trigger = {
+		has_country_flag = portuguese_vassal
+		NOT = { vassal_of = POR }
+	}
+
+	option = {
+		name = "EVTOPTA44664"
+		clr_country_flag = portuguese_vassal
+		random_owned = {
+			limit = {
+				owner = { government = colonial_company }
+			}	
+			owner = { government = hms_government }
+		}
+	}
+	option = {
+		name = "EVTOPTB44664"
+		clr_country_flag = portuguese_vassal
+		random_owned = {
+			limit = {
+				owner = { government = colonial_company }
+			}	
+			owner = { government = presidential_dictatorship }
+		}
+	}
+	option = {
+		name = "EVTOPTC44664"
+		clr_country_flag = portuguese_vassal
+		random_owned = {
+			limit = {
+				owner = { government = colonial_company }
+			}	
+			owner = { government = democracy }
+		}
+	}
+}
+
+
+country_event = {
+	id = 44660
+	title = "EVTNAME44660"
+	desc = "EVTDESC44660"
+	picture = generic_congress
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44660"
+		government = colonial_company
+		set_country_flag = portuguese_vassal
+		POR = {
+			create_vassal = THIS
+			create_alliance = THIS
+			country_event = { id = 44661 days = 0 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44660"
+		POR = { country_event = { id = 44662 days = 0 } }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 44661
+	title = "EVTNAME44661"
+	desc = "EVTDESC44661"
+	picture = celebration
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44661"
+		prestige = 10
+		set_country_flag = portuguese_reconquista
+	}
+}
+
+
+country_event = {
+
+	id = 46300
+	news = yes
+	news_desc_long = "EVTDESC46300_NEWS_LONG"
+	news_desc_medium = "EVTDESC46300_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46300_NEWS_SHORT"
+
+	trigger = {
+		tag = BRZ 
+		year = 1864
+		romanticism = 1 #has romanticism tech
+		slavery = yes_slavery
+		NOT = {
+			year = 1872
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1865
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME46300"
+	desc = "EVTDESC46300"
+	picture = "NavioNegreiro"
+
+	option = {
+		name = "EVTOPTA46300" 
+		any_pop = {
+			limit = {
+				consciousness = 4
+			}
+			dominant_issue = {
+				value = no_slavery
+				factor = 0.3
+			}
+		}
+		slaves = {
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 46301
+	news = yes
+	news_desc_long = "EVTDESC46301_NEWS_LONG"
+	news_desc_medium = "EVTDESC46301_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46301_NEWS_SHORT"
+
+	trigger = {
+		tag = BRZ 
+		year = 1895
+		NOT = {
+			year = 1910
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.55 #increase likelihood to happen
+			year = 1898
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1902
+		}
+	}
+
+	title = "EVTNAME46301"
+	desc = "EVTDESC46301"
+	picture = "football"
+
+	option = {
+		name = "EVTOPTA46301" 
+		set_country_flag = JogoBonito
+		prestige = 1
+		poor_strata = {
+			militancy = 2
+		}
+	}
+}
+
+province_event = {
+
+	id = 46302
+	news = yes
+	news_desc_long = "EVTDESC46302_NEWS_LONG"
+	news_desc_medium = "EVTDESC46302_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46302_NEWS_SHORT"
+
+	trigger = {
+		province_id = 2436 #Bahia
+		owned_by = BRZ 
+		year = 1837
+		owner = { slavery = yes_slavery }
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.80 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME46302"
+	desc = "EVTDESC46302"
+	picture = "Slaves"
+
+	option = {
+		name = "EVTOPTA46302" 
+		set_country_flag = Sabinada
+		slaves = {
+			militancy = 6
+		}		
+	}
+}

@@ -1,0 +1,9 @@
+#;;;;;;;;;;;;;x;;;
+will_receive_title;Request a Grant;;;;;;;;;;;;x;;;
+will_receive_desc;Request a Grant from players. Please avoid spamming this option or maybe you will get kicked.;;;;;;;;;;;;x;;;
+#will_not_receive_title;Disable Receiving Grants;;;;;;;;;;;;x;;;
+#will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+will_give_title;Enable giving Grants;;;;;;;;;;;;x;;;
+will_give_desc;This will enable giving grants. This can be revert in any moment;;;;;;;;;;;;x;;;
+will_not_give_title;Disable giving Grants;;;;;;;;;;;;x;;;
+will_not_give_desc;This will disable giving grants. This can be revert in any moment;;;;;;;;;;;;x;;;

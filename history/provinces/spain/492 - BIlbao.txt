@@ -1,0 +1,33 @@
+owner = SPC
+
+
+controller = SPC
+
+add_core = SPA
+add_core = SPC
+add_core = IBR
+trade_goods = iron
+terrain = hills
+life_rating = 35
+state_building = {
+		level = 2
+		building = cement_factory
+		upgrade = yes
+}
+
+1861.1.1 = { 
+	
+state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	
+state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+}
+
+1861.1.1 = { railroad = 3 }

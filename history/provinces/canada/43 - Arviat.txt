@@ -1,0 +1,7 @@
+owner = NAC
+controller = NAC
+add_core = CAN
+add_core = NAC
+trade_goods = fish
+life_rating = 25
+colonial = 2

@@ -1,0 +1,60 @@
+# TE HAS PASADO
+country_event = {
+	id = 9980
+	title = "EVTNAME9980"
+	desc = "EVTDESC9980"
+	picture = "greatpowers"
+
+	trigger = {
+			NOT = { has_country_flag = chicomalo }
+			badboy = 1.2
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA9980"
+		any_country = {
+			limit = {
+				ai = no
+ 				}
+			country_event = { id=9981 days=0 }
+		}
+		set_country_flag = chicomalo
+	}
+}
+
+# ALERTA AL RESTO
+country_event = {
+	id = 9981
+	title = "EVTNAME9981"
+	desc = "EVTDESC9981"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA9981"
+	}
+}
+
+# MENOS DE 30 OTRA VEZ
+country_event = {
+	id = 9982
+	title = "EVTNAME9982"
+	desc = "EVTDESC9982"
+	picture = "greatpowers"
+	trigger = {
+			has_country_flag = chicomalo
+			NOT = { badboy = 1.2 }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA9982"
+		clr_country_flag = chicomalo
+	}
+}

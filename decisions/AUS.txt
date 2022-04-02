@@ -1,0 +1,307 @@
+political_decisions = {
+
+	annex_krakow = {
+		potential = {
+			ai = yes
+			tag = AUS
+			year = 1840
+			NOT = { has_country_flag = krakow_annexed }
+			owns = 714
+			KRA = {
+				exists = yes
+				ai = yes
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			inherit = KRA
+			set_country_flag = krakow_annexed
+		}
+						ai_will_do = {
+			factor = 1
+	}
+	}
+
+form_danubian_federation = {
+		picture = danubian_federation
+		potential = {
+			tag = KUK
+			NOT = { has_country_flag = danubian_federation_formed }
+		}
+		allow = {
+		    prestige = 250
+						OR = {
+				GER = { exists = yes }
+				nationalism_n_imperialism = 1
+			}
+			OR = {
+				KUK = {  owns = 783
+				         owns = 794
+                         owns = 2583
+                         owns =	664
+                         owns = 641  }
+			}
+		}
+		effect = {
+			prestige = 25
+			government = democracy
+			add_accepted_culture = slovak
+			add_accepted_culture = slovene
+			add_accepted_culture = croat
+			add_accepted_culture = hungarian
+			add_accepted_culture = romanian
+			add_accepted_culture = bosniak
+			change_tag = DNB
+			capital = 641
+			
+			any_owned = {
+				limit = {
+					is_core = KUK
+					is_core = AUS
+				}
+				add_core = DNB
+			}
+			DNB = { all_core = { remove_core = AUS }
+                    all_core = { remove_core = KUK } }
+		}
+				ai_will_do = {
+			factor = 1
+	}
+}
+	
+	enact_dual_monarchy = {
+		potential = {
+			tag = AUS
+			war = no
+			any_owned_province = {
+				is_core = HUN
+			}
+			NOT = {
+				has_country_flag = dual_monarchy_done
+			}
+		}
+
+		allow = {
+			prestige = 200
+			OR = {
+				ITA = { exists = yes }
+				NGF = { exists = yes }
+				GER = { exists = yes }
+				SGF = { exists = yes }
+			}
+			OR = {
+				HUN = { exists = no }
+				is_our_vassal = HUN
+			}
+		}
+	
+		effect = {
+			all_core = {
+				add_core = KUK
+			}
+			HUN = {
+				all_core = { add_core = KUK }
+				annex_to = THIS
+			}
+			all_core = {
+				remove_core = AUS
+			}
+			AUS_619 = { add_core = AUS }
+			AUS_613 = { add_core = AUS }
+			AUS_612 = { add_core = AUS }
+			any_pop = {
+				limit = {
+					culture = hungarian
+				}
+				militancy = -2
+			}
+			any_pop = {
+				limit = {
+					NOT = {
+						OR = {
+							culture = hungarian
+							culture = German
+						}
+					}
+				}
+				militancy = 2
+			}
+			change_tag = KUK
+			primary_culture =  hungarian
+			add_accepted_culture = German
+			set_country_flag = dual_monarchy_done	
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		government = hms_government
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	the_grunderzeit = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			owns = 619
+			NOT = {
+				has_country_flag = grunderzeit_we_have_done
+			}
+		}
+		allow = {
+			iron_railroad = 1
+			cheap_iron = 1
+		}
+		effect = {
+			619 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = grunderzeit_we_have_done
+		}
+	}
+	
+	balkans_integration = {
+		picture = balkan_assimilation_program
+		potential = {
+			tag = DNB
+			NOT = {
+				has_country_flag = balkans_integrated
+			}
+				}
+		allow = {
+		DNB = {  owns = 809
+				         owns = 834
+                         owns = 783
+                         owns =	849  }
+	}
+		effect = {
+			add_accepted_culture = greek
+			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
+			809 = { add_core = DNB }
+			834 = { add_core = DNB }
+			783 = { add_core = DNB }
+			849 = { add_core = DNB }
+			set_country_flag = balkans_integrated
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+		
+		italian_integration = {
+		picture = form_the_kingdom_of_northern_italy
+		potential = {
+			tag = DNB
+			NOT = {
+				has_country_flag = italian_integrated
+			}
+				}
+		allow = {
+				DNB = {  owns = 749
+				         owns = 720
+                         owns = 744
+                         owns =	726
+                         owns =	729 }
+			}
+		effect = {
+			add_accepted_culture = Italian
+			set_country_flag = italian_integrated
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+		
+				italian_integrationpuppet = {
+		picture = form_the_kingdom_of_northern_italy
+		potential = {
+			tag = DNB
+			NOT = {
+				has_country_flag = italian_integrated
+			}
+				}
+		allow = {
+			ITA = {
+				exists = yes
+				is_vassal = yes
+			}
+			}
+		effect = {
+			add_accepted_culture = Italian
+			ITA = {
+				country_event = 969696
+			}
+			set_country_flag = italian_integrated
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+		
+		concede_italy = {
+		picture = north_italian_federation
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = condeded_italy
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			727 = {
+				remove_core = AUS
+				add_core = SAR
+				secede_province = SAR
+			}
+			726 = {
+				remove_core = AUS
+				add_core = SAR
+				secede_province = SAR
+			}
+			728 = {
+				remove_core = AUS
+				add_core = SAR
+				secede_province = SAR
+			}
+			relation = {
+				who = SAR
+				value = 300
+			}
+		diplomatic_influence = {
+				who = SAR
+				value = 400
+			}
+			relation = {
+				who = SAR
+				value = 400
+			}
+			
+			set_country_flag = condeded_italy
+		}
+		ai_will_do = {
+			factor = -1
+		}
+	}
+
+}

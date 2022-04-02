@@ -1,0 +1,224 @@
+political_decisions = {
+
+	torching_of_the_summer_palace = {
+		potential = {
+			NOT = {
+				tag = CHI
+			}
+			CHI = {
+				owns = 1612
+			}
+			civilized = yes
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			war_with = CHI
+			NOT = {
+				has_global_flag = summer_palace_torched
+			}
+		}
+		allow = {
+			controls = 1612
+		}
+		effect = {
+			badboy = 3
+			CHI = {
+				country_event = { id=13355 days=0 }
+			}
+			set_global_flag = summer_palace_torched
+		}
+	}
+
+	outlaw_opium = {
+		picture = outlaw_opium
+		potential = {
+			OR = {
+				tag = CHI
+			}
+			has_country_modifier = opium_addiction
+			NOT = { has_global_flag = opium_outlawed }
+			NOT = { has_global_flag = opium_war_happened }
+		}
+		allow = {
+			year = 1845
+			NOT = { year = 1900 }
+			war = no
+			num_of_cities = 50
+		}
+		effect = {
+			remove_country_modifier = opium_addiction
+			set_global_flag = opium_outlawed
+			any_country = {
+				limit = {
+					has_country_modifier = unequal_china_treaty
+				}
+				country_event = {
+					id = 90825
+					days = 0
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				year = 1850
+			}
+		}
+	}
+  
+  		chinese_treaty_port = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 3249
+			NOT = { 3249 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff
+                duration = -1 }
+            }
+		
+		
+		3249 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port2 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 1566
+			NOT = { 1566 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff2
+                duration = -1 }
+            }
+		
+		1566 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port3 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 1569
+			NOT = { 1569 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff3
+                duration = -1 }  }
+			1569 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port4 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 1481
+			NOT = { 1481 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff4
+                duration = -1 }
+            }
+		1481 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port5 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 3250
+			NOT = { 3250 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff5
+                duration = -1 }
+            }
+		3250 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port6 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 1496
+			NOT = { 1496 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff6
+                duration = -1 }
+            }
+		1496 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+		
+		  		chinese_treaty_port7 = {
+		picture = treaty_port
+		potential = {
+			NOT = { tag = CHI }
+			NOT = { is_culture_group = chinese }
+			civilized = yes
+			owns = 1498
+			NOT = { 1498 = { trade_goods = precious_metal } }
+			}
+		allow = {
+		}
+		effect = {	CHI = { add_country_modifier = {
+                name = chineseportbuff7
+                duration = -1 }
+            }
+		1498 = { trade_goods = precious_metal }
+		add_province_modifier = {
+					name = chineseportbuff
+					duration = -1 }
+			}
+		}
+}

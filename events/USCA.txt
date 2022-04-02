@@ -1,0 +1,91 @@
+#country joins the USCA
+country_event = {
+
+	id = 95600
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME95600"
+	desc = "EVTDESC95600"
+	picture = "generic_congress"
+
+	option = {
+		name = "EVTOPTA95600" 
+		prestige = 5
+	}
+
+}
+#Britain Asked about south american territories purchase
+country_event = {
+
+	id = 92600
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME92600"
+	desc = "EVTDESC92600"
+	picture = "map_of_colombia"
+	
+	#yes
+	option = {
+		name = "EVTOPTA92600" 
+		money = 8000000
+		FROM = {
+			country_event = 99100
+			set_country_flag = american_purchase
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#no
+	option = {
+		name = "EVTOPTB92600" 
+		prestige = 5
+		FROM = {
+			country_event = 91100
+		}
+	}
+
+}
+#britain says no to purchase
+country_event = {
+
+	id = 91100
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME91100"
+	desc = "EVTDESC91100"
+	picture = "map_of_colombia"
+
+	option = {
+		name = "EVTOPTA91100" 
+		
+	}
+
+}
+#britain says yes to purchase
+country_event = {
+
+	id = 99100
+
+	is_triggered_only = yes
+	
+
+	title = "EVTNAME99100"
+	desc = "EVTDESC99100"
+	picture = "map_of_colombia"
+
+	option = {
+		name = "EVTOPTA99100" 
+		money = -8000000
+		2243 = { secede_province = THIS }
+		2242 = { secede_province = THIS }
+		2239 = { secede_province = THIS }
+		1979 = { secede_province = THIS }
+		2190 = { secede_province = THIS }
+	}
+}

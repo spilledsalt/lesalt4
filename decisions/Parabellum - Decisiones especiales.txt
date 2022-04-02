@@ -1,0 +1,473 @@
+political_decisions = {
+	hide_custom_decisions = {
+		picture = "hidecustomdecisions"
+		alert = no
+		potential = {
+		has_country_flag = shown_decisions 
+		ai = no
+		}
+		allow = {}
+		effect = { clr_country_flag = shown_decisions }
+		ai_will_do = { factor = 0 }
+	}
+	show_custom_decisions = {
+		picture = "customdecisions"
+		alert = no
+		potential = { 
+			NOT = { 
+			has_country_flag = shown_decisions 
+			}
+		ai = no
+		}
+		allow = {}
+		effect = { set_country_flag = shown_decisions }
+		ai_will_do = { factor = 0 }
+	}
+
+fascist_control = {
+		picture = "facism_test"
+		potential = { 
+		has_country_flag = shown_decisions 
+		NOT = { has_country_flag = facists_on_power } 
+		}
+		allow = {
+			war = no
+			ruling_party_ideology = fascist
+			mass_politics = 1
+		}
+		effect = {
+		    set_country_flag = facists_on_power
+			country_event = { id=10000028 days=0 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+communist_control = {
+		picture = "comunist_Test_b"
+		potential = { has_country_flag = shown_decisions 
+		NOT = { has_country_flag = communist_on_power } }
+		  allow = {
+			war = no
+			ruling_party_ideology = communist
+			revolution_n_counterrevolution = 1 
+			}
+		   effect = {
+		    set_country_flag = communist_on_power
+			country_event = { id=10000029 days=0 } 
+			}
+		ai_will_do = { factor = 0 }
+	}
+	
+	#########################################################################
+# 							PROVINCE SUPPLY								#
+#########################################################################
+zcreate_supply_depot = {
+	picture = supply_depot
+	alert = yes
+	potential = {
+	has_country_flag = shown_decisions
+		NOT = { any_owned_province = { has_province_modifier = supply_depot } }
+		ai = no
+	}
+	allow = {
+		money = 500000
+		NOT = {
+					any_owned_province = { 
+						has_province_modifier = supply_depot
+					}
+				}
+			}
+	effect = {
+		money = -500000
+		set_country_flag = supply_put
+			random_owned = {
+				limit = {
+					is_capital = yes
+					NOT = { has_province_modifier = supply_depot }
+					is_colonial = no
+				}
+				add_province_modifier = { name = supply_depot duration = -1 }
+			}
+	}
+}
+
+zdismantle_supply_depot = {
+	picture = supply_depot
+	alert = no
+	potential = {
+	has_country_flag = shown_decisions
+		any_owned_province = { has_province_modifier = supply_depot }
+		ai = no
+	}
+	allow = {
+	}
+	effect = {
+	clr_country_flag = supply_put
+		any_owned = {
+			limit = { has_province_modifier = supply_depot }
+			remove_province_modifier = supply_depot
+		}
+	}
+}
+
+#########################################################################
+# 						     MIGRATION								    #
+#########################################################################
+
+	zprovince_migration = {
+		picture = attract_immigrants
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			capital_scope = {
+				NOT = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+		}	
+		allow = {
+			any_owned_province = { 
+				is_colonial = no
+			}
+			NOT = {
+					any_owned_province = { 
+						has_province_modifier = province_attract_immigrants
+					}
+				}
+			}
+		effect = {
+			set_country_flag = province_migration
+			random_owned = {
+				limit = {
+					is_capital = yes
+					NOT = { has_province_modifier = province_attract_immigrants }
+					is_colonial = no
+				}
+				add_province_modifier = { name = province_attract_immigrants duration = -1 }
+			}
+		}
+	}
+	
+	zprovince_migration_reset = {
+		picture = attract_immigrants
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			OR = {
+				any_owned_province = {
+					has_province_modifier = province_attract_immigrants
+				}
+				has_country_flag = province_migration
+			}
+		}	
+		allow = {
+			OR = {
+				any_owned_province = {
+					has_province_modifier = province_attract_immigrants
+				}
+				has_country_flag = province_migration
+			}
+		}
+		effect = {
+			clr_country_flag = province_migration
+			any_owned = {
+				limit = {
+					has_province_modifier = province_attract_immigrants
+				}
+				remove_province_modifier = province_attract_immigrants
+			}
+		}
+	}
+
+#########################################################################
+# 							SUPPRESSION									#
+#########################################################################
+
+	zcountry_suppression = {
+		picture = martial_law
+		alert = no
+		potential = {
+			ai = no
+		}	
+		allow = {
+			civilized = yes
+		}
+		effect = {
+			country_event = { id = 91705 days = 0 }
+		}
+	}
+
+
+#########################################################################
+# 							PASS REFORM									#
+#########################################################################
+
+	zcountry_pass_reform = {
+		picture = pass_reform
+		alert = no
+		potential = {
+			ai = no
+		}
+			
+		allow = {
+			civilized = yes
+			NOT = {
+				OR = {
+					has_country_modifier = reform_passed
+					has_country_modifier = cannot_pass_reform
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = force_reform
+			add_country_modifier = {
+				name = force_reform
+				duration = 30
+			}
+			add_country_modifier = {
+				name = reform_passed
+				duration = 3650
+			}
+			set_country_flag = reform_passed
+		}		
+	}
+
+	valoniafrancesa = {
+		picture = become_wallonia
+		potential = {
+			tag = FRA
+			owns = 393
+			owns = 394
+			owns = 392
+			owns = 395
+			owns = 396
+			owns = 398
+			NOT = {
+				has_country_flag = valones_ok
+			}
+				}
+		allow = {
+			395 = { is_core = FRA }
+			}
+		effect = {
+			add_accepted_culture = wallonian
+			393 = { add_core = FRA }
+			394 = { add_core = FRA }
+			392 = { add_core = FRA }
+			395 = { add_core = FRA }
+			396 = { add_core = FRA }
+			398 = { add_core = FRA }
+			set_country_flag = valones_ok
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+		
+		ley_moyano = {
+		picture = svenska_pansarbats_foreningen
+		potential = {
+			OR = {
+			tag = SPA
+			tag = IBR
+			}
+			NOT = {
+				has_country_flag = ley_moyano_hecha
+			}
+		}
+
+		allow = {
+			biologism = 1
+			empiricism = 1
+		}
+
+		effect = {
+			treasury = -100000
+			any_pop = {
+				limit = {
+					location = { is_core = IBR }
+				}
+				literacy = 0.05
+			}
+			add_country_modifier = {
+				name = ley_moyanoefecto
+				duration = 1825
+			}
+			set_country_flag = ley_moyano_hecha
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	global_1836_setup = {
+		potential = {
+			tag = BHU
+			NOT = { has_country_flag = global_1836_setup }
+			NOT = { has_country_flag = turkey_exists }
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = global_1836_setup
+			BHU = { set_country_flag = turkey_exists }
+			
+			AUS = {	set_country_flag = austria }
+			
+			TUR = {	add_country_modifier = { name = christian_subjugation duration = -1 } 
+			set_global_flag = turkey_exists }
+			
+			ENG = { add_country_modifier = { name = hegemon duration = -1 } }
+			
+	}
+	ai_will_do = { factor = 1 }
+}
+	
+	chinese_setup = {
+
+		potential = {
+			tag = BHU
+			 NOT = { has_country_flag = chinese }
+		}
+		
+		allow = { }
+		
+		effect = {
+		    BHU = { set_country_flag = chinese }
+			CHI = {
+				set_country_flag = chinese
+				add_country_modifier = { name = imperial_examinations duration = -1 }
+				add_country_modifier = { name = opium_addiction duration = -1 }
+				all_core = {
+					limit = {
+						NOT = {
+							OR = {
+								owned_by = MCK
+								owned_by = MGL
+								owned_by = TIB
+								owned_by = XIN
+							}
+						}
+						NOT = {
+							OR = {
+								province_id = 1481
+								province_id = 1569
+								province_id = 1566
+								province_id = 2659
+								province_id = 1538
+								province_id = 1496
+								province_id = 1498
+								province_id = 2615
+							}
+						}
+					}
+					farmers = { reduce_pop = 2.5 }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+jap_1836_setup = {
+		potential = {
+			tag = BHU
+			NOT = { has_country_flag = jap_1836_setup }
+			NOT = { has_country_flag = japonese }
+		}
+		allow = {
+		}
+		effect = {
+		    BHU = { set_country_flag = japonese }
+			set_global_flag = jap_1836_setup
+			JAP = {	add_country_modifier = { name = sakoku duration = -1 } }
+	}
+	ai_will_do = { factor = 1 }
+ }
+
+		hispanian_union = {
+		potential = {
+		OR = {
+            primary_culture = north_andean
+			primary_culture = south_andean
+			primary_culture = platinean
+			primary_culture = central_american
+			primary_culture = mexican }
+			NOT = {
+				has_country_flag = hispanian_unification
+			}
+		}
+		allow = {
+			owns = 2348
+			owns = 2324
+			owns = 2310
+			owns = 2295
+			owns = 2279
+			owns = 2247
+			owns = 2264
+			owns = 1723	
+			}
+		effect = {
+			add_accepted_culture = north_andean
+			add_accepted_culture = south_andean
+			add_accepted_culture = platinean
+			add_accepted_culture = central_american
+			add_accepted_culture = mexican
+			set_country_flag = hispanian_unification
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+		
+			jan_mayen_1836_setup = {
+
+		potential = {
+			tag = JAN
+			always = no
+		}
+		
+		allow = { }
+		
+		effect = {
+			JAN = {
+				set_country_flag = jan_mayen
+			}
+			3246 = { add_province_modifier = { name = mine_expansion duration = -1 } }
+		any_country = {
+		add_country_modifier = { name = kill_crisis duration = -1 }
+			any_owned = {
+			add_province_modifier = { name = kill_crisis duration = -1 }
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+		}
+	}
+ 
+	slavery_fix = {
+		alert = no
+		potential = {
+			slavery = yes_slavery
+			ai = no
+			NOT = { has_country_modifier = slavery_fix_cooldown }
+			}
+		allow = {	
+			NOT = { has_country_modifier = slavery_fix_cooldown } 
+			ai = no
+			}
+		effect = {
+			add_country_modifier = {
+				name = slavery_fix_cooldown
+				duration = 3650
+			}
+			country_event = {id = 9999909 days = 0}
+		}
+	}
+ 
+}

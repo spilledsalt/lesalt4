@@ -1,0 +1,133 @@
+political_decisions = {
+
+	form_psb = {
+		picture = per_empire
+			potential = {
+			tag = PER
+			NOT = {
+			exists = PSB
+				}
+			}
+		allow = {
+		civilized = yes
+			1221 = {
+			owned_by = THIS
+				}
+			1222 = {
+			owned_by = THIS
+				}
+			1209 = {
+			owned_by = THIS
+				}
+			1191 = {
+			owned_by = THIS
+				}
+			1198 = {
+			owned_by = THIS
+				}
+			1218 = {
+			owned_by = THIS
+				}
+			war = no
+			}
+		effect = {
+		capital = 1121
+		prestige = 50
+		change_tag = PSB
+		add_accepted_culture = Arabian
+				any_owned = {
+				add_core = PSB }
+				PSB = { all_core = { remove_core = PER }
+				all_core = { remove_core = BUK }
+				all_core = { remove_core = AFG }
+				all_core = { remove_core = KHI }
+				all_core = { remove_core = PAN }
+				all_core = { remove_core = MAK }
+				}
+		ai_will_do = {
+			factor = 1
+		}
+			}
+}
+
+persian_idea = {
+        picture = per_expa
+		potential = {
+			tag = PSB
+			NOT = {
+				has_country_flag = persia_has_got_a_brand_new_bag
+			}
+		}
+		
+		allow = {
+			invention = national_fraternity
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -10
+			TUR_923 = {
+				add_core = PSB
+			}
+			TUR_931 = {
+				add_core = PSB
+			}
+			EGY_903 = {
+				add_core = PSB
+			}
+			EGY_921= {
+				add_core = PSB
+			}
+			EGY_1746 = {
+				add_core = PSB
+			}
+			EGY_1750 = {
+				add_core = PSB
+			}
+			EGY_1762 = {
+				add_core = PSB
+			}
+			EGY_1753 = {
+				add_core = PSB
+			}
+			TRI_1739 = {
+				add_core = PSB
+			}
+			RUS_1098 = {
+				add_core = PSB
+			}
+			TUR_884 = {
+				add_core = PSB
+			}
+			TUR_876 = {
+				add_core = PSB
+			}
+			TUR_873 = {
+				add_core = PSB
+			}
+			set_country_flag = persia_has_got_a_brand_new_bag
+		}
+	}
+	
+			embrace_persanism = {
+		picture = per_big
+		potential = {
+			tag = PSB
+			set_country_flag = persia_has_got_a_brand_new_bag
+			NOT = {
+				has_country_flag = persanism_established
+			}
+		}
+		allow = {
+			}
+		effect = {
+				add_country_modifier = {
+				name = persanism
+				duration = -1
+			}
+			set_country_flag = persanism_established
+		}
+	}
+
+
+}

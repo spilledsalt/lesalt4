@@ -1,0 +1,6 @@
+owner = NAC
+controller = NAC
+add_core = CAN
+add_core = NAC
+trade_goods = grain
+life_rating = 35

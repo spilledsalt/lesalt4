@@ -1,0 +1,30 @@
+political_decisions = {
+	peace_ottomans = {
+		picture = egypt_surrenders
+		potential = {
+			tag = EGY
+			has_global_flag = oriental_crisis
+			NOT = { has_global_flag = oriental_crisis_ended }
+			NOT = { has_country_flag = sued_for_peace }
+			war_with = TUR
+		}
+
+		allow = {
+		}
+
+		effect = {
+			set_country_flag = sued_for_peace
+			TUR = {
+				country_event = { id = 31103 days = 0 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { national_provinces_occupied = 0.33 }
+			}
+		}
+	}
+}

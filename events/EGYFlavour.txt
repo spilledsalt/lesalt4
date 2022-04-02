@@ -1,0 +1,134 @@
+country_event = {
+	id = 44462
+	title = "EVTNAME44462"
+	desc = "EVTDESC44462"
+	picture = "bank_loan"
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_country_modifier = { name = foreign_debt_timer duration = 10950 }
+		treasury = 500000
+	}
+
+	option = {
+		name = "EVTOPTA44462"
+	}
+}
+
+country_event = {
+	id = 44463
+	title = "EVTNAME44463"
+	desc = "EVTDESC44463"
+	picture = "bank_loan"
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = lent_egypt
+		treasury = 750000
+	}
+
+	option = {
+		name = "EVTOPTA44463"
+	}
+}
+
+country_event = {
+	id = 44464
+	title = "EVTNAME44464"
+	desc = "EVTDESC44464"
+	picture = "suez_canal"
+
+	trigger = {
+		has_country_flag = lent_egypt
+		NOT = { has_country_flag = egypt_decision }
+		EGY = {
+			NOT = { has_country_modifier = foreign_debt_timer }
+			NOT = { has_country_flag = paid_off_debt }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA44464"
+		set_country_flag = egypt_decision
+		EGY = {
+			country_event = { id = 44465 days = 0 }
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44464"
+		set_country_flag = egypt_decision
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 44465
+	title = "EVTNAME44465"
+	desc = "EVTDESC44465"
+	picture = "suez_canal"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44465"
+		FROM = {
+			country_event = { id = 44466 days = 0 }
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44465"
+		FROM = {
+			country_event = { id = 44467 days = 0 }
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 44466
+	title = "EVTNAME44466"
+	desc = "EVTDESC44466"
+	picture = "cairo"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44466"
+		create_vassal = FROM
+	}
+}
+
+country_event = {
+	id = 44467
+	title = "EVTNAME44467"
+	desc = "EVTDESC44467"
+	picture = "tel_kebir"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA44467"
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = anglo_egypt_war }
+		}
+	}
+}

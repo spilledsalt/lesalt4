@@ -1,0 +1,237 @@
+#;;;;;;;;;;;;;x;;;
+declare_neutrality_title;Declare Swiss Neutrality;;;;Declarar la Neutralidad de Suiza;;;;;;;;;x,,,,,,,,,,
+declare_neutrality_desc;The Swiss have little interest in the wars of Europe.;;;;Los suizos tenemos poco interÈs en las guerras de Europa.;;;;;;;;;x,,,,,,,,,,
+abandon_neutrality_title;Abandon Swiss Neutrality;;;;Revocar la Neutralidad de Suiza;;;;;;;;;x,,,,,,,,,,
+abandon_neutrality_desc;The might of the Swiss army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;No necesitamos ser neutrales, nuestro ejÈrcito es capaz de repeler cualquier tipo de ofensa.;;;;;;;;;x,,,,,,,,,
+violate_neutrality_title;Violate Swiss Neutrality;;;;Violar la Neutralidad de Suiza;;;;;;;;;x,,,,,,,,,,
+violate_neutrality_desc;The Swiss may have declared themselves 'neutral', but if they believe that will stop us-- if they believe the opinion of any of their allies will stop us-- then they are sorely mistaken.;;;;Los suizos pueden haberse declarado a sÅEmismos 'neutrales' pero si creen que eso va a pararnosÅEo si creen que la opiniÛn de cualquiera de sus aliados va a pararnosÅEentonces est·n tristemente equivocados.;;;;;;;;;x,,,,,,,,,
+neutrality;Neutrality;;;;Neutralidad;;;;;;;;;x,,,,,,,,,,
+neutrality_desc;We have declared ourselves as Neutral;;;;;;;;;;;;;x,,,,,,,,,,
+chineseportbuff_title;Chinese Port;;;;;;;;;;;;;x
+chineseportbuff_desc;This is a Chinese Port;;;;;;;;;;;;;x
+persian_idea_title;Persanism Idea;;;;;;;;;;;;;x
+persian_idea_desc;With the Persian Empire reestablished, we must now seek to promote nationalism among our population, giving a new territorial identity, as well as reclaiming what was once ours.;;;;;;;;;;;;;x
+form_psb_title;Reform the Persian Empire;;;;;;;;;;;;;x
+form_psb_desc;With the latest conquests made in the East, we have managed to begin to rival the already decaying Ottoman Empire ... now, if we want to survive in our time surrounded by enemies such as the Russians or the English, we must choose to go back to the times of former glory ... the Persian Empire.;;;;;;;;;;;;;x
+salve_el_rey_title;Salve el Rey;;;;;;;;;;;;;x
+salve_el_rey_desc;With all our colonies back on our control now, we can bless our king and get ready to start a new era for Spain!.;;;;;;;;;;;;;x
+heiliger_kaiser;Heiliger Kaiser;;;;;;;;;;;;;x
+heiliger_kaiser_desc;Having secured our dominion over the German people, and in turn regained much of the old empire, our king has the right to crown himself as in ancient times, as the Holy Emperor. Lang lebe der Kaiser!;;;;;;;;;;;;;x
+embrace_persanism;Embrace Persanism;;;;;;;;;;;;;x
+embrace_persanism_desc;Persanism is an ideological current based on the Ottoman counterpart, Ottomanism, but focused on promoting Persian culture in our territories. Seeking to assimilate the new vassals that we have, as well as to share with our neighbors who watch with suspicion, this new policy could bring a new era of splendor only capable of resembling the one that Cyrus once gave us.;;;;;;;;;;;;;x
+persanism;Persanism;;;;;;;;;;;;;x
+persanism_desc;Having done a deed worthy of Cyrus himself, restoring the Persian race to its former glory, we have the right to impose our customs in the East and prepare our empire for the defense of the pagans of the West..;;;;;;;;;;;;;x
+salve_rey;Salve el Rey;;;;;;;;;;;;;x
+salve_rey_desc;With all our colonies back on our control now, we can bless our king and get ready to start a new era for Spain!.;;;;;;;;;;;;;x
+province_attract_immigrants;Immigration Focus;;;;;;;;;;;;;x
+zprovince_migration_reset_title;ßRReset Province Migration;;;;;;;;;x;;;;
+zprovince_migration_reset_desc;Removes all current province migration modifiers.;;;;;;;;;x;;;;
+zprovince_migration_title;ßGMigration Attraction;;;;;;;;;x;;;;
+zprovince_migration_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
+zcreate_supply_depot_title;ßGCreate Supply Depot;;;;;;;;;;;;;x
+zcreate_supply_depot_desc;A province with a supply depot will reduce attrition to 0 regardless of supply cap and should be used as a rallying point for mobilized troops. You can only have one supply depot at a time, it must not be overseas, and if a battle occurs in a province with a supply depot or the province is occupied by an enemy army it will be destroyed.;;;;;;;;;;;;;x
+zdismantle_supply_depot_title;ßRDismantle Supply Depot;;;;;;;;;;;;;x
+zdismantle_supply_depot_desc;Removes the Supply Depot modifier from all provinces.;;;;;;;;;;;;;x
+supply_depot;Supply Depot;;;;;;;;;;;;;x
+supply_depot_destroyed;Supply Depot Recently Destroyed;;;;;;;;;;;;;x
+supply_depot_destroyed_desc;We require time to procure new supplies before we can build another supply depot.;;;;;;;;;;;;;x
+EVTNAME91320;Supply Depot Destroyed;;;;;;;;;;;;;x
+EVTDESC91320;Our supply depot in $PROVINCENAME$ has been destroyed in the recent fighting.;;;;;;;;;;;;;x
+EVTOPTA91320;Damn!;;;;;;;;;;;;;x
+bonusfromport;Port Incomes;;;;;;;;;;;;x
+bonusfromportb;Port Incomes;;;;;;;;;;;;x
+bonusfromportc;Port Incomes;;;;;;;;;;;;x
+bonusfromportd;Port Incomes;;;;;;;;;;;;x
+bonusfromporte;Port Incomes;;;;;;;;;;;;x
+badboy1;25 Infamy Penalty;;;;;;;;;;;;;x
+badboy2;30 Infamy Penalty;;;;;;;;;;;;;x
+badboy3;35 Infamy Penalty;;;;;;;;;;;;;x
+badboy4;40 Infamy Penalty;;;;;;;;;;;;;x
+badboy5;45 Infamy Penalty;;;;;;;;;;;;;x
+badboy6;50+ Infamy Penalty;;;;;;;;;;;;;x
+chinese_army_nerf;Chinese Army Nerf;;;;;;;;;;;;x
+chinese_army_nerf_desc;Our army is made up of mostly conscripted peasants and their fighting capability suffers as a result;;;;;;;;;;;;x
+chinese_pop_nerf1;Chinese Pop Growth Nerf 1;;;;;;;;;;;;x
+chinese_pop_nerf2;Chinese Pop Growth Nerf 2;;;;;;;;;;;;x
+yong_ying;Yong Ying;;;;;;;;;;;;x
+yong_ying_desc;Yong Ying were a type of regional army that emerged in the 19th century in the Qing dynasty army, which fought in most of China's wars after numerous rebellions exposed the ineffectiveness of the regular Qing armies. The new rule "Soldiers followed the general, soldiers belonged to the general", led to decentralization of power and a rise of regional warlords within China.;;;;;;;;;;;;x
+sphereling_tax_bonus;Sphereling Tax Buff;;;;;;;;;;;;;x
+save_the_nation0.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation1;Revanchism;;;;;;;;;;;;;x
+save_the_nation1.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation2;Revanchism;;;;;;;;;;;;;x
+save_the_nation2.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation3;Revanchism;;;;;;;;;;;;;x
+save_the_nation3.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation4;Revanchism;;;;;;;;;;;;;x
+save_the_nation4.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation5;Revanchism;;;;;;;;;;;;;x
+save_the_nation0.5_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation1_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation1.5_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation2_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation2.5_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation3_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation3.5_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation4_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation4.5_china;Revanchism;;;;;;;;;;;;;x
+save_the_nation5_china;Revanchism;;;;;;;;;;;;;x
+great_power_immigration;GP Immigration Attract Bonus;;;;;;;;;;;;;x
+tiny_nation;Tiny Nation;;;;;;;;;;;;;x
+small_nation;Small Nation;;;;;;;;;;;;;x
+medium_nation;Medium Nation;;;;;;;;;;;;;x
+average_nation_tariffs;Average Nation Tariff Cap;;;;;;;;;;;;;x
+large_nation;Large Nation;;;;;;;;;;;;;x
+large_nation_tariffs;Large Nation Tariff Cap;;;;;;;;;;;;;x
+empire;Empire;;;;;;;;;;;;;x
+empire_tariffs;Empire Tariff Cap;;;;;;;;;;;;;x
+superpower;Superpower;;;;;;;;;;;;;x
+superpower_tariffs;Superpower Tariff Cap;;;;;;;;;;;;;x
+form_north_italy_title;Avanti Italia!;;;;;;;;;;;;;x
+form_north_italy_swi_title;Avanti Italia!;;;;;;;;;;;;;x
+form_north_italy_title;Avanti Italia!;;;;;;;;;;;;;x
+form_north_italy_desc;By establishing a dominant position on the Italian peninsula, we can secure a national homeland for our people by proclaiming ourselves the motive power of a unified Italian state.;;;;;;;;;;;;;x
+form_north_italy_swi_desc;By establishing a dominant position on the Italian peninsula, we can secure a national homeland for our people by proclaiming ourselves the motive power of a unified Italian state.;;;;;;;;;;;;;x
+form_south_italy_title;Avanti Italia!;;;;;;;;;;;;;x
+form_south_italy_desc;By establishing a dominant position on the Italian peninsula, we can secure a national homeland for our people by proclaiming ourselves the motive power of a unified Italian state.;;;;;;;;;;;;;x
+unite_northern_italy_title;Unite Northern Italy;;;;;;;;;;;;x
+unite_northern_italy_title;Unite Northern Italy;;;;;;;;;;;;x
+unite_northern_italy_desc;We have driven the Austrians out of Lombardia and are now the preeminent power in northern Italy. The rest of the north Italian kingdoms have agreed to unite under our leadership.;;;;;;;;;;;;;x
+expedition_to_sicily_title;Expedition of the Thousand;;;;;;;;;;x
+expedition_to_sicily_desc;The famed revolutionary Giuseppe Garibaldi has offered to sail with a corps of volunteers to Sicily and begin a war of Italian unification on our behalf.;;;;;;;;;;;;x
+EVTNAME35705;Expedition of the Thousand;;;;;;;;;;;x
+EVTDESC35705;The legendary revolutionary Giuseppe Garibaldi has landed on our shores with a volunteer force of 1,000 men. He aims to overthrow our rule and establish a unified Italian state.;;;;;;;;;;;;x
+EVTOPTA35705;We will deal with him.;;;;;;;;;;;x
+redshirts;Garibaldi's Redshirts;;;;;;;;;;;;x
+redshirts;Garibaldi's Redshirts;;;;;;;;;;;;x
+declare_neutrality_generic_title;Declare Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+declare_neutrality_generic_desc;We have little interest in the wars of the world. By enacting this decision, we will no longer be able to use the following CBs: Conquest, Minor Conquest, Acquire State, Place in the Sun, Take Capital, Acquire Treaty Port, Demand Concession, Establish Protectorate and Install Communist Government. Other nations will no longer be able to use the following CBs against us: Conquest, Minor Conquest, Acquire State, Place in the Sun, Free Peoples, Liberate Country, Take Capital, and Install Communist Government;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+generic_neutrality;Political Neutrality;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+generic_neutrality_desc;Our country deliberately takes no sides. We do not go to war, even against those the world universally reviles, and thus expect that no one shall go to war against us. This means we will likely never achieve recognition as a 'mover and shaker', but it also protects us. We shall not abandon our principles for the sake of power and influence.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abandon_neutrality_generic_title;Abandon Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+abandon_neutrality_generic_desc;The might of our army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+chinese_confusion;Disorganized Army;;;;;;;;;;;;x
+chinese_confusion_desc;Our armies are in disarray and cannot fight effectively;;;;;;;;;;;;x
+middle_kingdom;The Middle Kingdom;;;;;;;;;;;;x
+middle_kingdom_desc;We have no desire of foreign ideas or goods, for we are already masters of everything under the heavens.;;;;;;;;;;;;x
+yong_ying;Yong Ying;;;;;;;;;;;;x
+yong_ying_desc;Yong Ying were a type of regional army that emerged in the 19th century in the Qing dynasty army, which fought in most of China's wars after numerous rebellions exposed the ineffectiveness of the regular Qing armies. The new rule "Soldiers followed the general, soldiers belonged to the general", led to decentralization of power and a rise of regional warlords within China.;;;;;;;;;;;;x
+abolish_imperial_exams_title;Abolish the Imperial Examinations;;;;;;;;;;;;x
+abolish_imperial_exams_desc;The imperial examinations are a civil service examination system for selecting candidates for the state bureacracy. It focuses mainly on classic literature and Confucianist philosophy while omitting or downplaying western science, mathematics, and military affairs. Rigid adherence to the imperial exams is stifling the adoption of western technology and it must be abolished if China is to modernize in a timely fashion.;;;;;;;;;;;;x
+imperial_examinations;Imperial Examinations;;;;;;;;;;;;x
+imperial_examinations_desc;The imperial examinations were a civil service examination system in Imperial China for selecting candidates for the state bureaucracy. By the time of the late Qing dynasty, its Confucianist principles were directly at odds with modern western thought.;;;;;;;;;;;;x
+enact_early_qing_reforms_title;Early Qing Reforms;;;;;;;;;;;;x
+enact_early_qing_reforms_desc;Reformers in our court warn us of the growing power of the West and they say that we must embark upon a path of modernization in order to not fall behind. However, the conservative hardliners will oppose any attempt at supplanting our traditional Confucianist systems with barbaric European science.;;;;;;;;;;;;x
+enact_late_qing_reforms_title;Late Qing Reforms;;;;;;;;;;;;x
+enact_late_qing_reforms_desc;The numerous defeats we have suffered to rebellions and foreigners have convinced both the court and population of the need for reform.;;;;;;;;;;;;x
+early_qing_reforms;The New Policies;;;;;;;;;;;;x
+early_qing_reforms_desc;The New Policies were a series of cultural, economic, educational, military, and political reforms that were implemented in the last decade of the Qing dynasty to keep the dynasty in power after a series humiliating defeats by foreign powers.;;;;;;;;;;;;x
+late_qing_reforms;The New Policies;;;;;;;;;;;;x
+late_qing_reforms_desc;The New Policies were a series of cultural, economic, educational, military, and political reforms that were implemented in the last decade of the Qing dynasty to keep the dynasty in power after a series humiliating defeats by foreign powers.;;;;;;;;;;;;x
+opium_addiction;Opium Addiction;;;;;;;;;;;;x
+opium_addiction_desc;Our people are hopelessly addicted to the "black spice". It has dulled their minds, destroyed their productivity, and left them destitute.;;;;;;;;;;;;x
+opium_war_lost;Opium War Lost;;;;;;;;;;;;x
+opium_war_lost_desc;We have been humiliated and forced to sign an unequal treaty that allows an unrestricted flow of opium into our country from the west. It will take some time before we can build up enough strength to challenge the westerners again.;;;;;;;;;;;;x
+unequal_china_treaty;Unequal Chinese Treaty;;;;;;;;;;;;x
+unequal_china_treaty_desc;Our monopoly on the opium trade with China is a great boon to our economy.;;;;;;;;;;;;x
+chinese_army_nerf;Chinese Army Nerf;;;;;;;;;;;;x
+chinese_army_nerf_desc;Our army is made up of mostly conscripted peasants and their fighting capability suffers as a result;;;;;;;;;;;;x
+chinese_pop_nerf1;Chinese Pop Growth Nerf 1;;;;;;;;;;;;x
+chinese_pop_nerf2;Chinese Pop Growth Nerf 2;;;;;;;;;;;;x
+outlaw_opium_title;Outlaw Opium;;;;;;;;;;;;x
+outlaw_opium_desc;It is time we banned the use of this poison and expel the foreign barbarians that forced this drug upon us. Beware that enacting this decision will give other countries the Opium War casus belli against us.;;;;;;;;;;;;x
+taiping_rebellion_title;Begin the Taiping Rebellion;;;;;;;;;;;;x
+taiping_rebellion_desc;This will trigger the Taiping Rebellion event and remove the Chinese Isolationism modifier. All armies will be reduced to 0 organisation for 45 days to allow time for the Taiping rebels to mobilize. The Taiping Rebellion will trigger in 1860 if this decision is not enacted before then.;;;;;;;;;;;;x
+taiping_mobilization;Taiping Mobilization;;;;;;;;;;;;x
+taiping_mobilization_desc;We call upon the armies of God to smite the Qing devils.;;;;;;;;;;;;x
+china_democracy_title;Become the Republic of China;;;;;;;;;;;;x
+china_democracy_desc;This decision will change the country into a democracy and add Han, Hakka, and Min as accepted cultures. Not passing this decision after civilizing while your militancy is greater than 2 or you are missing any cores will trigger the Warlord Era event which breaks the country up into several Warlord Cliques.;;;;;;;;;;;;x
+chinese_treaty_port_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+sakoku;Sakoku;;;;;;;;;;;;;x
+sakoku_desc;Sakoku was the isolationist foreign policy of the Japanese Tokugawa shogunate (aka Bakufu) under which, for a period of 214 years, relations and trade between Japan and other countries were severely limited, nearly all foreign nationals were barred from entering Japan and common Japanese people were kept from leaving the country.;;;;;;;;;;;;;x
+rangaku;Rangaku;;;;;;;;;;;;;x
+rangaku_desc;Rangaku (literally "Dutch learning", and by extension "Western learning") is a body of knowledge developed by Japan through its contacts with the Dutch enclave of Dejima, which allowed Japan to keep abreast of Western technology and medicine in the period when the country was closed to foreigners, 1641„Éª853, because of the Tokugawa shogunate's policy of national isolation (sakoku).;;;;;;;;;;;;;x
+neutrality_modifier;Political Neutrality;;;;;;;;;;;;;x,,,,
+neutrality_modifier_desc;Our country deliberately takes no sides. We do not go to war, even against those the world universally reviles, and thus expect that no one shall go to war against us. This means we will likely never achieve recognition as a 'mover and shaker', but it also protects us. We shall not abandon our principles for the sake of power and influence.;;;;;;;;;;;;;x,
+hegemon;Hegemon;;;;;;;;;;;;;x
+hegemon_desc;Our hegemony will persist so long as we remain the 1st ranked great power.;;;;;;;;;;;;;x
+hegemony_countdown;Hegemony Countdown;;;;;;;;;;;;;x
+hegemony_countdown_desc;If we do not regain #1 rank by the time this timer runs out, the Hegemon modifier will be removed from this country and given to the new #1 great power.;;;;;;;;;;;;;x
+EVTNAME19360;Hegemony Threatened;;;;;;;;;;;;;x
+EVTDESC19360;Our place as the #1 ranked Great Power has been usurped. The Hegemon country modifier will be removed if we do not reclaim rank #1 in 2 years.;;;;;;;;;;;;;x
+EVTOPTA19360;We will regain our hegemony.;;;;;;;;;;;;;x
+EVTNAME19361;Hegemony Continues;;;;;;;;;;;;;x
+EVTDESC19361;We have regained our spot as #1 Great Power and we will keep the Hegemon country modifier as long it remains that way.;;;;;;;;;;;;;x
+EVTOPTA19361;We are number one!;;;;;;;;;;;;;x
+EVTNAME19362;End of Hegemony;;;;;;;;;;;;;x
+EVTDESC19362;Our time in the sun has ended, we are no longer the world's greatest power. The Hegemon country modifier will be removed until we can regain the #1 spot for 2 years.;;;;;;;;;;;;;x
+EVTOPTA19362;Nothing lasts forever.;;;;;;;;;;;;;x
+EVTNAME19363;Beginning of Hegemony;;;;;;;;;;;;;x
+EVTDESC19363;Our time in the sun come, we are the world's greatest power. The Hegemon country modifier will be added to our country for as long as we remain the #1 ranked great power.;;;;;;;;;;;;;x
+EVTOPTA19363;May the sun never set on us.;;;;;;;;;;;;;x
+ottomanism;Ottomanism;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+fight_the_power;Fight the Power;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+begin_revolution;Begin Revolution;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+small_country_draft;Small Country Draft;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+nationalist_agitation;Nationalist Agitation;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+patriot_uprising;Patriot Uprising;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+peasant_revolt;Peasant Revolt;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+war_torn;War Torn;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+no_freedom;No Freedom;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+colonial_chaos;Colonial Chaos;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+loss_of_control;Loss of Control;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+power_vacuum;Power Vacuum;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+neutrality;Neutrality;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+three_five_anti_campaigns;Three Five Anti Campaigns;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+great_leap_forward;Great Leap Forward;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+cultural_revolution;Cultural Revolution;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+decollectivization_of_agriculture;Decollectivization of Agriculture;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_economic_boom;Chinese Economic Boom;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+secret_service;Secret Service;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+secret_service_job;Secret Service Job;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+generic_neutrality;Generic Neutrality;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+boxer_presence;Boxer Presence;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+boxer_agitation;Boxer Agitation;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+self_strengthening_movement;Self Strengthening Movement;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+drive_to_reunify;Drive to Unify;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+the_female_shortage;The Female Shortage;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+christian_pamphlets;Christian Pamphlets;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+christian_repression;Christian Repression;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+anti_manchu_sentiment;Anti Manchu Sentiment;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_floods;Chinese Floods;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+taiping_draft;Taiping Draft;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+usa_draft;USA Draft;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+occupied_province;Occupied Province;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+soviet_puppet;Soviet Puppet;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+nv_enlightenment;Enlightenment;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;
+nv_tradition;Tradition;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_progress;Progress;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_loyalty;Loyalty;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_independence;Independence;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;
+nv_might;Might;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_unity;Unity;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_fraternity;Fraternity;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_prosperity;Prosperity;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_freedom;Freedom;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_glory;Glory;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_supremacy;Supremacy;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_dominion;Dominion;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_productivity;Productivity;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;
+nv_enlightenment_modifier;Enlightenment;;;;;;;;;;;;;x,,,,;;;
+nv_tradition_modifier;Tradition;;;;;;;;;;;;;x,,,,;;;;;;;;;;;
+nv_progress_modifier;Progress;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;
+nv_loyalty_modifier;Loyalty;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_independence_modifier;Independence;;;;;;;;;;;;;x,,,,;;;;;
+nv_might_modifier;Might;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_unity_modifier;Unity;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_fraternity_modifier;Fraternity;;;;;;;;;;;;;x,,,,;;;;;;;;;
+nv_prosperity_modifier;Prosperity;;;;;;;;;;;;;x,,,,;;;;;;;;;
+nv_freedom_modifier;Freedom;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_glory_modifier;Glory;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_supremacy_modifier;Supremacy;;;;;;;;;;;;;x,,,,;;;;;;;;;;;
+nv_dominion_modifier;Dominion;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;
+nv_productivity_modifier;Productivity;;;;;;;;;;;;;x,,,,;;;;;
+nv_order_modifier;Order;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;
+nv_equality_modifier;Equality;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;
+nv_liberty_modifier;Liberty;;;;;;;;;;;;;x,,,,;;;;;;;;;;;;;;;

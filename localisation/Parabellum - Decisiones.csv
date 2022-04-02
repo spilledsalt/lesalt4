@@ -1,0 +1,903 @@
+#;;;;;;;;;;;;;x;;;
+chineseportbuff;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff2;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff3;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff4;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff5;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff6;Income from the international ports;;;;;;;;;;;;;x
+chineseportbuff7;Income from the international ports;;;;;;;;;;;;;x
+inherit_eic_title;Inherit British Raj Company;;;;;;;;;;;;;x
+inherit_eic_desc;For whoever wants to control directly the British Raj Company;;;;;;;;;;;;;x
+inherit_nac_title;Inherit Canada Company;;;;;;;;;;;;;x
+inherit_nac_desc;For whoever wants to control directly the Canada Company;;;;;;;;;;;;;x
+inherit_eac_title;Inherit Australia Company;;;;;;;;;;;;;x
+inherit_eac_desc;For whoever wants to control directly the Australia Company;;;;;;;;;;;;;x
+BRS_colonial_company;Viceroyalty of Brazil;;;;;;;;;;;;;x
+BRZ_colonial_company;Viceroyalty of Brazil;;;;;;;;;;;;;x
+BRS;Viceroyalty of Brazil;;;;;;;;;;;;;x
+BRS_conservative;Court of Directors;;;;;;;;;;;;;x;
+BRS_liberal;Court of Directors;;;;;;;;;;;;;x;
+BRS_reactionary;Court of Directors;;;;;;;;;;;;;x;
+EVTNAME969696;Danubian-Italian Annexation Treaty;;;;;;;;;;;;;x
+EVTDESC969696;The Danubian ambassador has delivered to us a set of demands that forces us to surrender all rights of sovereignty to the Danubian Federation. He says this treaty is non-negotiable. What do we reply?;;;;;;;;;;;;;x
+EVTOPTA969696;We will submit.;;;;;;;;;;;;;x
+EVTOPTB969696;Italy will be free!;;;;;;;;;;;;;x
+EVTNAME969697;Italy Accepts Annexation;;;;;;;;;;;;;x
+EVTDESC969697;The Italians have accepted our demands to become part of our glorious empire.;;;;;;;;;;;;;x
+EVTOPTA969697;Long live the Federation!;;;;;;;;;;;;;x
+EVTNAME969698;Italy Rejects Annexation;;;;;;;;;;;;;x
+EVTDESC969698;The Italians have rejected our demands of annexation and declared an end to our protectorate over them.;;;;;;;;;;;;;x
+EVTOPTA969698;We will make them comply!;;;;;;;;;;;;;x
+EVTOPTB969698;We will respect their wishes.;;;;;;;;;;;;;x
+EVTNAME90034;The End of British India;;;;;;;;;;;;;x
+EVTDESC90034;The British have left India for good and now the fate of India lies in the hands of the Indians.;;;;;;;;;;;;;x
+EVTOPTA90034;Make India great again!;;;;;;;;;;;;;x
+EVTNAME90036;The End of British India;;;;;;;;;;;;;x
+EVTDESC90036;The recent withdrawal of the British from India makes it easy for us to reclaim our territories that were lost to the East India Company.;;;;;;;;;;;;;x
+EVTOPTA90036;Great!;;;;;;;;;;;;;x
+torching_of_the_summer_palace_title;Burn The Summer Palace!;Brulez le Palais d'ete !;Brennt den Sommerpalast nieder!;;!Incendio en el Palacio de verano!;;;;;;;;;x
+torching_of_the_summer_palace_desc;The Old Summer Palace, known in Chinese as the Gardens of Perfect Brightness, was a complex of gardens northwest of the Imperial City in Beijing, China. The gardens were built in the 18th and early 19th centuries, and functioned as a place of residence for the Qing Emperors. The Old Summer Palace was burnt to the ground by Anglo-French forces during their occupation of Beijing during the Second Opium War. While the torching was a major blow to Chinese morale, it was also decried by many European intellectuals, Victor Hugo among others, as a criminal act of brutality directed against the Chinese. By burning this exquisite piece of Chinese cultural history, we can inflict a massive blow on Chinese morale.;L'ancien Palais d'ete, connu en chinois sous le nom des Jardin de l'intelligence parfaite, abritait un vaste parc situe au nord-est de la Cite imperiale de Pekin, en Chine. Ce parc fut cree entre le XVIIIe et le debut du XIXe siecle et son palais servait de residence aux empereurs Qing. L'ancien Palais d'ete a ete brule par des troupes anglo-francaises lors de l'occupation de Pekin de la seconde guerre de l'opium. Bien qu'un tel agissement porta un coup serieux au moral des Chinois, il fut decrie par bon nombre d'intellectuels europeens, tels que Victor Hugo, comme un acte criminel dirige contre les Chinois. En brulant ce chef-d'?uvre de l'histoire culturelle chinoise, nous porterons un coup serieux au moral des Chinois.;Der alte Sommerpalast, auf Chinesisch als Garten der Vollkommenheit und des Lichts bekannt, war ein Gartenkomplex nordwestlich der Kaiserstadt in Beijing, China. Die Garten wurden im achtzehnten und fruhen neunzehnten Jahrhundert angelegt und waren Wohnsitz der Qing-Kaiser. Der alte Sommerpalast wurde bei der Besetzung Beijings wahrend des zweiten Opiumkriegs durch anglo-franzosische Truppen abgebrannt. Wahrend dies ein starker Schlag fur die Moral der Chinesen war, wurde die Brandstiftung auch von vielen europaischen Intellektuellen, unter ihnen Victor Hugo, als krimineller Akt der Brutalitat gegen das chinesische Volk verurteilt. Durch das Abbrennen dieses exquisiten Orts chinesischer Kulturgeschichte konnen wir der Moral der Chinesen einen schweren Schlag versetzen.;;El Antiguo Palacio de Verano, conocido por los chinos como los Jardines del Perfecto Brillo, era un complejo de jardines al noroeste de la ciudad imperial de Beijing, en China. Los jardines fueron construidos entre los siglos XVIII y XIX, y sirvieron como lugar de residencia de los Emperadores Qing. El Antiguo Palacio de Verano fue reducido a cenizas por fuerzas anglofrancesas durante la ocupacion de Beijing durante la Segunda Guerra del Opio. Aunque la quema del palacio fue un golpe muy duro para la moral china, tambien fue desprestigiado por muchos intelectuales europeos, como Victor Hugo entre otros, que lo tildaron de un acto de brutalidad criminal dirigido contra los chinos. Quemando esta pieza exquisita de historia cultural china, podemos infligir un golpe demoledor a su moral.;;;;;;;;;x
+EVTNAME13355;Torching of The Summer Palace;Brulez le Palais d'ete !;Abfackeln des Sommerpalates;;Quemando el Palacio de Verano;;;;;;;;;x
+EVTDESC13355;The Old Summer Palace, known in Chinese as the Gardens of Perfect Brightness, is a complex of gardens northwest of the Imperial City in Beijing, China. This massive garden and palace complex was built during the 18th and early 19th centuries, and have for a long time functioned as a place of residence and office for the Qing Emperors. Known for its splendor, this palace stands as a tribute to the achievements of the Chinese culture. Today, we received news that $FROMCOUNTRY_ADJ$ soldiers occupying Beijing have burnt the palace to the ground. A whole nation mourns as news of this barbarous act of culturcide spread throughout China, and the world.;L'ancien Palais d'ete, connu en chinois sous le nom des Jardin de l'intelligence parfaite, abrite un vaste parc situe au nord-est de la Cite imperiale de Pekin, en Chine. Ce parc gigantesque fut cree entre le XVIIIe et le debut du XIXe siecle et son palais sert depuis tres longtemps de residence et de bureau aux empereurs Qing. Repute pour sa splendeur, ce palais temoigne de la richesse de la culture chinoise. Aujourd'hui, nous avons ete informes que des soldats $FROMCOUNTRY_ADJ$ qui occupaient Pekin avaient brule le palais. Depuis qu'ils ont appris cette nouvelle, la nation et le monde denoncent un acte culturicide barbare.;Der alte Sommerpalast, auf Chinesisch als Garten der Vollkommenheit und des Lichts bekannt, ist ein Gartenkomplex nordwestlich der Kaiserstadt in Beijing, China. Diese massiven Garten wurden im achtzehnten und fruhen neunzehnten Jahrhundert angelegt und waren lange Amts- und Wohnsitz der Qing-Kaiser. Dieser fur seine Schonheit bekannte Palast ist ein Tribut an die Errungenschaften der chinesischen Kultur. Heute hat uns die Nachricht erreicht, dass $FROMCOUNTRY_ADJ$ Soldaten bei der Besetzung Beijings den Palast bis auf die Grundmauern niedergebrannt haben. Ganz China und der Rest der Welt beweint diese Nachricht als barbarischen Kulturmord gigantischen Ausmases.;;El Antiguo Palacio de Verano, conocido por los chinos como los Jardines del Perfecto Brillo, era un complejo de jardines al noroeste de la ciudad imperial de Beijing, en China. Este complejo que incluia un jardin enorme y un palacio fue construido entre los siglos XVIII y XIX, y durante mucho tiempo ha servido de lugar de residencia de los Emperadores Qing. Conocido por su esplendor, este palacio se erige como un tributo a los logros de la cultura china. Hoy hemos recibido la noticia de que soldados de $FROMCOUNTRY$ han ocupado Beijing y han quemado el palacio. Toda una nacion y el mundo, han llorado esta perdida al conocer la noticia de este acto de barbarie.;;;;;;;;;x
+EVTOPTA13355;We weep for our loss;Nous pleurons cette perte.;Wir weinen um unseren Verlust;;Lloramos nuestra perdida;;;;;;;;;x
+napoleonic_wars_spc_title;Start the new Napoleonic wars;x;;;;;;;;;
+napoleonic_wars_spc_desc;With Napoleon III in power, our army reformed and our nation ready, it is time to dust off the old plans of the great Napoleon Bonaparte, and start a new attempt to reconquer Eastern Europe.;x;;;;;;;;;
+create_italy_sar_title;Help Sardinia & Piamont form Italy;;;;;;;;;;;;;x
+create_italy_sar_desc;With our control over Italy, maybe Sardinia could be a useful pupppet as a former Italy?;;;;;;;;;;;;;x
+create_italy_title;Form Italy;;;;;;;;;;;;;x
+create_italy_desc;With our control over Italy, maybe a former Italy could be a useful puppet?;;;;;;;;;;;;;x
+manifest_arab_title;Arabian Manifest;;;;;;;;;;;;;x
+manifest_arab_desc;Allah bless Arabia!;;;;;;;;;;;;;x
+EVTNAME90046;The Offer of Agency;;;;;;;;;;;;;x
+EVTDESC90046;The British have offered us to become a protectorate under the organization of a new British Indian Agency. What do we say to them?;;;;;;;;;;;;;x
+EVTOPTA90046;Sounds like a good idea.;;;;;;;;;;;;;x
+EVTOPTB90046;Never!;;;;;;;;;;;;;x
+EVTNAME90047;$FROMCOUNTRY$ Accepts;;;;;;;;;;;;;x
+EVTDESC90047;The leaders of $FROMCOUNTRY$ have accepted our proposal of joining the Baluchistan Agency.;;;;;;;;;;;;;x
+EVTOPTA90047;Success!;;;;;;;;;;;;;x
+EVTNAME90048;$FROMCOUNTRY$ Refuses;;;;;;;;;;;;;x
+EVTDESC90048;The leaders of $FROMCOUNTRY$ have rejected our proposal of joining the Baluchistan Agency.;;;;;;;;;;;;;x
+EVTOPTA90048;Damn.;;;;;;;;;;;;;x
+country_suppression;Martial Law;;;;;;;;;;;;;x
+country_suppression_desc;The country is currently under martial law. This negatively impacts POP promotion rate.;;;;;;;;;;;;;x
+JAN_3246;World Bank;;;;;;;;;;;;;x
+JAN;World Bank;;;;;;;;;;;x
+JAN_ADJ;ß;;;;;;;;;;;x
+JAN_liberal;IMF;;;;;;;;;;;x
+JAN_conservative;IMF;;;;;;;;;;;x
+JAN_socialist;IMF;;;;;;;;;;;x
+JAN_anarcho_liberal;International Monetary Fund;;;;;;;;;;;x
+JAN_communist;IMF;;;;;;;;;;;x
+JAN_fascist;IMF;;;;;;;;;;;x
+bankers;Bankers;;;;;;;;;;;;;;
+circassian_genocide;Circassian Genocide;;;;;;;;;;;;;x
+EVTNAME32521;The Circassian Genocide;;;;;;;;;;;;;x
+EVTDESC32521;In 1857, the Minister of War, Dmitry Milyutin, argued in regards to the pacification of Circassia, that "eliminating the Circassians was to be an end in itself ÅEto cleanse the land of hostile elements". Although the order given by Tsar Alexander II was to deport the Circassians rather than to massacre them, the Russian commanders were open to the idea of massacring large portions of the Circassian population, and General Fadeyev wrote that the Russian command decided "to exterminate half the Circassian people to get the other half to lay down their arms." In the end, up to 1,500,000 (75% of the total Circassian population) were killed or expelled, with most of the survivors fleeing to the Ottoman Empire.;;;;;;;;;;;;;x
+EVTOPTA32521;A tragedy.;;;;;;;;;;;;;x
+EVTNAME91327;Crisis Selection;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91327;This mod enables the player to enable or disable crises in a campaign. In a multiplayer game, crises will be disabled if a single person picks the disable option, even if everyone else picked enable.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91327;Enable Crises;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91327;Disable Crises;;;;;;;;;;;;;;;;;;;;;;;x
+colonial_trade_company;Autonomous Dependency;;;;;;;;;;;;x
+education_fully_funded;Excellent Education System;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+health_care_fully_funded;Excellent Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+neglected_education;Neglected Education Funding;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+trinket_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+low_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+acceptable_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+good_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+low_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+acceptable_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+good_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+vassal_nation;Vassal Nation;;;;;;;;;;;;x,,,,
+vassal_nation_desc;As a vassal nation to a foreign power, we will always be seen as a lesser country in the eyes of the rest of the world.;;;;;;;;;;;;x,,,
+hormuz_strait;Hormuz Strait;;;;;;;;;;;;;;;;;;;;;;;x
+fairer_taxation;Taxation Relief;Allegement de la fiscalite;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation1;Taxation Relief;Allegement de la fiscalite;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation2;Taxation Relief;Allegement de la fiscalite;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+fairer_taxation3;Taxation Relief;Allegement de la fiscalite;Besteuerung Relief;;Alivio de impuestos;;;;;;;;;x;;;;
+player_unciv_mobilization;Player Controlled Uncivilized Nation;;;;;;;;;;;;x,,,,,,,
+tariff_efficiency_boost;Tariff Hotfix Boost;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+mine_expansion;Mine Expansion;;;;;;;;;;;;;x
+EVTNAME91705;Martial Law;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91705;Should we declare or rescind martial law?;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91705;Declare martial law.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91705;Rescind martial law.;;;;;;;;;;;;;;;;;;;;;;;x
+zcountry_suppression_title;ßYMartial Law;;;;;;;;;x;;;;
+zcountry_suppression_desc;Add or remove the martial law modifier which gives -0.1 militancy/consciousness, -0.04% tax efficiency, and a debuff to POP promotion.;;;;;;;;;x;;;;
+arabic_ruled_title;Ruling the Arabians;;;;;;;;;;;;;x
+arabic_ruled_desc;under the Ottoman administration of the area the Arab peninsula as well as the areas of Egypt lived under constant discrimination by the Ottomans as well as an attempted forced assimilation (something that never worked), these movements of attempted assimilation and non-representation of The Arabs in the Turkish parliament led by discrimination led the Arabs to revolts of independence or that the Sultan, the great Caliph, will respect and recognize the Arabs as equal as well as their culture and language.;;;;;;;;;;;;;x
+hispanian_union_title;Hispanian Unification;;;;;;;;;;;;;x
+hispanian_union_desc;We've been able to unify all the nations from the Hispanian America!;;;;;;;;;;;;;x
+concede_italy_title;Concede Sardinia;;;;;;;;;;;;;x
+concede_italy_desc;Perhaps it is in our best interest to seek reconciliation with Sardinia.;;;;;;;;;;;;;x
+EVTNAME60160;Birth of a Nation;;;;;;;;;;;;x,,,,,,,,,,
+EVTOPTA60160;Hurrah!;;;;;;;;;;;;x,,,,,,,,,,
+EVTDESC60160;Today crowds gathered in $CAPITAL$ to celebrate $COUNTRY$'s independence. In the modern world, independence can be a fleeting thing, so we must enjoy it while we can. Today, $COUNTRY_ADJ$ flags wave from every window and corner, and jubilant citizens sing the $COUNTRY_ADJ$ anthem. It is a heartfelt theme that speaks of better tomorrows.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+crown_empress_of_india_new;Empress of India;;;;Emperatriz de la India;;;;;;;;x;,,,,,,,,,,
+crown_empress_of_india_new_desc;God bless the Queen!;;;;Dios bendiga a la Reina!;;;;;;;;x;,,,,,,,,,,
+social_reformed_nation;Full Welfare State;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+social_reformed_nation_desc;Our country social reforms match every socialist demand, having some scholars call us an welfare state.;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+admin_spen;AI Administration Spending;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+educational_spen;AI Educational Spending;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+own_kiel_canal;The Kiel Canal;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+own_kiel_canal_desc;We own the Kiel Canal, linking the Baltic and the North Sea without the need to sail around Denmark, and we receive the dividends of its toll.;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+own_suez_canal;The Suez Canal;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+own_suez_canal_desc;We own the Suez Canal, linking the Mediterranean and the Red Sea without the need to sail around Africa, and we receive the dividends of its toll and glory for its possession.;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+own_panama_canal;The Panama Canal;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+own_panama_canal_desc;We own the Panama Canal, a huge feat of engineering linking the Pacific and the Atlantic Oceans, and we receive the dividends of its toll and glory for its possession.;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+bad_badboy;International Isolation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bad_badboy_desc;Our great nation has acquired many enemies and now most of the nations in the world see us as an international threat. They joined forces to isolate us in an attempt to bring us down.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,, ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME500059;Economic Sanctions;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC500059;"We do not seek the destruction of any government, nor do we covet a foot of any territory. We do not want an expanding struggle with consequences that no one can perceive, nor will we bluster or bully or flaunt our power, but we will not surrender."\n\nFinishing his speech, the ambassador of one of the Great Powers that gathered to discuss the situation of our country finished convincing the other great powers to sign a round of economical and diplomatic sanctions against our country. The Great Power conference sent us a warning against any more aggression from our part and said they are ready to escalate if we don't cease and change our behavior.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPT500059A;Fools!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+kinda_bad_badboy;International Sanctions;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+kinda_bad_badboy_desc;We have been declared a threat to global safety and international balance of power. Sanctions have been applied to our country and citizens and we have been warned that the great powers will worsen these sanctions in case we continue our aggressiveness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+expansionist_ambition_title;Expansionist Ambition;;;;;;;;;;;x
+expansionist_ambition_desc;Russia believe that it will be able to keep us at bay forever, we may not be as "direct" with our strategies as our Viking ancestors were, but our will and courage to obtain the territories that should be ours do not waver in the least. It is time to reclaim the Baltic states, as part of Scandinavia.;;;;;;;;;;;x
+integrate_the_duchies_title;Integrate the Duchies;;;;;;;;;;;x
+integrate_the_duchies_desc;It is time we formally integrated the duchies of Schleswig and Holstein to the Danish crown.;;;;;;;;;;;x
+ostend_manifestospc_title;Ostend Manifesto;Manifeste d'Ostende;Ostend-Manifest;;El Manifiesto de Ostende;;;;;;;;;x;;;;
+ostend_manifestospc_desc;The Ostend Manifesto proposes that the Island of Cuba should be annexed to the United States as a slave state, to balance the expected influx of new free-states in the West. By supporting the manifesto, we can calm tension over the slavery issue domestically, but it might reduce our standing with the European Great Powers significantly.;Le manifeste d'Ostendo propose que l'Ile de Cuba soit annexee aux Etats-Unis en tant qu'Etat esclavagiste, pour equilibrer la future arrivee de nouveaux Etats-libres dans l'ouest du pays. En soutenant ce manifeste, nous pourrions calmer les tensions sur l'esclavage, mais elle peut degrader nos relations avec les Grandes Puissances europeennes de facon significative.;Das Ostend-Manifest sah die Annektion der Insel Kuba als Sklavenstaat vor, um dem erwarteten Einfluss der neuen freien Staaten im Westen entgegenzuwirken. Durch Unterstutzung des Manifests konnen wir die Spannungen uber die Sklaverei zu Hause abschwachen, laufen allerdings Gefahr, unser Ansehen bei den europaischen Grosmachten entscheidend zu verringern.;;El Manifiesto de Ostende propone la anexion de la isla de Cuba a los Estados Unidos como estado esclavista, para compensar la esperada aparicion de nuevos estados libres en el oeste. Si apoyamos el manifiesto, puede que calmemos las tensiones internas provocadas por el problema de la esclavitud, pero nuestra posicion entre las grandes potencias europeas podria verse gravemente afectada.;;;;;;;;;x;;;;
+POL_conservative;Royal Faction;Faction royale;Konigsfraktion;;Faccion Real;;;;;;;;;x;;;;
+POL_liberal;The Liberal Faction;Faction liberale;Die liberale Fraktion;;La Faccion Liberal;;;;;;;;;x;;;;
+POL_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Faccion Nacionalista;;;;;;;;;x;;;;
+POL_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Faccion Radical;;;;;;;;;x;;;;
+POL_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Faccion Socialista;;;;;;;;;x;;;;
+POL_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Faccion Comunista;;;;;;;;;x;;;;
+POL_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Faccion Fascista;;;;;;;;;x;;;;
+EVTNAME9980;Our infamy is over 30;;;;Nuestra infamia ha superado los 30 puntos;;;;;;;;;x,,,,,,,,,,
+EVTDESC9980;We have gone over the infamy limitsÅc a lot;;;;Hemos superado los limites aceptables de infamiaÅc por mucho;;;;;;;;;x,,,,,,,,,,
+EVTOPTA9980;Oops!;;;;Ups!;;;;;;;;;x,,,,,,,,,,
+EVTNAME9981;$FROMCOUNTRY$ has reached 30 infamy;;;;La infamia de $FROMCOUNTRY$ supera los 30 puntos;;;;;;;;;x,,,,,,,,,,
+EVTDESC9981;We have received news from our diplomats. $FROMCOUNTRY$ has officialy gone way over what can be considered acceptable.;;;;Hemos recibido un mensaje de nuestros diplomaticos: $FROMCOUNTRY$ ha pasado de los limites de lo aceptable en cuanto a infamia.;;;;;;;;;x,,,,,,,,,,
+EVTOPTA9981;They must be punished;;;;Deben ser castigados;;;;;;;;;x,,,,,,,,,,
+EVTNAME9982;Our infamy is less than 30 back again.;;;;Nuestra infamia vuelve a ser menor de 30 puntos otra vez.;;;;;;;;;x,,,,,,,,,,
+EVTDESC9982;Our infamy levels are still high, though.;;;;Aunque nuestra infamia sigue siendo considerada alta, hemos rebajado algunas tensiones internacionales.;;;;;;;;;x,,,,,,,,
+EVTOPTA9982;This is a bit better, I guess.;;;;Algo es algo. ?No?;;;;;;;;;x,,,,,,,,,
+easternpoland_title;Claim Greater Poland;;;;Reclamar la Gran Polonia;;;;;;;;;x,,,,,,,,,,
+easternpoland_desc;The core of our country is well secured, we shall now claim a Greater Poland;;;;Con el n˙cleo de nuestro pa˙ê asegurado," reclamemos ahora la Gran Polonia;;;;;;;;;x""",,,,,,,,
+claim_core_poland_title;Reclaim Poland;;;;Reclamar Polonia;;;;;;;;;x,,,,,,,,,,
+claim_core_poland_desc;We shall reclaim the core of our country to come closer to what we once were in the World;;;;Reclamaremos el n˙cleo de nuestro pa˙ê para poder volver a ser lo que una vez fuimos en el mundo;;;;;;;;;x,,,,,,,,,,
+poloniajoven_desc;Young Poland was a modernist period in Polish visual arts, literature and music, covering roughly the years between 1890 and 1918. It was a result of strong aesthetic opposition to the earlier ideas of Positivism which followed the suppression of the 1863 January Uprising against the occupying army of Imperial Russia. Mloda Polska promoted trends of decadence, neo-romanticism, symbolism, impressionism and art nouveau.;;;;La Joven Polonia (en polaco: Mloda Polska) es un per˙ådo modernista del arte, de la literatura y de la m˙sica polaca, que cubriÅEdesde los aÒos 1890 hasta 1918. Fue uno de los efectos de la fuerte oposiciÛn a las ideas del positivismo y promoviÅElos caracteres de la decadencia, del neoromanticismo, del simbolismo, del impresionismo y del Art Nouveau.;;;;;;;;x;
+poloniajoven_title;Young Poland;;;;Joven Polonia;;;;;;;;x;,,,,,,,,,,
+poloniajoven_efecto;Young Poland;;;;Joven Polonia;;;;;;;;x;,,,,,,,,,,
+poloniajoven_efecto_desc;Mloda Polska;;;;Mloda Polska;;;;;;;;x;,,,,,,,,,,
+become_poland_title;Jeszcze Polska nie Zginela;;;;Jeszcze Polska nie Zginela;;;;;;;;;x,,,,,,,,,,
+become_poland_desc;As we now control Warszawa, we can rebuild the former glory of Poland;;;;Ahora que controlamos Varsovia, podemos empezar a restaurar la antigua gloria de Polonia;;;;;;;;;x,,,,,,,,
+unite_with_poland_title;Unite with Poland;;;;Unirse a Polonia;;;;;;;;;x,,,,,,,,,,
+unite_with_poland_desc;We can join to Poland and unite in a single nation, growing stronger together with our Polish brothers.;;;;Podemos unirnos a Polonia en una ˙nica naciÛn y unificar el pueblo polaco para llegar juntos m·s lejos.;;;;;;;;;x,,,,,,,,,
+EVTNAME95100;The Polish Uprising;;;;La Revuelta Polaca;;;;;;;;;x,,,,,,,,,,
+EVTDESC95100;The uprising began as a spontaneous protest by young Poles against conscription into the Imperial Russian Army. It was soon joined by high-ranking Polish-Lithuanian officers and various politicians. The insurrectionists, severely outnumbered and lacking serious outside support, were forced to resort to guerrilla warfare tactics.;;;;La revuelta empezÅEcomo una protesta espont·nea contra la conscripciÛn de polacos en el EjÈrcito Imperial Ruso. Pronto se reforzÅEcon oficiales de alto rango veteranos de cultura polaca y algunos pol˙ëicos favorables a la causa. Debido a la gran desventaja numÈrica, los insurrectos se forzaron a utilizar t·cticas de guerrilla. Ejecuciones p˙blicas y deportaciones a Siberia en masa llevaron cada vez a m·s polacos a la causa.;;;;;;;;;x,,,,,,,
+EVTOPTA95100;We can not stand idle anymore;;;;Hasta aquÅEhemos llegado;;;;;;;;;x,,,,,,,,,,
+EVTNAME95101;The Polish Uprising;;;;La Revuelta Polaca;;;;;;;;;x,,,,,,,,,,
+EVTDESC95101;The uprising began as a spontaneous protest by young Poles against conscription into the Imperial Russian Army. It was soon joined by high-ranking Polish-Lithuanian officers and various politicians. The insurrectionists, severely outnumbered and lacking serious outside support, were forced to resort to guerrilla warfare tactics.;;;;La revuelta empezÅEcomo una protesta espont·nea contra la conscripciÛn de polacos en el EjÈrcito Imperial Ruso. Pronto se reforzÅEcon oficiales de alto rango veteranos de cultura polaca y algunos pol˙ëicos favorables a la causa. Debido a la gran desventaja numÈrica, los insurrectos se forzaron a utilizar t·cticas de guerrilla. Ejecuciones p˙blicas y deportaciones a Siberia en masa llevaron cada vez a m·s polacos a la causa.;;;;;;;;;x,,,,,,,
+EVTOPTA95101;Let them leave in peace;;;;Los dejaremos en paz;;;;;;;;;x,,,,,,,,,,
+EVTOPTB95101;Those traitors will be put down;;;;Esos traidores ser·n pacificados;;;;;;;;;x,,,,,,,,,,
+CHI;China;;;;China;;;;;;;;;x,,,,,,,,,,
+CHI_democracy;Republic of China;;;;Rep˙blica de China;;;;;;;;;x,,,,,,,,,,
+CHI_presidential_dictatorship;China;;;;China;;;;;;;;;x,,,,,,,,,,
+CHI_bourgeois_dictatorship;China;;;;China;;;;;;;;;x,,,,,,,,,,
+CHI_fascist_dictatorship;China;;;;China;;;;;;;;;x,,,,,,,,,,
+CHI_absolute_monarchy;The Chinese Empire;;;;Imperio Chino;;;;;;;;;x,,,,,,,,,,
+CHI_prussian_constitutionalism;The Chinese Empire;;;;Imperio Chino;;;;;;;;;x,,,,,,,,,,
+CHI_hms_government;China;;;;China;;;;;;;;;x,,,,,,,,,,
+CHI_proletarian_dictatorship;People's Republic of China;;;;Rep˙blica Popular China;;;;;;;;;x,,,,,,,,,,
+latinrome_title;Integrate the French;;;;;;;;;;;;;x,,,,,,,,,, 
+latinrome_desc;As are the Spanish, French, Portuguese, or any other language originating from Latin, they are all children of Rome ... now, it is time to integrate them more openly into our society, showing our will for our Empire to prosper.;;;;;;;;;;;;;x,,,,,,,,,, 
+form_reh_title;Form the Holy Roman Empire;;;;;;;;;;;;;x,,,,,,,,,,
+form_reh_desc;We have demonstrated to the European powers our prestige and ability to impose our will ... now, why not relive one of the moments of greatest splendor of the Germanic lineage?, crowning our king as emperor and making way for a new Holy Germanic Empire.;;;;;;;;;;;;;x
+reh_irredenta_title;Kneel to the emperor;;;;;;;;;;;;;x,,,,,,,,,,
+reh_irredenta_desc;The Wallonians and Dutch were vassals of the emperor, but like the treacherous rats that they are, when we hardly showed a bit of weakness, they fled under the skirts of the French. Now that we have the authority to enact it, lets make the world know that the Emperor is the rightful sovereign of those territories.;;;;;;;;;;;;;x
+REH_anarcho_liberal;Anarcho Liberal Faction;;;;;;;;;x;;;;
+REH_communist;Communist Faction;;;;;;;;;x;;;;
+REH_conservative;Conservative Faction;;;;;;;;;x;;;;
+REH_conservative_2;Conservative Faction;;;;;;;;;x;;;;
+REH_conservative_3;Conservative Reactionary Faction;;;;;;;;;x;;;;
+REH_fascist;Fascists Faction;;;;;;;;;x;;;;
+REH_liberal;Reformers Faction;;;;;;;;;x;;;;
+REH_liberal_2;Liberal Reformers Faction;;;;;;;;;x;;;;
+REH_reactionary;Reactionary Faction;;;;;;;;;x;;;;
+REH_socialist;Socialists Faction;;;;;;;;;x;;;;
+REH;The Holy Roman Empire;x;;
+REH_ADJ;Holy Roman Empire;x;;
+REH_democracy;The Holy Roman Empire;x;;;;;;;;;;;;
+REH_proletarian_dictatorship;The Holy Roman Empire;x;;;;;;;;;;;;
+REH_fascist_dictatorship;The Holy Roman Empire;x;;;;;;;;;;;;
+trans_siberianr_title;Construct the Trans-Siberian Railway;;;;;;;;;;;;;x,,,,,,,,,,
+trans_siberianr_desc;The need to unite our nation from Europe to Asia must be our closest objective, that is why we will build the largest known railway network to unite our great motherland from Moscow to Vladivostok;;;;;;;;;;;;;x
+mongolian_teatry_title;The Mongolian Teatry;;;;;;;;;;;;;x,,,,,,,,,,
+mongolian_teatry_desc;This treaty fixes our territorial conflict with Mongolia, in exchange for a sum of money to improve its economy;;;;;;;;;;;;;x
+siberian_colonization_title;The Siberian Colonization;;;;;;;;;;;;;x,,,,,,,,,,
+siberian_colonization_desc;After the implementation of Medicine in our empire, it is time to control the entire Siberian territory;;;;;;;;;;;;;x
+university_of_santiago_title;Found the University of Santiago;;;;;;;;;;;x
+university_of_santiago_desc;The Escuela de Artes y Oficios (EAO) was founded by Ignacy Domeyko, to improve scientific and technical development in the country. At the time, students ages ranged between 15 and 18 years old, thus making the EAO not a University, but a secondary education entity. Besides being intensely trained in workshops, students studied algebra, descriptive geometry, trigonometry, technical drawing, industrial mechanics, physics and chemistry, history and geography.;;;;;;;;;;;x
+valparaiso_harbor_title;The Jewel of the Pacific;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+valparaiso_harbor_desc;Valparaiso has become a required stopover for ships crossing between the Atlantic and Pacific oceans. In it's role as a major seaport, Valparaiso receives immigrants from many European countries, but this could change if a new route was to open.;;;;;;;;;;;;x
+annex_easter_island_title;Annex Easter Island;;;;;;;;;;;x
+annex_easter_island_desc;The native population of Easter Island has suffered many devastations in recent years, from attacks by Peruvian pirates to a tuberculosis epidemic. A colonist has operated a sheep ranch there for some years, and recently offered to sell to our government. Considering his ranch covers a large portion of the island, we would be well within our rights to claim sovereignty over it.;;;;;;;;;;;x
+napoleonic_wars_bnl_title;Second Napoleonic Wars - Conquest of Benelux;;;;;;;;;;;;;;x
+napoleonic_wars_bnl_desc;Benelux has become a dangerous regional power for our Empire. They were once our vassals, it's time to remind them of their origins.;;;;;;;;;;;;;x
+napoleonic_wars_bel_title;Second Napoleonic Wars - Conquest of the Low Countries;;;;;;;;;;;;;x
+napoleonic_wars_bel_desc;Luxembourg, Holland and Belgium are weak countries that were once part of the French Empire, and that incidentally, have very strong cultural similarities with us. It is time to join the empire, whether they want to or not, for their sake.;;;;;;;;;;;;;x
+ohiggins_title;The remains of the father of the country, Don Bernardo Ohiggins, have been repatriated!;;;;;;;;;;;;;x,,,,,,,,,,
+ohiggins_desc;The repatriation of the body of Don Bernardo Ohiggins will calm our population and achieve the long-awaited national unity.;;;;;;;;;;;;;x,,,,,,,,,,
+austrian_form_south_german_confederation_title;Become The South German Confederation;;;;;;;;;;;x
+austrian_form_south_german_confederation_title;Become The South German Confederation;;;;;;;;;;;x
+austrian_form_south_german_confederation_desc;By becoming the South German Federation, you will lose the decisions to become Austria-Hungary and Danubian Federation, as well as losing all cores on currently owned non-Germanic/Czech lands.;;;;;;;;;x;;
+austrian_form_south_german_confederation_puppet_title;The South German Confederation;La ConfÈdÈration d'Allemagne du sud;Der SÅEdeutsche Bund;;La ConfederaciÛn de Alemania del Sur;;;;;;;;;x;;
+austrian_form_south_german_confederation_puppet_desc;While Germany was not united until the proclamation of the German Empire, following the Franco-Prussian war, rising nationalism in the 19th century had meant that unification had been on the cards long before that, with the Frankfurt assembly of 1848 being an important forerunner. By achieving a dominant position among the South German states, we can form the South German Confederation.;;;;;;;;;;;;;x
+EVTNAME31520;Hungarian Revolution of 1848;;;;;;;;;;;x
+EVTDESC31520;The Habsburg Empire is currently racked with liberal rebellions at home while simultaneously fighting the Italian war of Independence in Italy. Caught up in the liberal fervor, our national politicians have begun to push for an independent parliamentary democracy in Hungary.;;;;;;;;;;;x
+EVTOPTA31520;Demand independence.;;;;;;;;;;;x
+EVTOPTB31520;Maintain the status quo.;;;;;;;;;;;x
+EVTNAME31521;Hungarian Revolution of 1848;;;;;;;;;;;x
+EVTDESC31521;The diet of Hungary has taken advantage of our recent troubles by declaring independence and establishing the Hungarian Republic. Our previous emperor, Ferdinand I, gave in to their demands of independence, but his successor Franz Joseph I wishes to revoke all concessions and restore order to Hungary.;;;;;;;;;;;x
+EVTOPTA31521;We will restore order in Hungary.;;;;;;;;;;;x
+EVTOPTB31521;Grant them independence.;;;;;;;;;;;x
+EVTNAME31522;Habsburg Victory!;;;;;;;;;;;x
+EVTDESC31522;The Hungarian rebellion has been put down and the Empire is saved!;;;;;;;;;;;x
+EVTOPTA31522;Hurrah!;;;;;;;;;;;x
+EVTNAME31523;Hungarian Victory!;;;;;;;;;;;x
+EVTDESC31523;The Hungarian revolution was a success and we have our independence!;;;;;;;;;;;x
+EVTOPTA31523;Hurrah!;;;;;;;;;;;x
+EVTNAME31524;Dissolution of Austria-Hungary;;;;;;;;;;;x
+EVTDESC31524;With none of the Hungarian homeland under our control, we can no longer claim to be Austria-Hungary.;;;;;;;;;;;x
+EVTOPTA31524;We didn't need them anyway.;;;;;;;;;;;x
+establish_ts_title;Protect Two Sicilies;;;;;;;;;;;;;x
+establish_ts_desc;Looks like the north italians want to form a new nation, we need to protect our interest on the region;;;;;;;;;;;;;x
+annex_ts_title;Annex Two Sicilies;;;;;;;;;;;;;x
+annex_ts_desc;Once ours, always ours. We don't care what others countries on Europe will think about, we'll recover our territories on Italy;;;;;;;;;;;;;x
+invest_in_ts_title;Invest in Two Sicilies;;;;;;;;;;;;;x
+invest_in_ts_desc;This zone of Italy was once our territory, is time to make the base to recover ours...and using money, is the best start;;;;;;;;;;;;;x
+MEX_colonial_company;Viceroyalty of New Spain;;;;;;;;;;;;;x
+newgovon_brazil_title;Restore the Colonial Government in Brazil;;;;;;;;;;;;;x
+newgovon_brazil_desc;Brazil is ours again, so now is time to restore the old colonial government;;;;;;;;;;;;;x
+reconquista_brz_title;Restore Order in Brazil;;;;;;;;;;;;;x
+reconquista_brz_desc;Although the Cortes Gerais (General Courts) agreed to recgonize the independence of Brazil in 1825, a strong desire to restore Brazilian suzerainty to Iberia still exists among the elites in this country. If we are to retake the Brazilian breakaway states, we must do it quickly before they grow too accustomed independence.;;;;;;;;;;;;;x
+EVTNAME44660;Portuguese Vassalage;;;;;;;;;;;;x
+EVTDESC44660;The Portuguese have re-established their influence over us and are demanding we surrender our independence to them. What shall we do?;;;;;;;;;;;;x
+EVTOPTA44660;Rejoin the Portuguese.;;;;;;;;;;;;x
+EVTOPTB44660;Refuse the Portuguese.;;;;;;;;;;;;x
+EVTNAME44661;$FROMCOUNTRY$ Accepts;;;;;;;;;;;;x
+EVTDESC44661;Representatives from $FROMCOUNTRY$ have agreed to rejoin our colonial empire. ßGFor as long as we are overlord of a Brazilian dependency, their POPs will only immigrate to us and vice versa.;;;;;;;;;;;;x
+EVTOPTA44661;Portugal will be great again!;;;;;;;;;;;;x
+EVTNAME44662;$FROMCOUNTRY$ Refuses;;;;;;;;;;;;x
+EVTDESC44662;Representatives from $FROMCOUNTRY$ have refused our demands to rejoin our colonial empire.;;;;;;;;;;;;x
+EVTOPTA44662;They don't know what they're missing.;;;;;;;;;;;;x
+establish_india_civil_service_title;Establish The Indian Civil Service;;;;;;;;;;;;x
+establish_india_civil_service_desc;The Indian Civil Service (ICS), was the elite higher civil service of the British Empire in British India during British rule. They were ultimately responsible for overseeing all government activity in the 250 districts that comprised British India. They were appointed under Section XXXII of the Government of India Act $YEAR$, enacted by the Parliament of the United Kingdom.;;;;;;;;;;;;x
+expand_india_civil_service_title;Expand The Indian Civil Service;;;;;;;;;;;;x
+expand_india_civil_service_desc;The civil services were divided into two categories ÅEcovenanted and uncovenanted. The covenanted civil service consisted of British civil servants occupying the higher posts in the government. The uncovenanted civil service was introduced to facilitate the entry of Indians at the lower rung of the administration. The Aitchison Commission was set up in $YEAR$ to come up with a scheme for fulfilling the claims of Indians to higher and more extensive employment in public service.;;;;;;;;;;;;x
+conquest_of_sindh_title;Conquest of Sindh;;;;;;;;;;;;x
+conquest_of_sindh_desc;The Talpur kingdom of Sindh is inefficiently and loosely governed by the Amirs and a relatively easy target for expansion.;;;;;;;;;;;;x
+conquest_of_punjab_title;Conquest of Punjab;;;;;;;;;;;;x
+conquest_of_punjab_desc;The "Lion of Punjab", Maharaja Ranjit Singh, has died without an heir. Internal division among the Sikh leadership have left them in a severely weakened state and provde us with a ripe opportunity to extend company control over the Punjab region.;;;;;;;;;;;;x
+baluchistan_agency_title;Organize the Baluchistan Agency;;;;;;;;;;;;x
+baluchistan_agency_desc;The Baloch leaders of Kalat and Makran have agreed to accept British mediation over their local disputes. We may convince them to voluntarily become British protectorates.;;;;;;;;;;;;x
+conquest_of_burma_title;Conquest of Burma;;;;;;;;;;;;x
+conquest_of_burma_desc;Local commanders in Burma have suggested military expansion into the Burmese Kingdom.;;;;;;;;;;;;x
+conquest_of_burma;Conquest of Burma;;;;;;;;;;;;x
+anglo_afghan_war_title;Begin the Anglo-Afghan War;;;;;;;;;;;;x
+anglo_afghan_war_desc;The border of the British Raj and Afghanistan has been under contention ever since the defeat of the Sikhs, with the Emir of Afghanistan claiming Baluchistan for himself. It is time we settled this border dispute.;;;;;;;;;;;;x
+sikkim_protectorate_title;Establish Sikkim Protectorate;;;;;;;;;;;;x
+sikkim_protectorate_desc;As the undisputed power in South East Asia, we can force the Sikkim government to submit to our suzerainty.;;;;;;;;;;;;x
+embrace_nepali_title;Embrace the Nepali;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+embrace_nepali_desc;Ruling over such a huge population with a minority government is becoming increasingly difficult, one ethnic group we could look to for support is the Nepali people, many of which serve loyally in our Gurkha units. We could begin to reward the Nepali people for their services in our armies and to make them more loyal to our rule.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME36942;Sepoy Rebellion;;;;;;;;;;;;x
+EVTDESC36942;We must break British tyranny in India!;;;;;;;;;;;;x
+EVTOPTA36942;Onwards!;;;;;;;;;;;;x
+sepoy_rebellion;Sepoy Rebellion;;;;;;;;;;;;x
+EVTNAME44663;The Reconquista Ends;;;;;;;;;;;;x
+EVTDESC44663;We have lost our last foothold in Brazilian South America, our dreams of empire are crushed forever. ßRWe will no longer receive immigrants from our old Brazilian dependencies.;;;;;;;;;;;;x
+EVTOPTA44663;We must look to expand elsewhere.;;;;;;;;;;;;x
+EVTNAME36960;War in India;;;;;;;;;;;;;x
+EVTDESC36960;War has erupted in our crown colony of India.;;;;;;;;;;;;;x
+EVTOPTA36960;We will support them.;;;;;;;;;;;;;x
+EVTNAME90030;Regency;;;;;;;;;;;;;x
+EVTDESC90030;Our monarch has died without an heir, and as a vassal kingdom of the British, we must acquiesce to their authority on our line of succession.;;;;;;;;;;;;;x
+EVTOPTA90030;We will defer to the British;;;;;;;;;;;;;x
+EVTOPTB90030;We will decide our own fate;;;;;;;;;;;;;x
+EVTNAME90039;The Anglo-Sikh War;;;;;;;;;;;;;x
+EVTDESC90039;News of the death of the venerable Ranjit Singh has reached the British Viceroy in Calcutta, and now they seek to move against us in our moment of weakness.;;;;;;;;;;;;;x
+EVTOPTA90039;Those vultures!;;;;;;;;;;;;;x
+EVTNAME90041;Sepoy Rebellion Spreads;;;;;;;;;;;;;x
+EVTDESC90041;More local sepoys, dissatisfied with company rule, have joined in the rebellion.;;;;;;;;;;;;;x
+EVTOPTA90041;Onwards to Calcutta!;;;;;;;;;;;;;x
+EVTNAME90042;Rise up!;;;;;;;;;;;;;x
+EVTDESC90042;Our local sepoys have risen up against company rule and pledged allegiance to the new Indian state.;;;;;;;;;;;;;x
+EVTOPTA90042;We will join them.;;;;;;;;;;;;;x
+EVTNAME90043;Victory!;;;;;;;;;;;;;x
+EVTDESC90043;India has been secured and the Sepoys have been put down. England has nationalised the East India Company and now rules India directly via the British Raj.;;;;;;;;;;;;;x
+EVTOPTA90043;Rule Britannia!;;;;;;;;;;;;;x
+EVTNAME90044;British Defeat in India;;;;;;;;;;;;;x
+EVTDESC90044;Our loss in the sepoy rebellion has incited the rest of our subjects in India to declare their allegiance to the new Indian state. The British position in the subcontinent has become untenable and we have no choice but to withdraw completely.;;;;;;;;;;;;;x
+EVTOPTA90044;The sun sets on the British Empire.;;;;;;;;;;;;;x
+EVTNAME90046;The Offer of Agency;;;;;;;;;;;;;x
+EVTDESC90046;The British have offered us to become a protectorate under the organization of a new British Indian Agency. What do we say to them?;;;;;;;;;;;;;x
+EVTOPTA90046;Sounds like a good idea.;;;;;;;;;;;;;x
+EVTOPTB90046;Never!;;;;;;;;;;;;;x
+EVTNAME90047;$FROMCOUNTRY$ Accepts;;;;;;;;;;;;;x
+EVTDESC90047;The leaders of $FROMCOUNTRY$ have accepted our proposal of joining the Baluchistan Agency.;;;;;;;;;;;;;x
+EVTOPTA90047;Success!;;;;;;;;;;;;;x
+EVTNAME90048;$FROMCOUNTRY$ Refuses;;;;;;;;;;;;;x
+EVTDESC90048;The leaders of $FROMCOUNTRY$ have rejected our proposal of joining the Baluchistan Agency.;;;;;;;;;;;;;x
+EVTOPTA90048;Damn.;;;;;;;;;;;;;x
+EVTNAME90049;The Fall of $COUNTRY$;;;;;;;;;;;;;x
+EVTDESC90049;The British have occupied most of $COUNTRY$ and the war seems lost. Shall we surrender?;;;;;;;;;;;;;x
+EVTOPTA90049;Never!;;;;;;;;;;;;x
+EVTOPTB90049;We give up.;;;;;;;;;;;;x
+EVTOPTA90036;Great!;;;;;;;;;;;;;x
+EVTNAME36962;The End of Crown Rule;;;;;;;;;;;;;x
+EVTDESC36962;India is no longer under our sphere of influence and they have re-negotiated our former economic agreements to be less one sided.;;;;;;;;;;;;;x
+EVTOPTA36962;Damn.;;;;;;;;;;;;;x
+restore_puppet_province;Acquire core for puppet;;;;;;;;;;;;;x
+restore_puppet_province_desc;Retake a province for our puppet.;;;;;;;;;;;;;x
+restore_puppet_province_short;Make $RECIPIENT$ transfer $STATE$ to a puppet.;;;;;;;;;;;;;x
+restore_puppet_province_setup;Make $RECIPIENT$ transfer $STATE$ to a puppet.;;;;;;;;;;;;;x
+puppet_acquire_state;Acquire State;;;;;;;;;;;;;x
+puppet_acquire_state_setup;Acquire State;;;;;;;;;;;;;x
+puppet_acquire_state_short;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+puppet_acquire_state_desc;Take a state for a puppet nation.;;;;;;;;;;;;;x
+EVTNAME44664;Freedom!;;;;;;;;;;;x
+EVTDESC44664;We have once again secured our freedom from the cruel and vindictive Portuguese. The Portuguese King and his corrupt Cortes court have failed to subjugate the $COUNTRY_ADJ$ people and we henceforth sever all ties with them.;;;;;;;;;;;;x
+EVTOPTA44664;Long live the kingdom of $COUNTRY$!;;;;;;;;;;;x
+EVTOPTB44664;Long live the dictatorship of $COUNTRY$!;;;;;;;;;;;x
+EVTOPTC44664;Long live the republic of $COUNTRY$!;;;;;;;;;;;x
+retake_brazil_title;Restore Order in Brazil;;;;;;;;;;;;;x
+retake_brazil_desc;Although the Cortes Gerais (General Courts) agreed to recgonize the independence of Brazil in 1825, a strong desire to restore Brazilian suzerainty to Portugal still exists among the elites in this country. If we are to retake the Brazilian breakaway states, we must do it quickly before they grow too accustomed independence.;;;;;;;;;;;;;x
+restore_portugal_brazil_title;Restore the United Kingdom of Portugal and Brazil;;;;;;;;;;;;;x
+restore_portugal_brazil_desc;Independence movements in Brazil have been sufficiently pacified enough for us to consider elevating Brazil to equal status with Portugal..;;;;;;;;;;;;;x
+PBC;Peru-Bolivia;;;;;;;;;;;;;x
+BRZ_colonial_company;Viceroyalty of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PBC_absolute_monarchy;Great Peru;;;;;;;;;;;;;x
+PBC_prussian_constitutionalism;Great Peru;;;;;;;;;;;;;x
+PBC_hms_government;Peru-Bolivia;;;;;;;;;;;;;x
+PBC_proletarian_dictatorship;The People's Andine Republic;;;;;;;;;;;;;x
+SPC;Carlist Spain;;;;;;;;;;;;;x
+SPC_absolute_monarchy;Carlist Spain;;;;;;;;;;;;;x
+SPC_prussian_constitutionalism;Carlist Spain;;;;;;;;;;;;;x
+SPC_hms_government;Carlist Spain;;;;;;;;;;;;;x
+SPC_absolute_monarchy;Carlist Spain;;;;;;;;;;;;;x
+SPC_prussian_constitutionalism;Carlist Spain;;;;;;;;;;;;;x
+SPC_hms_government;Carlist Spain;;;;;;;;;;;;;x
+SPC_ADJ;Spanish;;;;;;;;;;;;;x
+PBC_proletarian_dictatorship_ADJ;Andine;;;;;;;;;;;;;
+PBC_democracy;Andine Federation;;;;;;;;;;;;;;;;;
+PBC_democracy_ADJ;Andine;;;;;;;;;;;;;
+PBC_ADJ;Andine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+LPL;United Provinces of Rio Plata;;;;;;;;;;;;x
+LPL_fascist;Rio≤ de la Plata;;;;;;;;;;;;x
+LPL_communist;Union of Rio≤ Plata;;;;;;;;;;;;x
+LPL_colonial_company;Viceroyalty of Rio Plata;;;;;;;;;;;;x
+LPL_ADJ;Platinean;;;;;;;;;;;;x
+GCO;Gran Colombia;;;;;;;;;;;;x
+GCO_colonial_company;Viceroyalty of New Granada;;;;;;;;;;;;x
+GCO_ADJ;Colombian;;;;;;;;;;;;x
+GCO_absolute_monarchy;New Granada;;;;;;;;;;;;x
+GCO_prussian_constitutionalism;New Granada;;;;;;;;;;;;x
+GCO_hms_government;New Granada;;;;;;;;;;;;x
+GCO_absolute_monarchy_ADJ;New Granadan;;;;;;;;;;;;x
+GCO_prussian_constitutionalism_ADJ;New Granadan;;;;;;;;;;;;x
+GCO_hms_government_ADJ;New Granadan;;;;;;;;;;;;x
+colonial_company;Autonomous Dependency;;;;;;;;;;;;x
+colonial_company_ruler;Governor;;;;;;;;;;;;x
+colonial_trade_company;Autonomous Dependency;;;;;;;;;;;;x
+reconquista_mex_title;The Viceroyalty of New Spain;;;;;;;;;;;;x
+reconquista_mex_desc;New Spain was the first of four viceroyalties Spain created in the Americas, it comprised Mexico, Central America, much of the Southwestern and Central United States, and Spanish Florida as well as the Philippines, Guam, Mariana and Caroline Islands. Now that Spanish hegemony has returned to New Spain, we should organize the territory similar to the old Viceroyalty, with the exception of the Caribbean Islands.;;;;;;;;;;;;x
+reconquista_gco_title;The Viceroyalty of New Granada;;;;;;;;;;;;x
+reconquista_gco_desc;The territories of the Viceroyalty of New Granada gained de facto independence from Spain between 1819 and 1822 after a series of military and political struggles, uniting in a shortlived republic now known as Gran Colombia. With the region now under our control, we should reunify the breakaway states into a stronger single colony.;;;;;;;;;;;;x
+reconquista_pbc_title;The Viceroyalty of Peru;;;;;;;;;;;;x
+reconquista_pbc_desc;Peru was the site of many futile attempts by Ferdinand VII to reconquer South America. However, this time the rebellious colonies have been soundly defeated. The territories of Peru, Bolivia, and Chile will be incorporated into the new Viceroyalty of Peru.;;;;;;;;;;;;x
+reconquista_lpl_title;The Viceroyalty of the Rio de la Plata;;;;;;;;;;;;x
+reconquista_lpl_desc;The Viceroyalty of the Rio de la Plata was the last to be organized and also the shortest-lived of the Viceroyalties of the Spanish Empire in the Americas, now that the three breakway countries of the region are under our control, we should re-establish the Viceroyalty to more effectvely rule the region.;;;;;;;;;;;;x
+EVTNAME37713;The Reconquista Begins;;;;;;;;;;;;x
+EVTDESC37713;The restoration of order to our old Viceroyalty marks the beginning of the return of the Spanish Empire in the Americas. ¬ßGFor as long as we are overlord of a Viceroyalty, their POPs will only immigrate to us and vice versa.;;;;;;;;;;;;x
+EVTOPTA37713;We will restore the Spain to its former glory!;;;;;;;;;;;;x
+EVTNAME37714;The Reconquista Ends;;;;;;;;;;;;x
+EVTDESC37714;We have lost our last foothold in Latin America, our dreams of empire are crushed forever. ¬ßRWe will no longer receive immigrants from our old Viceroyalties.;;;;;;;;;;;;x
+EVTOPTA37714;We didn't want them anyway.;;;;;;;;;;;;x
+EVTNAME37715;Freedom!;;;;;;;;;;;;x
+EVTDESC37715;We have once again secured our freedom from the cruel and vindictive Spaniards. The Spanish King and his corrupt Cortes court have failed to subjugate the $COUNTRY_ADJ$ people and we henceforth sever all ties with them.;;;;;;;;;;;;x
+EVTOPTA37715;Long live the republic of $COUNTRY$!;;;;;;;;;;;;x
+EVTOPTB37715;Long live $COUNTRY$!;;;;;;;;;;;;x
+carlist_victory_title;Carlist Victory;;;;;;;;;;;;x
+carlist_victory_desc;Our stunning victories over the Cristino armies have caused Isabella II and her court to flee Spain for good. Now Carlos V can ascend to his throne as the rightful monarch of Spain.;;;;;;;;;;;;x
+cristino_victory_title;Cristino Victory;;;;;;;;;;;;x
+cristino_victory_desc;Our stunning victories over the Carlist armies have caused Carlos V and his court to flee Spain for good. Now Isabella II can cement her position as the rightful monarch of Spain.;;;;;;;;;;;;x
+EVTNAME666667;Increasing Federalism;;;;;;;;;;;;;x;;
+EVTDESC666667;A sentiment of cultural nationalism is sweeping $COUNTRY$, as people begin to clamor for unification with our cultural brethren in $CULTURE_GROUP_UNION$. We have little reason to doubt that they would object to a petition of annexation.;;;;;;;;;;;;;;;x
+EVTOPTA666667;Let's do it;;;;;;;;;;;;;x;;
+EVTNAME666666;Increasing Federalism;;;;;;;;;;;;;x;;
+EVTDESC666666;A sentiment of cultural nationalism is sweeping $COUNTRY$, as people begin to clamor for unification with our cultural brethren in $CULTURE_GROUP_UNION$. We have little reason to doubt that they would object to a petition of annexation.;;;;;;;;;;;;;;;x
+EVTOPTA666666;Let's do it;;;;;;;;;;;;;x;;
+end_of_greece_title;End of Greece;x;;;;;;;;;
+end_of_greece_title;End of Greece;x;;;;;;;;;
+end_of_greece_desc;The Greeks believe that because they are under the protection of the West they will be able to escape coming back under our yoke, to the arms soldiers! We have to put an end to the last bastion of Christians in our lands.;x;;;;;;;;;
+bucharest_treaty_sgf_title;The Treaty of Bucharest;x;;;;;;;;;
+bucharest_treaty_sgf_desc;The Moldovans and Wallachians seem to want to free themselves from our rule and create their own union with Russian support, the best thing will be to negotiate with the Austrians in order to put an end to Russian ambitions and end the Romanian dream.;x;;;;;;;;;
+bucharest_treaty_title;The Treaty of Bucharest;x;;;;;;;;;
+bucharest_treaty_desc;The Moldovans and Wallachians seem to want to free themselves from our rule and create their own union with Russian support, the best thing will be to negotiate with the Austrians in order to put an end to Russian ambitions and end the Romanian dream.;x;;;;;;;;;
+DUA;The Dual Monarchy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_ADJ;Anglo-French;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_proletarian_dictatorship;The United Popular Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_presidential_dictatorship;The United Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_bourgeois_dictatorship;The United Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_fascist_dictatorship;The Western Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_democracy;The United Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_anarcho_liberal;Parti Radical;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_communist;Parti Communiste;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_conservative_1;Parti Conservateur;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_conservative_2;Parti National;;;;Tigray;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_fascist;Parti Fasciste;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_liberal_1;Parti ModÈßª„Éª;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_liberal_2;Parti Liberal;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_reactionary;Ultraroyalistes;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_social_liberal;Parti DÈßëocratique;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_socialist_1;Parti Socialiste;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DUA_socialist_2;Parti Travailliste;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+french_dominium_title;Domination francaise;x;;;;;;;;;
+french_dominium_title;Domination francaise;x;;;;;;;;;
+french_dominium_desc;With French rule already without any possible threat on our horizons, it is time to impose on our non-loyal citizens the ideal of a single homeland, forgetting old obsolete identities and making ours, the French, clear.;x;;;;;;;;;
+proclaim_second_empire_title;Proclaim Second French Empire;;;;;;;;;;;;x
+proclaim_second_empire_desc;As Louis Napoleon grasped dictatorial power and introduced a harsh constitution he took the next step and held a referendum for the reintroduction of the Empire. Nearly 8 million Frenchmen voted yes and he became French Emperor under the name Napoleon III.;;;;;;;;;;;;x
+invade_cochinchina_title;Intervene in Cochinchina;;;;;;;;;;;x
+invade_cochinchina_desc;Recent atrocities committed against catholic missionaries by Vietnam have given us a casus belli for a punitive expedition in Cochinchina.;;;;;;;;;;;x
+form_dual_monarchy_title;Form the Dual Monarchy;x;;;;;;;;;
+form_dual_monarchy_desc;After much bloodshed, power disputes and unnecessary losses, we have succeeded in imposing our dominance after hundreds of years over Great Britain and all of France. Now, to reach a lasting peace and impose ourselves on the other European powers, we must sign a treaty that represents both houses, English and French, and achieve that our kingdom remains united: under a dual monarchy.;x;;;;;;;;;
+napoleonic_wars_ibr_title;Start the new Napoleonic wars;x;;;;;;;;;
+napoleonic_wars_ibr_desc;With Napoleon III in power, our army reformed and our nation ready, it is time to dust off the old plans of the great Napoleon Bonaparte, and start a new attempt to reconquer Eastern Europe.;x;;;;;;;;;
+napoleonic_wars_title;Start the new Napoleonic wars;x;;;;;;;;;
+napoleonic_wars_desc;With Napoleon III in power, our army reformed and our nation ready, it is time to dust off the old plans of the great Napoleon Bonaparte, and start a new attempt to reconquer Eastern Europe.;x;;;;;;;;;
+napoleonic_wars_second_title;Second Napoleonic Wars - Conquest of Portugal;x;;;;;;;;;
+napoleonic_wars_second_desc;With the conquest of Spain achieved without much effort, it is time to end that false sovereignty that the Portuguese have wanted to sell to the world for so many years. Thus, the Iberian Peninsula will be insured and we will be able to keep our attention only in the west.;x;;;;;;;;;
+napoleonic_wars_third_title;Second Napoleonic Wars - Italian Annexation;x;;;;;;;;;
+napoleonic_wars_third_desc;With the Iberian Peninsula secured, it's time to remind an old ally who the true lord is that he should follow, yes, Italy. If our armies are ready and our borders secured, it is time to declare all-out war and, instead of as Napoleon I did, we will completely annex Italy and make them French by the force.;x;;;;;;;;;
+napoleonic_ruler;Souverain Napoleonien;;;;;;;;;;;;x
+napoleonic_ruler;Souverain Napoleonien;;;;;;;;;;;;x
+napoleonic_ruler_desc;With the return to power of the Napoleonic line, we can be sure of capable and ambitious leaders who will usher in a new era of success for our beloved nation.;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME19356;World Wars;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC19356;The World Wars has been enabled. God be with us, all nations, Parabellum!;;;;;;;;;;;;;;;;;;;;;;;x
+new_cesar_born;Nova Caesar;;;;;;;;;;;;x
+new_cesar_born;Nova Caesar;;;;;;;;;;;;x
+new_cesar_born_desc;We have accomplished almost the impossible, restored the Roman empire ... with this, Europe is almost our. ;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+form_rome_byz_desc;As an European great power in posession of Rome we are in a position to create a new Roman Empire based on its ancient and glorious values and the new ideas of the modern world.;x;;;;;;;;;
+form_rome_byz_title;A New Rome;x;;;;;;;;;
+form_rome_title;A New Rome;x;;;;;;;;;
+form_rome_desc;As an Italian great power in posession of Rome we are in a position to create a new Roman Empire based on its ancient and glorious values and the new ideas of the modern world.;x;;;;;;;;;
+new_cesar_title;Nova Caesar;x;;;;;;;;;
+new_cesar_desc;With our position as a great power on the European continent secured, we should start to focus on lay the foundations for our country to be autonomous in every way. The solution that we have thought is to recover the old imperial borders, looking to the Balkans. With these territories under our power, our country will be invincible, but at the same time, we will be practically declaring war on the world. It is time for a new Caesar to be born and usher in a new era of splendor!;x;;;;;;;;;
+RME;The Roman Empire;x;;
+RME_ADJ;Roman;x;;
+RME_absolute_monarchy;The Roman Empire;x;;
+RME_hms_government;The Roman Empire;x;;
+RME_hms_government_ADJ;Roman;x;;
+RME_presidential_dictatorship;The Roman Republic;x;;
+RME_presidential_dictatorship_ADJ;Roman Republican;x;;
+RME_fascist_dictatorship;The Roman Imperator;x;;
+RME_fascist_dictatorship_ADJ;Roman Imperator;x;;
+RME_communist_dictatorship;The Roman Peoples Republic;x;;
+RME_communist_dictatorship_ADJ;Roman Proletarian;x;;
+RME_anarcho_liberal;Anarcho Liberal Faction;;;;;;;;;x;;;;
+RME_communist;Communist Faction;;;;;;;;;x;;;;
+RME_conservative;Conservative Faction;;;;;;;;;x;;;;
+RME_conservative_2;Conservative Faction;;;;;;;;;x;;;;
+RME_conservative_3;Conservative Reactionary Faction;;;;;;;;;x;;;;
+RME_fascist;Fascists Faction;;;;;;;;;x;;;;
+RME_liberal;Reformers Faction;;;;;;;;;x;;;;
+RME_liberal_2;Liberal Reformers Faction;;;;;;;;;x;;;;
+RME_reactionary;Reactionary Faction;;;;;;;;;x;;;;
+RME_socialist;Socialists Faction;;;;;;;;;x;;;;
+accepting_walloon_people_title;Accepting the Wallonian;;;;;;;;;;;;;;;;;;;;;;;x
+accepting_walloon_people_desc;The wallonian population would be able to completely integrate within our nation roots if this act were to be signed and passed;;;;;;;;;;;;;x,,,,,,,,,,
+form_benelux_title;Form the Benelux;;;;;;;;;;;X
+form_benelux_desc;Due to our hegemonic nature over our Low Countries Neighbour, a union of The Netherlands, Belgium, and Luxembourg can be achieved, the name originating from a combination of the first letters of each nation's name. The Benelux central administrative will be located in $CAPITAL$..;;;;;;;;;;X
+BNX;Benelux;;;;;;;;;;;x;;;;;;
+BNX_ADJ;Benelux;;;;;;;;x;;;;;;;
+BNX_presidential_dictatorship;Benelux;;;;;;;x;;;;;
+BNX_presidential_dictatorship_ADJ;Benelux;;;;;;;x;;;;;
+BNX_democracy;Republic of Benelux;;;;;;;;x;;;;
+BNX_democracy_ADJ;Benelux;;;;;;;;x;;;;
+BNX_fascist;United Benelux;;;;;;;x;;;;
+BNX_fascist_ADJ;United Benelux;;;;;;;x;;;;
+BNX_absolute_monarchy;Kingdom of the Benelux;;;;;;;x;;;;
+BNX_absolute_monarchy_ADJ;Benelux;;;;;;;x;;;;
+BNX_hms_government;United Kingdom of the Benelux;;;;;;;x;;;;
+BNX_hms_government_ADJ;Benelux;;;;;;;x;;;;
+BNX_anarcho_liberal;Anarcho Liberal Faction;;;;;;;;;x;;;;
+BNX_communist;Communist Faction;;;;;;;;;x;;;;
+BNX_conservative;Conservative Faction;;;;;;;;;x;;;;
+BNX_conservative_2;Conservative Faction;;;;;;;;;x;;;;
+BNX_conservative_3;Conservative Reactionary Faction;;;;;;;;;x;;;;
+BNX_fascist;Fascists Faction;;;;;;;;;x;;;;
+BNX_liberal;Reformers Faction;;;;;;;;;x;;;;
+BNX_liberal_2;Liberal Reformers Faction;;;;;;;;;x;;;;
+BNX_reactionary;Reactionary Faction;;;;;;;;;x;;;;
+BNX_socialist;Socialists Faction;;;;;;;;;x;;;;
+remove_call_for_war_ally_title;Reset the Call Allies Flag;;;;;;;;;;;;;;;;;;;;;;;x
+remove_call_for_war_ally_title;Reset the Call Allies Flag;;;;;;;;;;;;;;;;;;;;;;;x
+remove_call_for_war_ally_desc;This will the reset the country flag for the call allies decision.;;;;;;;;;;;;;;;;;;;;;;;x
+call_for_war_ally_title;Call Allies into the War;;;;;;;;;x;;;;
+call_for_war_ally_desc;We are at war!, is time to ask for help to our allies;;;;;;;;;x;;;;
+English;English;Britannique;Britisch;;Ingles;;;;;;;;;x;;;;
+form_byzantine_empire_serb_title;King of Kings, Ruler of Rulers;;;;;;;;;x;;;;
+form_byzantine_empire_serb_title;King of Kings, Ruler of Rulers;;;;;;;;;x;;;;
+form_byzantine_empire_serb_desc;With the collapse of the Ottoman Empire, the Ottoman claims to Imperial Roman titles, so viciously and deceitfully wrought from Greek hands in the dark year of 1453, are all fast becoming fading memories. Constantinople, the City of Man's Desire, is now, after centuries of Turkish occupation, in Serbian hands. As years and time passed again, again ours they were. Is time to proclaim the Byzantine Empire restored!;;;;;;;;;x;;;;
+form_yugoslavia_desc;We have managed to march on the tyrants who oppressed us and obtain a solid foundation to form our new home, glory Yugoslavia!;;;;;;;;;x;;;;
+form_yugoslavia_title;Three Hurrahs for Yugoslavia!;;;;;;;;;x;;;;
+claim_greater_yugoslavia_title;Claim Greater Yugoslavia;;;;;;;;;x;;;;
+claim_greater_yugoslavia_title;Claim Greater Yugoslavia;;;;;;;;;x;;;;
+claim_greater_yugoslavia_desc;Having positioned ourselves as a great power, we have enough rights to declare ourselves as protectors of the Slavs in the Balkans. Now, it is time to claim what is ours and give the last blow to the Turks;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+slavic_dream_title;The Slavic Dream;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+slavic_dream_desc;The Ottomans and Austrians have long enough repressed the Slavs in the Balkans. It is time to take the reins as lead the revolution and fulfill the dream of the Slavs: one nation for all, Yugoslavia.;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rex_regum;Rex Regum;;;;;;;;;;;;x
+rex_regum_desc;We have accomplished almost the impossible, restored the Byzantine empire and expelled the Ottomans ... now who will be able to deny the authority of our emperor?;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+invasion_of_albania_title;Italian Invasion of Albania;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+invasion_of_albania_desc;We must extend our lands to gain more influence in the Balkans region!;;;;;;x;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+reform_passed;Reform Recently Passed;;;;;;;;;;;;;x
+reform_passed_desc;Our government has forced through a reform without the support of the upper house. We will have to wait some time before we can force through another reform. Furthermore, the people will become more militant for some time due to the authoritative actions of the state.;;;;;;;;;;;;;x
+reform_passed;Reform Recently Passed;;;;;;;;;;;;;x
+reform_passed_desc;Our government has forced through a reform without the support of the upper house. We will have to wait some time before we can force through another reform. Furthermore, the people will become more militant for some time due to the authoritative actions of the state.;;;;;;;;;;;;;x
+EVTNAME91706;End of forced reforms;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91706;You may no longer pass reforms without the support of the upper house.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91706;OK.;;;;;;;;;;;;;;;;;;;;;;;x
+force_reform;Force Through Reform;;;;;;;;;;;;;x
+force_reform_desc;You do not need upper house support to pass reforms as long as this modifier persists. Other requirements must still be met, e.g. you need to have medicine in order to pass trinket healthcare and it cannot be less than 6 months since you last passed a reform.;;;;;;;;;;;;;x
+zcountry_pass_reform_title;Pass Reform;;;;;;;;;x;;;;
+zcountry_pass_reform_desc;Lets you pass any reform without the support of the upper house and gives the reform passed modifier for several years. You must still meet other requirements listed in the reform, e.g. you must have medicine in order to enact trinket healthcare and it cannot be less than 6 months since you passed another reform. The passed modifier gives increased militancy.;;;;;;;;;x;;;;
+cannot_pass_reform;Cannot Pass Reform;;;;;;;;;;;;x
+cannot_pass_reform_desc;Our upper house has fallen into gridlock and no reforms can be passed in the near future.;;;;;;;;;;;;x
+declare_neutrality_title;Declare Swiss Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+declare_neutrality_desc;The Swiss have little interest in the wars of Europe.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+abandon_neutrality_title;Abandon Swiss Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+abandon_neutrality_desc;The might of the Swiss army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+violate_neutrality_title;Violate Swiss Neutrality;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+violate_neutrality_desc;The Swiss may have declared themselves 'neutral', but if they believe that will stop us-- if they believe the opinion of any of their allies will stop us-- then they are sorely mistaken.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+release_vassals_title;Manage Vassals;;;;;;;;;;;;;;;;;;;;;;;x
+release_vassals_desc;Trigger an event for each vassal which then triggers an event from them to us in which we can decide to free them or not.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91306;Manage Vassals;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91306;Trigger an event for each vassal which then triggers an event from them to us in which we can decide to free them or not.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91306;Make each vassal send an event to us that lets use choose to free them or not.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91306;Do nothing.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91307;Freedom?;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91307;Our overlord is considering granting us our freedom.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91307;One can only hope.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91308;$FROMCOUNTRY$ Requests Independence;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91308;We can grant independence to $FROMCOUNTRY$.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91308;Let them be free.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91308;Don't let them be free.;;;;;;;;;;;;;;;;;;;;;;;x
+commodore_perry_expedition_title;Commodore Perry's Expedition;;;;;;;;;;;;;x
+commodore_perry_expedition_desc;The Far East remains an enigma, and one which is beyond the reach of most western powers due to the enforced seclusion of China and Japan. While China is largely spoken for, Japan remains a potential target for American influence to expand. If we are to be taken seriously as a world power, we must consider sending a force to negotiate for trade rights with the Japanese-- under the threat of military force, if necessary.;;;;;;;;;;;;;x
+EVTNAME35601;Kurofune;;;;;;;;;;;;;x
+EVTDESC35601;More 'black ships' have appeared off our shores, these ones commanded by an American named Commodore Matthew Perry. The ill-tempered westerner is demanding an end to the Japanese policy of Sokoku -- specifically trading rights in several ports, extraterritoriality for American sailors and protection for their shipwrecks. At first he demanded to negotiate with the Emperor, but that is impossible. Thus it falls to the Shogun to either agree to his demands, risking the appearance of weakness, or refuse and bring the wrath of the Americans upon us.;;;;;;;;;;;;;x
+EVTOPTA35601;We have little choice but to agree.;;;;;;;;;;;;;x
+EVTOPTB35601;Never! We will fight the Americans if we must.;;;;;;;;;;;;;x
+EVTNAME35602;Commodore Perry Successful;;;;;;;;;;;;;x
+EVTDESC35602;Commodore Perry has returned from his mission to Japan with a treaty in hand: we have gained numerous trade concessions, but more importantly we have cracked open the shield that is Japan's policy of isolation. This is a great coup for American diplomacy and influence in the Far East.;;;;;;;;;;;;;x
+EVTOPTA35602;Well done!;;;;;;;;;;;;;x
+EVTNAME35603;The Japanese Are Defiant!;;;;;;;;;;;;;x
+EVTDESC35603;Commodore Perry has returned from his mission to Japan with unfortunate news: they have chosen to defy his ultimatum and thumb their collective noses at our government. Should we back down now, it will be a great blow to our prestige and our influence in the Far East.;;;;;;;;;;;;;x
+EVTOPTA35603;War it is!;;;;;;;;;;;;;x
+EVTOPTB35603;We cannot afford a war on the other side of the Pacific.;;;;;;;;;;;;;x
+the_boshin_war_title;Begin The Boshin War;;;;;;;;;;;;;x
+the_boshin_war_desc;The Boshin War was a civil war in Japan, fought between forces of the Tokugawa shogunate and those seeking to return political power to the Imperial Court. ÔΩßRCivilization Progress must be 50% in order to enact this decision.;;;;;;;;;;;;;x
+TRIGGER_CIV_PROGRESS_LESS;Civilization Progress;;;;;;;;;;;;;x
+sakoku;Sakoku;;;;;;;;;;;;;x
+sakoku_desc;Sakoku was the isolationist foreign policy of the Japanese Tokugawa shogunate (aka Bakufu) under which, for a period of 214 years, relations and trade between Japan and other countries were severely limited, nearly all foreign nationals were barred from entering Japan and common Japanese people were kept from leaving the country.;;;;;;;;;;;;;x
+rangaku;Rangaku;;;;;;;;;;;;;x
+rangaku_desc;Rangaku (literally "Dutch learning", and by extension "Western learning") is a body of knowledge developed by Japan through its contacts with the Dutch enclave of Dejima, which allowed Japan to keep abreast of Western technology and medicine in the period when the country was closed to foreigners, 1641„Éª853, because of the Tokugawa shogunate's policy of national isolation (sakoku).;;;;;;;;;;;;;x
+expand_rangaku_title;Expand Rangaku;;;;;;;;;;;;;x
+expand_rangaku_desc;The Rangaku movement (literally "Western learning"), became increasingly involved in Japan's political debate over foreign isolation, arguing that the imitating of Western culture would strengthen rather than harm Japan. The Rangaku increasingly disseminated contemporary Western innovations throughout the first half of the 19th century.;;;;;;;;;;;;;x
+end_sakoku_title;End Sakoku;;;;;;;;;;;;;x
+end_sakoku_desc;Sakoku was the isolationist foreign policy of the Japanese Tokugawa shogunate under which, relations and trade between Japan and other countries were severely limited, nearly all foreign nationals were barred from entering Japan and common Japanese people were kept from leaving the country. ÔΩßRCivilization Progress must be 5% in order to enact this decision.;;;;;;;;;;;;;x
+ansei_purge_title;The Ansei Purge;;;;;;;;;;;;;x
+ansei_purge_desc;Ansei Purge was a multi-year event in Japanese history of the Edo period, during which the Tokugawa shogunate imprisoned, executed, or exiled those who did not support its authority and foreign trade policies.;;;;;;;;;;;;;x
+fukoku_kyohei_title;Fukoku Kyohei;;;;;;;;;;;;;x
+fukoku_kyohei_desc;Fukoku kyohei ("Enrich the Country, Strengthen the Armed Forces"), was Japan's national slogan during the Meiji period. Although the government played a major role in providing the setting for industrialization, private enterprise also played a critical role in modernization efforts.;;;;;;;;;;;;;x
+enacted_meiji_constitution;Enacted Meiji Constitution;;;;;;;;;;;;;x
+iwakura_mission_title;Send The Iwakura Mission;;;;;;;;;;;;;x
+iwakura_mission_desc;The Iwakura Mission was a Japanese diplomatic voyage to the United States and Europe by leading statesmen and scholars of the Meiji period. The aim of the mission was threefold: to gain recognition for the newly reinstated imperial dynasty under the Emperor Meiji, to begin preliminary renegotiation of the unequal treaties with the dominant world powers, and to make a comprehensive study of modern industrial, political, military and educational systems and structures in the United States and Europe.;;;;;;;;;;;;;x
+meiji_constitution_title;Draft The Meiji Constitution;;;;;;;;;;;;;x
+meiji_constitution_desc;Enacted after the Meiji Restoration, it provided for a form of mixed constitutional and absolute monarchy, based jointly on the Prussian and British models. In theory, the Emperor of Japan was the supreme leader, and the Cabinet, whose Prime Minister would be elected by a Privy Council, were his followers. In practice, the Emperor was head of state but the Prime Minister was the actual head of government.;;;;;;;;;;;;;x
+abolish_han_system_title;Abolish The Han System;;;;;;;;;;;;;x
+abolish_han_system_desc;Han is a Japanese historical term for the estate of a daimyo in the Edo and early Meiji period. The new Meiji government sought to abolish feudalism in Japan, and the title of daimyo in the han system was altered to han-chiji. In few decades time, almost all of the domains were disbanded and replaced with a new Meiji system of prefectures which were directly subordinate to the national government in Tokyo.;;;;;;;;;;;;;x
+han_system_abolished;Han System Abolished;;;;;;;;;;;;;x
+establish_korean_protectorate_title;Establish Korean Protectorate;;;;;;;;;;;;;x
+establish_korean_protectorate_desc;Our advisors believe that any enroachment upon Korea by foreign powers will threaten the security of Japan itself, thus it would be prudent to establish a Japanese protectorate over the Korea before the western powers can.;;;;;;;;;;;;;x
+invest_in_korea_title;Invest in Korea;;;;;;;;;;;;;x
+invest_in_korea_desc;Helping the Koreans develop their economy would open their markets to us and further increase our influence over them.;;;;;;;;;;;;;x
+annex_korea_title;Annex Korea;;;;;;;;;;;;;x
+annex_korea_desc;The Korean state and its institutions are already under our control. It is time to end their facade of independence.;;;;;;;;;;;;;x
+EVTNAME35810;Treaty of Ganghwa;;;;;;;;;;;;;x
+EVTDESC35810;In a show of gunboat diplomacy, the Japanese have demanded we end our isolationism and accept their offer of protecionism. We are wary of foreign meddling in our affairs, however refusal to meet their demands may result in war.;;;;;;;;;;;;;x
+EVTOPTA35810;We acquiesce to their demands.;;;;;;;;;;;;;x
+EVTOPTB35810;Expel the foreign barbarians!;;;;;;;;;;;;;x
+EVTNAME35811;Treaty of Ganghwa - Korea Agrees;;;;;;;;;;;;;x
+EVTDESC35811;The Koreans have agreed to an unequal treaty with us.;;;;;;;;;;;;;x
+EVTOPTA35811;Great!;;;;;;;;;;;;;x
+EVTNAME35812;Treaty of Ganghwa - Korea Refuses;;;;;;;;;;;;;x
+EVTDESC35812;The Koreans have rebuffed our offer.;;;;;;;;;;;;;x
+EVTOPTA35812;They will open up to us, one way or another.;;;;;;;;;;;;;x
+EVTOPTB35812;We will leave them alone.;;;;;;;;;;;;;x
+EVTNAME35813;Treaty of Ganghwa - Korea Signs;;;;;;;;;;;;;x
+EVTDESC35813;The Koreans have agreed to become a vassal of Japan.;;;;;;;;;;;;;x
+EVTOPTA35813;OK.;;;;;;;;;;;;;x
+EVTNAME35814;Japan-Korea Annexation Treaty;;;;;;;;;;;;;x
+EVTDESC35814;The Japanese ambassador has delivered to us a set of demands that forces us to surrender all rights of sovereignty to the Empire of Japan. He says this treaty is non-negotiable. What do we reply?;;;;;;;;;;;;;x
+EVTOPTA35814;We will submit.;;;;;;;;;;;;;x
+EVTOPTB35814;Korea will be free!;;;;;;;;;;;;;x
+EVTNAME35815;Korea Accepts Annexation;;;;;;;;;;;;;x
+EVTDESC35815;The Koreans have accepted our demands to become part of our glorious empire.;;;;;;;;;;;;;x
+EVTOPTA35815;Love live Nippon!;;;;;;;;;;;;;x
+EVTNAME35816;Korea Rejects Annexation;;;;;;;;;;;;;x
+EVTDESC35816;The Koreans have rejected our demands of annexation and declared an end to our protectorate over them.;;;;;;;;;;;;;x
+EVTOPTA35816;We will make them comply!;;;;;;;;;;;;;x
+EVTOPTB35816;We will respect their wishes.;;;;;;;;;;;;;x
+CPL;Congress Poland;;;;Polonia del Congreso;;;;;;;;;x,,,,,,,,,,
+CPL_ADJ;Polish;;;;Polaca;;;;;;;;;x,,,,,,,,,,
+peace_ottomans_title;Negotiate with Ottomans;;;;;;;;;;;;;x
+peace_ottomans_desc;The war is going badly for us, maybe the Ottomans will accept a peace deal if we agree to give up our claims in the Levant.;;;;;;;;;;;;;x
+EVTNAME44461;Egypt Requests Loans;;;;;;;;;;;;;x
+EVTDESC44461;The Egyptian government has sent diplomats all over the civilized world seeking funding for their modernization projects. They are asking for 500k pounds, which will be repaid in full plus an additional 250k interest in 30 years. ÔΩßRTo give the loan, enact the ÔΩßG"Lend to Egypt"ÔΩßR decision. When this decision is enacted, a 30 year timer will be started and a new decision will appear for Egypt that allows them to pay back the loan. If they do not pay it back before the timer runs out, you will get an event to puppet them.ÔΩßb;;;;;;;;;;;;;x
+EVTOPTA44461;We will think about it.;;;;;;;;;;;;;x
+lend_egypt_title;Lend to Egypt;;;;;;;;;;;;;x
+lend_egypt_desc;Agree to give a 500k loan to Egypt now and they promise to repay 750K within the next 30 years. If Egypt cannot afford to repay the debt after that time, you will get an event to puppet them.;;;;;;;;;;;;;x
+EVTNAME44462;Funding Secured from ÔΩßR$FROMCOUNTRY$ÔΩßb;;;;;;;;;;;;;x
+EVTDESC44462;ÔΩßR$FROMCOUNTRY$ÔΩßb has agreed to give us a loan. We have 30 years to pay back the principle plus interest in one lump sum, if we cannot do that they will get an event to puppet us.;;;;;;;;;;;;;x
+EVTOPTA44462;We always pay our debts.;;;;;;;;;;;;;x
+EVTNAME44463;ÔΩßR$FROMCOUNTRY$ÔΩßb Pays Debt;;;;;;;;;;;;;x
+EVTDESC44463;Our 500k pound loan to ÔΩßR$FROMCOUNTRY$ÔΩßb has been paid off in full, plus an additional 250k in interest. Since they have fulfilled all their financial obligations to us, we cannot use bankruptcy as a casus belli against them.;;;;;;;;;;;;;x
+EVTOPTA44463;At least we got our money back.;;;;;;;;;;;;;x
+EVTNAME44464;ÔΩßREgyptÔΩßb Defaults on Debt;;;;;;;;;;;;;x
+EVTDESC44464;Our 1M pound loan to ÔΩßREgyptÔΩßb has been defaulted on. The private groups that gave the original loans to ÔΩßREgyptÔΩßb are demanding concessions from them. Should we push for a military intervention or cut our losses and forgive the loan?;;;;;;;;;;;;;x
+EVTOPTA44464;Give Egypt an ultimatum to become our puppet.;;;;;;;;;;;;;x
+EVTOPTB44464;Forgive their debt.;;;;;;;;;;;;;x
+EVTNAME44465;ÔΩßR$FROMCOUNTRY$ÔΩßb Delivers Ultimatum;;;;;;;;;;;;;x
+EVTDESC44465;We have run out of time to repay our debts to ÔΩßR$FROMCOUNTRY$ÔΩßb, and they are threatening our sovereignty over our failure to pay. What shall we do?;;;;;;;;;;;;;x
+conquer_montenegro_title;Our Claims in Montenegro;;;;;;;;;;;;;x
+conquer_montenegro_desc;Montenegro rebelled from our empire in the past, with several skirmishes around their border and our troops happening. We never lost our claim and never recognized their independence, but if we are to keep it this way we need to end this rebellion against our rule soon.;;;;;;;;;;;;;x
+EVTOPTA44465;Give in to their demands (become a puppet).;;;;;;;;;;;;;x
+EVTOPTB44465;Go to war.;;;;;;;;;;;;;x
+EVTNAME44466;ÔΩßR$FROMCOUNTRY$ÔΩßb Accepts;;;;;;;;;;;;;x
+EVTDESC44466;ÔΩßR$FROMCOUNTRY$ÔΩßb has agreed to come under our protection.;;;;;;;;;;;;;x
+EVTOPTA44466;Excellent.;;;;;;;;;;;;;x
+EVTNAME44467;ÔΩßR$FROMCOUNTRY$ÔΩßb Refuses;;;;;;;;;;;;;x
+EVTDESC44467;ÔΩßR$FROMCOUNTRY$ÔΩßb has decided to they would rather go to war than give in to our demands.;;;;;;;;;;;;;x
+EVTOPTA44467;We will make the fools submit.;;;;;;;;;;;;;x
+christian_subjugation;Christian Subjugation;;;;;;;;;;;;;x
+christian_subjugation_desc;Christians must pay a jizya tax and are subject to conscription into Ottoman armies.;;;;;;;;;;;;;x
+end_christian_subjugation_title;End Persecution of Christians;;;;;;;;;;;;;x
+end_christian_subjugation_desc;Despite the dissolution of the Janissaries during the Ausipcious Incident in 1826, the continued persecution and enslavement of christians continues. This discrimination must be stamped out in order to create a unified Ottoman state.;;;;;;;;;;;;;x
+annex_egypt_title;Annex Egypt;;;;;;;;;;;;;x
+annex_egypt_desc;The Egyptian rebels have been crushed and are ready to submit to Ottoman rule once more.;;;;;;;;;;;;;x
+oriental_crisis_title;Oriental Crisis;;;;;;;;;;;;;x
+oriental_crisis_desc;Muhammad Ali has declared independence from the Sublime Porte and is threatening our holdings in Syria. We must act now if we are to re-establish Ottoman authority in Egypt and the Levant.;;;;;;;;;;;;;x
+request_foreign_loans_title;Secure Foreign Loans;;;;;;;;;;;;;x
+request_foreign_loans_desc;In order to fund Muhammad Ali's ambitious modernization projects, loans will need to be taken from European banks.;;;;;;;;;;;;;x
+pay_back_foreign_loans_title;Repay Foreign Debt;;;;;;;;;;;;;x
+pay_back_foreign_loans_desc;It would be wise for us to repay the loans plus interest we owe to the Europeans, otherwise they will no doubt try to use our outstanding debt as a casus belli against us.;;;;;;;;;;;;;x
+foreign_debt_timer;Debt Timer;;;;;;;;;;;;;x
+foreign_debt_timer_desc;If the ÔΩßRRepay Foreign DebtÔΩßW decision is not enacted by the time this timer runs out, the nation that provided us the original loan will get an event to puppet us.;;;;;;;;;;;;;x
+egyptian_protectorate_title;Establish Egyptian Protectorate;;;;;;;;;;;;;x
+egyptian_protectorate_desc;While we have had control over Egypt's economic and diplomatic matters for some time, the Sultan of Egypt still holds some nominal sway over the country. It is time for us to formally assume total control of Egypt and integrate it into the rest of our empire.;;;;;;;;;;;;;x
+embraced_ottomanism;Embraced Ottomanism;;;;;;;;;;;;;x
+embrace_ottomanism_title;Embrace Ottomanism;;;;;;;;;;;;;x
+embrace_ottomanism_desc;One of the early goals of the liberal movement in the 19th century Ottoman Empire was the creation of a new pan Ottoman identity that all cultures and religions could identify with. This decision sets a country flag that grants increased assimilation chance. Assimilation chance is different and more important than assimilation rate.;;;;;;;;;;;;;x
+ottomanism;Ottomanism;;;;;;;;;;;;;x
+ottomanism_desc;In an effort to reduce ethnic and sectarian strife, all minorities have been decreed Ottoman citizens with equal rights. As long as militancy is kept low, the people should readily adopt their new national identity.;;;;;;;;;;;;;x
+PBC;Peru-Bolivia;x;;;;;;;;;;;;
+PBC_ADJ;Peru-Bolivian;x;;;;;;;;;;;;
+PBC_proletarian_dictatorship;Andes Commonwealth;x;;;;;;;;;;;;
+PBC_proletarian_dictatorship_ADJ;Andine;x;;;;;;;;;;;;
+PBC_democracy;Andes Republic;x;;;;;;;;;;;;
+PBC_democracy_ADJ;Andine;x;;;;;;;;;;;;
+PBC_fascist_dictatorship;Free Republic of Inca;x;;;;;;;;;;;;
+PBC_fascist_dictatorship_ADJ;Incan;x;;;;;;;;;;;;
+reclaim_italian_land_title;Reclaim Italian Land in Austria;;;;;;;x,,,,,
+reclaim_italian_land_desc;Our Italian brethren in Italy has since been under the rule of Austria, with current circumstances we can now reclaim and bring them to our realm;;;;;;;;;x,,,,,
+does_uhe;Unethical Human Experimentation;x;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+commie_purged;Communist Purge;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+commie_purged_desc;Every month the world hears new rumours of massacres of the $COUNTRY_ADJ$ upper class. While whether they are aware of the full scale of the brutality is debatable, these reports are sure to hurt our international reputation for years to come.;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+show_custom_decisions_title;Show Custom Decisions;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+show_custom_decisions_desc;This is a toggle button that allows you to reveal again the decisions that were hidden when "Hide Custom Decisions" button was selected.;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hide_custom_decisions_title;Hide Custom Decisions;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+hide_custom_decisions_desc;This is a toggle button that allows you to hide from your Decisions Menu the following decisions that allow you to customize your game. This Toggle button is created for the purpose of creating space in your Decisions Menu;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+international_apology_title;International Apology;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+international_apology_desc;We believe that it  is time to declare that we renounce our previous aggressive behaviour and are now ready to fully comply with International law and our International obligations to the global community.;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+change_national_value_on_title;Change National Value (Active);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_on_desc;Turn on the function to change the National Value.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_off_title;Change National Value (Inactive);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_off_desc;Turn off the function to change the National Value.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_enlightenment_title;Embrace the Ideal of Enlightenment;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_enlightenment_desc;The time has come for our people to stop clinging to ancient tradition. We must look to the nations of the west, and embrace their technology, if we are to retain our independence and our place in the world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_tradition_title;Embrace the Ideal of Tradition;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_tradition_desc;For too long have we looked to the nations of the west. We reject their ways and their superiority, for our are now and always have been best for us.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_progress_title;Embrace the Ideal of Progress;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_progress_desc;Our march towards civilization and matching any imperial nation with our ingenuity continues. We shall not be left behind!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_independence_title;Embrace the Ideal of Independence;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_independence_desc;We will not allow our nation to be overrun by the western imperialists. We are strong, united, and shall remain such. Against all odds, our nation shall endure.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_loyalty_title;Embrace the Ideal of Loyalty;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_loyalty_desc;Every citizen in our nation exists to serve, towards the greater good. It is only by acting in unison that we can hope to preserve our nation in the perilous times to come.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_equality_title;Embrace the Ideal of Unity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_equality_desc;We move forward, but as a single people with a singular purpose. We shall not succumb to discord and revolution. Unity is our only hope of greatness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_order_title;Embrace the Ideal of Unity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_order_desc;We move forward, but as a single people with a singular purpose. We shall not succumb to discord and revolution. Unity is our only hope of greatness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_equality_title;Embrace the Ideal of Prosperity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_equality_desc;Our nation is wealthy and our people prosperous. This is and always shall be our greatest strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_liberty_title;Embrace the Ideal of Prosperity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_liberty_desc;Our nation is wealthy and our people prosperous. This is and always shall be our greatest strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_liberty_title;Embrace the Ideal of Glory;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_liberty_desc;Ours is a great and powerful nation, possessing freedom and strength that other nations can only envy. We shall boldly stride into the future, where our greater destiny awaits.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_might_title;Embrace the Ideal of Glory;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_might_desc;Ours is a great and powerful nation, possessing freedom and strength that other nations can only envy. We shall boldly stride into the future, where our greater destiny awaits.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_might_title;Embrace the Ideal of Dominion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_might_desc;Our nation is strong, our borders inviolate. We shall march into the future together, humbly accepting the knowledge that our nation is the envy of the entire world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_order_title;Embrace the Ideal of Dominion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_order_desc;Our nation is strong, our borders inviolate. We shall march into the future together, humbly accepting the knowledge that our nation is the envy of the entire world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_fraternity_title;Embrace the ideal of Fraternity;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_fraternity_desc;In our country, all men are created equal. It is time we fully embrace that maxim and throw off the shackles of iniquity.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_freedom_title;Embrace the Ideal of Freedom;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_freedom_desc;Ours is a nation where all men are free to do as they wish, to advance their lot in life and achieve the greatness they were born to. This is our highest virtue, and the source of our nation's strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_supremacy_title;Embrace the ideal of Supremacy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_supremacy_desc;Our culture is astounding. Our military might is unparalleled. Our industry is dazzling. Soon the rest of the world will know of our might, and shake as we step onto the wider stage.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_productivity_title;Embrace the Ideal of Productivity;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_productivity_desc;Ours is a wealthy nation filled with industrious, driven people. Each man pushes himself to do better, for the betterment of all.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_order_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of law and order above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_might_title;Embrace the Ideal of Might;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_might_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of force and military power above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_liberty_title;Embrace the Ideal of Liberty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+EVTNAME31103;Egypt sues for Peace;;;;;;;;;;;;x
+EVTDESC31103;The Egyptians are ready to sue for peace and are offering to give up their claims to Syria, Palestine, and Hedjaz. Are we content with our holdings in the Levant or do we press on and occupy all of Egypt?;;;;;;;;;;;;x
+EVTOPTA31103;We will grant them their independence in exchange for Syria, Palestine, and Hedjaz.;;;;;;;;;;;;x
+EVTOPTB31103;We will take back all of Egypt!;;;;;;;;;;;;x
+EVTNAME31104;Ottomans Accept Peace Treaty;;;;;;;;;;;;x
+EVTDESC31104;The Ottomans have agreed to our terms of surrender. Hopefully this will be the last war between us.;;;;;;;;;;;;x
+EVTOPTA31104;Inshallah.;;;;;;;;;;;;x
+EVTNAME31105;Ottomans Refuse Peace Treaty;;;;;;;;;;;;x
+EVTDESC31105;The Ottomans have rejected our terms of surrender. They will not stop until all of Egypt is brought back under the banner of the Sublime Porte.;;;;;;;;;;;;x
+EVTOPTA31105;They will regret this.;;;;;;;;;;;;x
+switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of liberty and personal freedom above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+option_disable_bankruptcy_events_title;Option: Disable the Bankruptcy Events (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_bankruptcy_events_desc;Disabling the Bankruptcy events will stop you from getting the CB and effects that happen when a country goes bankrupt on you. It won't stop the event for the AI nor will stop countries going bankrupt.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_hpm_crisis_title;Option: Enable Crisis from the Start (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_hpm_crisis_desc;In HPM, crisis only start after 1870 and after Revolution and Counter-revolution is researched and an event fires. This is to stop stuff like free Ireland in 1840 because of the militancy that the famine generates, among other weird crisis. Selecting this option will remove these restrictions and make crisis happen from the start of the game, like it happens in Vanilla Victoria 2.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_workplace_events_title;Option: Disable Workplace Events (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_workplace_events_desc;A few province events related to the workplace, such as "The Old Man and the Sea", "All the Tea in PROVINCENAME" and "Blood and Iron Mine" can get quite spammy. I increased the MTTH and tried to balance it out, adding more requirements, but if you still find it spammy, you can use this option to completely disable them. Keep in mind that I didn't test balance with these events disabled or anything like this, and this might help improve performance a little bit. A few events that only trigger because you have no or low workplace safety standards are still in though. Pass workplace reforms if you want to get rid of them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+national_confusion;National Confusion;;;;ConfusiÓâ¢ Nacional;;;;;;;;;x,,,,,,,,,,
+national_confusion_desc;Due to the recent changes in our national values, we will need some time to readjust;;;;Debido a los recientes cambios en nuestros valores nacionales, necesitaremos un tiempo para ajustarnos;;;;;;;;;x,,,,,,,,
+restore_pbc_title; Peru-Bolivian Confederation;x;;
+restore_pbc_desc; After the collapse of Peru-Bolivian Confederation, during the XIX century, Peru and Bolivia were many internecine wars in order to restore it, but under his control. However, not one of them failed. But now, when ever an acute danger of being enslaved by other countries, Peruvians and Bolivians cast aside their feud and remember that they - the southern andtsy! Long live the new Peru-Bolivian Confederation!;x;;
+form_la_plata_title; restore the state of La Plata;x;;
+form_la_plata_desc; Freed from colonial oppression, the Argentines were separated by the boundaries of several states because of the ambition of those in power, but today they are destined to again become one people, by which the La Plata will take its rightful place in the world.;x;;
+IBR;Iberia;x;;;;;;;;;;;;x
+IBR_ADJ;Iberian;x;;;;;;;;;;;;x
+IBR_fascist_dictatorship;Iberian Empire;x;;;;;;;;;;;;
+IBR_bourgeois_dictatorship;Iberian Republic;x;;;;;;;;;;;;
+IBR_proletarian_dictatorship;Iberian People's Union;x;;;;;;;;;;;;
+unethical_human_experiment_title;Unethical Human Experiments;x;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+unethical_human_experiment_desc;Using people across the nation as test subjects could boost our research potential, however it is unlikely to go down well with the populace and the international community.;x;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DNB;Danubian Federation;x;;;;;;;;;;;;
+DNB_ADJ;Danubian;x;;;;;;;;;;;;
+DNB_democracy;United States of the Danube;x;;;;;;;;;;;;
+DNB_proletarian_dictatorship;People's Republic of the Danube;x;;;;;;;;;;;;
+DNB_fascist_dictatorship;Greater Republic of Central Europe;x;;;;;;;;;;;;
+LAP;La Plata;x;;;;;;;;;;;;
+LAP_ADJ;Platine;x;;;;;;;;;;;;
+LAP_democracy;Platine Republic;x;;;;;;;;;;;;
+LAP_proletarian_dictatorship;People's Republic of La Plata;x;;;;;;;;;;;;
+LAP_fascist_dictatorship;Platine Empire;x;;;;;;;;;;;;
+LAP_conservative;Partido Justicialista;x;;;;;;;;;;;;
+LAP_liberal;Frente para la Victoria;x;;;;;;;;;;;;
+LAP_reactionary;Peronismo Federal;x;;;;;;;;;;;;
+LAP_anarcho_liberal;Union Civica Radical;x;;;;;;;;;;;;
+LAP_socialist;Partido Socialista;x;;;;;;;;;;;;
+LAP_communist;Alianza Popular Revolucionaria;x;;;;;;;;;;;;
+LAP_fascist;Junta Renovadora;x;;;;;;;;;;;;
+form_danubian_federation_title;Form the Danubian Federation;;;;;;;;;;;x
+form_danubian_federation_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x
+communist_control_title; Cede the country to the Communists;;;;;;;;;;;x
+communist_control_desc;The communists have risen little by little in our society, now they have come to power ... should we give everything to them and let them show us what a new era would be under their leadership?;;;;;;;;;;;x
+fascist_control_title;Cede the country to the Fascists;;;;;;;;;;;x
+fascist_control_desc;The fascists have risen little by little in our society, now they have come to power ... should we give everything to them and let them show us what a new era would be under their leadership?;;;;;;;;;;;x
+balkans_integration_title;Balkans Integration;;;;;;;;;;;;;x,,,,,,,,,,
+balkans_integration_desc;Its time to expel the Ottomans from the Balkans and liberate the people subjugated by them. We will welcome them with open arms, offering work and a new home, hopping they choose toj oin our federation.;;;;;;;;;;;;;x,,,,,,,,,
+italian_integration_title;Italian Integration;;;;;;;;;;;;;x,,,,,,,,,,
+italian_integration_desc;Italians have been divided for a long time, it is time for a strong government like to unite them under a single flag.;;;;;;;;;;;;;x,,,,,,,,,
+italian_integrationpuppet_title;Italian Integration;;;;;;;;;;;;;x,,,,,,,,,,
+italian_integrationpuppet_desc;Italians have been divided for a long time, it is time for a strong government like to unite them under a single flag.;;;;;;;;;;;;;x,,,,,,,,,
+italian_integrated;italians integrated;;;;;;;;;;;;;x,,,,,,,,,
+balkans_integrated;balkans integrated;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_ecu_title;Legacy of the Liberator, Second Part;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_ecu_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_ecu_title;Legacy of the Liberator;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_ecu_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_vnz_title;Legacy of the Liberator, Second Part;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_vnz_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_vnz_title;Legacy of the Liberator;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_vnz_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_title;Legacy of the Liberator, Second Part;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_alt_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_title;Legacy of the Liberator;;;;;;;;;;;;;x,,,,,,,,,
+Legacy_of_the_liberator_desc;The liberator Simon Bolivar showed us that it was possible to unite the Pan-American brother countries, but his dream died with him. Now, it is time for a strong government like ours to step forward to retake the initiative of our liberator's legacy.;;;;;;;;;;;;;x,,,,,,,,,
+Following_liberator_title;Following the Steps of the Liberator;;;;;;;;;;;;;x,,,,,,,,,
+Following_liberator_desc;Peruvians owe their freedom to both San Mart√≠n and Bolivar, but those traitors stabbed our liberating father in the back as soon as they could ... it is time for us to remind them that all Latin Americans are equal, whether they want to or not.;;;;;;;;;;;;;x,,,,,,,,,
+Following_liberator_bol_title;Following the Steps of the Liberator, Second Part;;;;;;;;;;;;;x,,,,,,,,,
+Following_liberator_bol_desc;With the fall of Peru, Bolivia is on the verge of being back under our power ... sadly, time as an independent nation has created a nationalist_rebels sentiment. We will have to re-anexx them in the ugly way, and incidentally, make them thank us for it.;;;;;;;;;;;;;x,,,,,,,,,
+create_iberia_title;Become Iberia;;;;Formar Iberia;;;;;;;;;x,,,,,,,,,,
+create_iberia_desc;We have proven our mettle and united the Iberian peninsula under our rule. Now the time has come for a new Iberian federation to be born, one that unites all of the peninsula's cultures under a single rule.;;;;Ahora se puede crear una nueva federaci√≥n Ib√©rica, que una a todas las culturas de la Pen√≠nsula en una.;;;;;;;;;x,,,,,,,,
+create_iberia_title;Become Iberia;;;;Formar Iberia;;;;;;;;;x,,,,,,,,,,
+create_iberia_desc;We have proven our mettle and united the Iberian peninsula under our rule. Now the time has come for a new Iberian federation to be born, one that unites all of the peninsula's cultures under a single rule.;;;;Ahora se puede crear una nueva federaci√≥n Ib√©rica, que una a todas las culturas de la Pen√≠nsula en una.;;;;;;;;;x,,,,,,,,
+genocide_title;Ethnic cleansing;;;;Limpieza È®Ånica;;;;;;;;;x,,,,,,,,,,
+genocide_desc;Our dream of a pure and utterly $COUNTRY_ADJ$ nation starts here. A genocide will rid $COUNTRY$ of most of the minorities.;;;;El sueÓÉ´ de un paÔ®é puro y grande empieza aqu„Éª Haciendo una limpieza nacional sobre las minorias de nuestro paÔ®é.;;;;;;;;;x,,,,,,,,,,
+limpieza_desc;Every month the world hears new rumours of massacres of the $COUNTRY_ADJ$ upper class. While whether they are aware of the full scale of the brutality is debatable, these reports are sure to hurt our international reputation for years to come.;;;;Cada mes el mundo escucha rumores sobre masacres en nuestro paÔ®é. Realmente no tienen ni idea, pero esto est„Éªempeorando nuestra reputaciÓâ¢ notablemente;;;;;;;;;x,,,,,,,,
+limpieza;Ethnic cleansing;;;;Limpieza È®Ånica;;;;;;;;;x,,,,,,,,,,
+valoniafrancesa_title;Le DÈ¶óret Wallon;;;;Le DÈ¶óret Wallon;;;;;;;;;x,,,,,,,,,,
+valoniafrancesa_desc;Wallonian people speak our language and have our same customs. They should be de facto integrated into our nation's bureaucracy as a full-recognized state of France;;;;Los valones hablan nuestra lengua, tienen nuestras mismas costumbres. DeberÂÉòmos estudiar formas de integrar Valonia dentro de Francia como un estado totalmente reconocido en nuestra burocracia.;;;;;;;;;x,,,,,,,,,
+valoniaholandesa_title;Walloni„ÉªAct;;;;Ley de Valonia;;;;;;;;;x,,,,,,,,,,
+valoniaholandesa_desc;The wallonian population would be able to completely integrate within our nation roots if this act were to be signed and passed;;;;La poblacion valona podrÂÉò integrarse completamente en nuestra naciÓâ¢ si esta ley se firmase;;;;;;;;;x,,,,,,,,,,
+ley_moyano_title;Ley Moyano;;;;La Ley Moyano;;;;;;;;;x,,,,,,,,,,
+ley_moyano_desc;This Law intended to improve the deplorable condition of the Spanish literacy, being Spain one of the European powers with the lowest literacy rates in the century. It organized the thre levels in the new Education system: A Primary Compulsory Education, Secondary Education and Superior Studies.;;;;Con esta ley se intent„Éªmejorar la deplorable condiciÓâ¢ de la educaciÓâ¢ en EspaÓÉù, uno de los paÔ®ées europeos con mayor tasa deÔ£∞analfabetismoÔ£∞en esa dÈ¶óada, organizando los tres niveles de la primera enseÓÉùnza: EnseÓÉùnza Primaria Obligatoria, EnseÓÉùnza Secundaria, y EnseÓÉùnza Superior;;;;;;;;;x,,,,
+ley_moyanoefecto;Ley Moyano;;;;Ley Moyano;;;;;;;;;x,,,,,,,,,,
+the_cult_of_personality_comunista_title;Cult of Personality;;;;Culto a la Personalidad;;;;;;;;;x,,,,,,,,,,
+the_cult_of_personality_comunista_desc;Every school, every home, every street in our country should have an image of our dear Great Leader. His charismatic authority will be thus established and the people will feel his might and love equally.;;;;Cada escuela, cada hogar, cada calle de nuestra naciÓâ¢ tendr„Éªuna imagen de nuestro Gran LÂÜùer. Su carismÁñ∏ica autoridad ser„Éªestablecida y el pueblo entender„Éªy recibir„Éªtoda su grandeza y poder a partes iguales.;;;;;;;;;x,,,,,,
+the_cult_of_personality_fascista_title;Cult of Personality;;;;Culto a la Personalidad;;;;;;;;;x,,,,,,,,,,
+the_cult_of_personality_fascista_desc;Every school, every home, every street in our country should have an image of our dear Great Leader. His charismatic authority will be thus established and the people will feel his greatness and might equally.;;;;Cada escuela, cada hogar, cada calle de nuestra naciÓâ¢ tendr„Éªuna imagen de nuestro Gran LÂÜùer. Su carismÁñ∏ica autoridad ser„Éªestablecida y el pueblo entender„Éªy recibir„Éªtoda su grandeza y poder a partes iguales.;;;;;;;;;x,,,,,,
+cult_of_personality;Cult of Personality;;;;Culto a la Personalidad;;;;;;;;;x,,,,,,,,,,
+cult_of_personality_desc;God bless the Great Leader!;;;;;;;;;;;;;x,,,,,,,,,,
+integrate_egypt_byz_title;Integrate Egypt;;;;Integrate Egypt;;;;;;;;;x,,,,,,,,,,
+integrate_egypt_byz_desc;We have proven our mettle and reigned in Egypt through pen or sword. Now the time has come for the integration of Egypt into great empire.;;;;We have proven our mettle and reigned in Egypt through pen or sword. Now the time has come for the integration of Egypt into great empire.;;;;;;;;;x,,,,,,,,
+integrate_egypt_title;Integrate Egypt;;;;Integrate Egypt;;;;;;;;;x,,,,,,,,,,
+integrate_egypt_desc;We have proven our mettle and reigned in Egypt through pen or sword. Now the time has come for the integration of Egypt into great empire.;;;;We have proven our mettle and reigned in Egypt through pen or sword. Now the time has come for the integration of Egypt into great empire.;;;;;;;;;x,,,,,,,,
+end_the_ottomans_title;End the ottomans;;;;End the ottomans;;;;;;;;;x,,,,,,,,,,
+end_the_ottomans_desc;With the rise of the Byzantine eagle, it is only natural that another must fall. That being the ottoman empire, our centuries old oppressors, will now fall by our sword.;;;;With the rise of the Byzantine eagle, it is only natural that another must fall. That being the ottoman empire, our centuries old oppressors, will now fall by our sword.;;;;;;;;;x,,,,,,,,
+form_indochina_title;Form Indochina;;;;
+form_indochina_desc;With the unification of the Indochinese lands, we have proven to the imperialist west and the world overall that we will fight for our right to survive, stronger than ever.;;;;
+create_indochina_title;Create Indochina;;;;
+create_indochina_desc;With our influence of all Indochinese lands undeniable, we will establish a new unified colonial government there;;;;
+integrate_siam_title;Integrate Siam;;;;
+integrate_siam_desc;Siam has been dancing around our attempts of colonization for long enough, finally they have danced into a corner.;;;;
+integrate_france_title;Integrate France;;;;
+integrate_france_desc;With France under our control, they will be integrated into the new roman state.;;;;
+integrate_britain_title;Integrate Britain;;;;
+integrate_britain_desc;With Britain under our control, they will be integrated into the new roman state.;;;;
+integrate_iberia_title;Integrate Iberia;;;;
+integrate_iberia_desc;With Iberia under our control, they will be integrated into the new roman state.;;;;
+integrate_austria_title;Integrate Austria;;;;
+integrate_austria_desc;With Austria under our control, they will be integrated into the new roman state.;;;;
+integrate_switzerland_title;Integrate Switzerland;;;;
+integrate_switzerland_desc;With Switzerland under our control, they will be integrated into the new roman state.;;;;
+invade_mexico_title;Invade Mexico;;;;
+invade_mexico_desc;The U.S is at war with itself. this strikes opportunity.;;;;
+invade_mexico_title;Invade Mexico;;;;
+invade_mexico_desc;The U.S is at war with itself. this strikes opportunity.;;;;
+liberate_mexico_title;Liberate Mexico;;;;
+liberate_mexico_desc;In our darkest hour, France has took control of the Mexican government. By Monroe this shall not stand.;;;;
+liberate_mexico_csa_title;Liberate Mexico;;;;
+liberate_mexico_csa_desc;In our darkest hour, France has took control of the Mexican government. We must free the Mexicans from the French and themselves;;;;
+csa_wins_america_title;Confederate Total Victory;;;;
+csa_wins_america_desc;With our Total Victory against the oppresive United States, we can put forth the Birth of a nation;;;;
+further_south_title;Further South;;;;
+further_south_desc;With our nation born we can now begin what the Knights have been advocating for years;;;;
+even_souther_title;Even Souther;;;;
+even_souther_desc;Our plan is well on its way and our armies are glorious. now time for south america.;;;;
+crown_jewel_title;A Jewel in our crown;;;;
+crown_jewel_desc;This is it. the final step is here, all we must do is claim the jewel for our crown.;;;;
+form_golden_circle_title;Form the Golden Circle;;;;
+form_golden_circle_desc;Finally the day has arrived that we have waited for, the formation of the Golden Circle.;;;;
+form_federal_republic_of_latin_america_title;Latin American Republic;;;;
+form_federal_republic_of_latin_america_desc;Just as Bolivar dreamt, we now have the ability to finally create a strong latin american state that will stand the test of time.;;;;
+unite_southern_italy_title;Latin American Republic;;;;
+unite_southern_italy_desc;With our position secured in southern italy, why not create a unified state.;;;;
+apply_for_USCA_statehood_title;Apply for USCA statehood;;;;
+apply_for_USCA_statehood_desc;We can clearly see how other states are thriving in the USCA, perhaps it would be best to apply for statehood and formally join the USCA.;;;;
+apply_for_USCA_statehood_outside_title;Apply for USCA statehood;;;;
+apply_for_USCA_statehood_outside_desc;We can clearly see how other states are thriving in the USCA, perhaps it would be best to apply for statehood and formally join the USCA.;;;;
+declare_sus_empire_title;Declare sus empire;;;;
+declare_sus_empire_desc;They done fucked up now;;;;
+declare_sus_conquest_title;Declare sus conquest;;;;
+declare_sus_conquest_desc;They are so fucked and are gonna cry in vc;;;;
+contain_sus_title;contain sus;;;;
+contain_sus_desc;It is now or never, us or sus, may god have mercy on us all;;;;

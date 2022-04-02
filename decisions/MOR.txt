@@ -1,0 +1,153 @@
+political_decisions = {
+declare_sus_empire = {
+		picture = create_iberia
+		potential = {
+			tag = MOR
+			NOT = {
+				exists = SUS
+				tag = SUS
+				has_global_flag = sus
+			}
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			soldiers = {
+				reduce_pop = 999
+			}
+			literacy = 1
+			money = 99999
+			years_of_research = 20
+			government = fascist_dictatorship
+			prestige = 50
+			add_accepted_culture = spanish
+			add_accepted_culture = catalan
+			add_accepted_culture = basque
+			add_accepted_culture = portuguese
+			517 = { add_core = SUS }
+			any_owned = {
+				limit = {
+					is_core = SPA
+					is_core = POR
+					is_core = CAT
+				}
+				add_core = SUS
+			}
+			IBR = { all_core = { add_core = SUS } }
+			change_tag = SUS
+			set_global_flag = sus
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	declare_sus_conquest = {
+		picture = create_iberia
+		potential = {
+			tag = SUS
+			NOT = {
+				has_global_flag = sus_empire_declared
+			}
+		}
+		
+		allow = {
+			civilized = yes
+			IBR = { all_core = { owned_by = SUS } }
+		}
+		
+		effect = {
+			any_country = {
+				any_owned = {
+					add_core = SUS
+				}
+			}
+			create_global_flag = sus_empire_declared
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	contain_sus = {
+		picture = create_iberia
+		potential = {
+			SUS = {
+				exists = yes
+			}
+		}
+		
+		allow = {
+			has_global_flag = sus_empire_declared
+		}
+		
+		effect = {
+			war = {
+				target = SUS
+				attacker_goal = { casus_belli = conquest }
+			}
+			}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	invest_in_ts = {
+	picture = rome_treaty_eu
+		potential = {
+			tag = SPC
+			SIC = {	exists = yes }
+			NOT = { has_country_flag = invested_in_sic }
+		}
+
+		allow = {
+			is_greater_power = yes
+			money = 1000000
+		}
+
+		effect = {
+			set_country_flag = invested_in_sic
+			treasury = -1000000
+			SIC = treasury = 1000000
+			SPC = {
+			create_vassal = SIC
+			create_alliance = SIC }
+			diplomatic_influence = {
+				who = SIC
+				value = 400
+			}
+			relation = {
+				who = SIC
+				value = 400
+			}
+		}
+	}
+
+	annex_ts = {
+	picture = twosis
+		potential = {
+		SIC = { exists = yes }
+		has_country_flag = invested_in_sic
+					tag = SPC
+			NOT = { has_country_flag = annex_tss }
+		}
+
+		allow = {
+			SIC = {
+				vassal_of = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = annex_tss
+inherit = SIC
+badboy = 15
+			}
+		}
+
+}

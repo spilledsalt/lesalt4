@@ -1,0 +1,805 @@
+political_decisions = {
+
+expedition_to_sicily = {
+		picture = garibaldi_redshirts
+		potential = {
+			OR = {
+				tag = SAR
+				tag = LOM
+				tag = VEN
+				tag = PAR
+				tag = MOD
+				tag = LUC
+				tag = TUS
+			}
+			NOT = { exists = ITA }
+			NOT = { has_global_flag = expedition_to_sicily }
+		}
+
+		allow = {
+			state_n_government = 1
+		}
+
+		effect = {
+			set_global_flag = expedition_to_sicily
+			define_general = {
+				name = "Giuseppe Garibaldi"
+				personality = defence_4.1
+				background = attack_4.1
+				prestige = 1
+			}
+			any_country = {
+				limit = {
+					NOT = { tag = THIS }
+					is_culture_group = italian
+					any_owned_province = { is_core = SIC }
+				}
+				country_event = { id = 35305 days = 0 }
+			}
+		}
+	}
+	
+		form_north_italy_swi = {
+		picture = form_italy
+		potential = {
+				tag = SWI
+			NOT = {
+				exists = ITA
+			}
+					}
+		allow = {
+			prestige = 50
+			war = no
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }		
+		
+		effect = {
+		prestige = 100
+			any_country = {
+				limit = {
+					NOT = {
+						tag = SWI
+					}
+					is_culture_group = italian
+				}
+				annex_to = SWI
+			}
+			change_tag = ITA
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+	form_north_italy = {
+		picture = form_italy
+		potential = {
+			OR = {
+				tag = SAR
+				tag = LOM
+				tag = VEN
+				tag = PAR
+				tag = MOD
+				tag = LUC
+				tag = TUS
+				tag = KNI
+			}
+			NOT = {
+				exists = ITA
+			}
+		}
+		
+		allow = {
+			prestige = 50
+			war = no
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }		
+		
+		effect = {
+			prestige = 25
+			change_tag = ITA
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+			}
+			country_event = { id=11101 days=0 }
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_south_italy = {
+		picture = form_italy
+		potential = {
+			OR = {
+				tag = SIC
+				tag = PAP
+				tag = KSI
+			}
+			NOT = {
+				exists = ITA
+			}
+		}
+		
+		allow = {
+			prestige = 50
+			war = no
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }		
+		
+		effect = {
+			prestige = 25
+			change_tag = ITA
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+			}
+			country_event = { id=11101 days=0 }
+		}
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_northern_italy = {
+		picture = form_the_kingdom_of_northern_italy
+		potential = {
+			OR = {
+				tag = SAR
+				tag = LOM
+				tag = VEN
+				tag = PAR
+				tag = MOD
+				tag = LUC
+				tag = TUS
+			}
+			NOT = { exists = ITA }
+			NOT = {	has_global_flag = north_italian_federation }
+		}
+		allow = {
+			726 = { owned_by = THIS }
+			727 = { owned_by = THIS }
+			728 = { owned_by = THIS }
+			OR = {
+				720 = { owned_by = THIS }
+				739 = { owned_by = THIS }
+				740 = { owned_by = THIS }
+				746 = { owned_by = THIS }
+			}
+		}
+
+		effect = {
+		    prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						tag = SAR
+						tag = LOM
+						tag = VEN
+						tag = PAR
+						tag = MOD
+						tag = LUC
+						tag = TUS
+					}
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			TUS_744 = { add_core = THIS }
+			SAR_720 = { add_core = THIS }
+			765 = { add_core = THIS }
+			766 = { add_core = THIS }
+			AUS_726 = { add_core = THIS }
+			PAP_749 = { add_core = THIS }
+			change_tag = KNI
+			
+			set_global_flag = north_italian_federation	
+		}
+	}
+	
+	unite_southern_italy = {
+		picture = italian_islands
+		potential = {
+			OR = {
+				tag = PAP
+				tag = SIC
+			}
+			NOT = { exists = ITA }
+			NOT = {	has_global_flag = south_italian_federation }
+		}
+		allow = {
+			PAP = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			SIC = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+		}
+
+		effect = {
+		    prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						tag = SIC
+						tag = PAP
+					}
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			SIC = { all_core = { add_core = KSI } }
+			PAP = { all_core = { add_core = KSI } }
+			set_global_flag = south_italian_federation
+			change_tag = KSI
+		}
+	}
+	
+	cavours_diplomacy = {
+		potential = {
+			OR = {
+				AND = { 
+					tag = ITA
+					NOT = { exists = SAR }
+				}
+				AND = { 
+					tag = SAR
+					NOT = { exists = ITA }
+				}
+			}
+			NOT = {
+				has_country_flag = cavour_has_done_his
+			}
+			owns = 465
+			owns = 466
+			owns = 472
+			FRA = {
+				exists = yes
+				is_greater_power = yes
+			}
+		}
+		allow = {
+			relation = {
+				who = FRA
+				value = 150
+			}
+			owns = 726
+			owns = 727
+			owns = 728
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -10
+			relation = {
+				who = FRA
+				value = 50
+			}
+			726 = {
+				add_core = SAR
+			}
+			727 = {
+				add_core = SAR
+			}
+			728 = {
+				add_core = SAR
+			}
+			465 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			466 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			472 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			set_country_flag = cavour_has_done_his
+		}
+	}
+	
+	award_order_of_st_francis = {
+		potential = {
+			tag = SIC
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = order_awarded
+			}
+		}
+		
+		allow = {
+			prestige = 25
+		}
+		
+		effect = {
+			years_of_research = 0.02
+			prestige = 2
+			set_country_flag = order_awarded
+		}
+	}
+	
+	statuto_albertino = {
+		potential = {
+			tag = SAR
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = get_your_statuto_albertino_here
+			}
+		}
+		
+		allow = {
+			average_militancy = 3
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -2
+			}
+			prestige = 5
+			set_country_flag = get_your_statuto_albertino_here
+		}
+	}
+	build_vittoriano = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		
+		allow = {
+			realism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	the_case_of_edgardo_mortara = {
+		potential = {
+			tag = PAP
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = edgardo_mortara
+			}
+			year = 1858
+			owns = 741
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			prestige = 15
+			badboy = 1
+			any_greater_power = {
+				relation = {
+					value = -20
+					who = THIS
+				}
+			}
+			set_country_flag = edgardo_mortara
+		}
+	}
+	
+	the_first_vatican_council = {
+		potential = {
+			tag = PAP
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = first_vatican_council_held
+			}
+		}
+		
+		allow = {
+			empiricism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 1
+			any_country = {
+				limit = {
+					religion = catholic
+				}
+				relation = {
+					who = THIS
+					value = 10
+				}
+			}
+			set_country_flag = first_vatican_council_held
+		}
+	}
+	
+	law_of_guarantees = {
+		potential = {
+			tag = ITA
+			NOT = {
+				capital = 749
+			}
+		}
+		
+		allow = {
+			owns = 749
+		}
+		
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+		}
+	}
+	
+	italia_irredenta = {
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+			NOT = {
+				has_global_flag = italian_has_come
+		}
+	}
+		
+		allow = {
+			OR = {
+				invention = national_fraternity
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag = italia_ulterior
+			729 = {
+				add_core = ITA
+			}
+			473 = { 
+			    add_core = ITA }
+			854 = { 
+			    add_core = ITA }
+			730 = {
+				add_core = ITA
+			}
+			731 = {
+				add_core = ITA
+			}
+			732 = {
+				add_core = ITA
+			}
+			733 = {
+				add_core = ITA
+			}
+			734 = {
+				add_core = ITA
+			}
+			735 = {
+				add_core = ITA
+			}
+			736 = {
+				add_core = ITA
+			}
+			737 = {
+				add_core = ITA
+			}
+			769 = {
+				add_core = ITA
+			}
+			770 = {
+				add_core = ITA
+			}
+			778 = {
+				add_core = ITA
+			}
+			780 = {
+				add_core = ITA
+			}
+			781 = {
+				add_core = ITA
+			}
+			782 = {
+				add_core = ITA
+			}
+			2582 = {
+				add_core = ITA
+			}
+		}
+	}
+	
+	invasion_of_albania = {
+		potential = {
+			tag = ITA
+			exists = ALB
+			NOT = {
+				has_global_flag = italian_invasion_of_albania
+				year = 1950
+			}
+			year = 1900
+		}
+
+		allow = { government = fascist_dictatorship }
+
+		effect = {
+			set_global_flag = italian_invasion_of_albania
+			ITA = {
+				war = {
+        			target = ALB
+        			attacker_goal = { casus_belli = lebensraum_cb }
+        			defender_goal = { casus_belli = status_quo }
+        		}
+			}
+		}
+	}
+	
+		create_italy = {
+		picture = form_italy
+		potential = {
+					NOT = {
+				has_country_flag = italian_integrated
+			}
+							NOT = {
+				has_country_flag = loveuitaly
+			}
+			NOT = {
+				exists = ITA
+				is_culture_group = italian
+			}
+			OR = {
+				any_owned_province = {
+					any_neighbor_province = { is_core = ITA }
+				}
+				is_sphere_leader_of = SIC
+				is_sphere_leader_of = SAR
+				is_sphere_leader_of = PAP
+			}	
+		}
+		allow = {
+			is_greater_power = yes
+			ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+		}
+		effect = {
+		set_country_flag = loveuitaly
+			prestige = 50
+			badboy = 2	
+			any_country = {
+				limit = {
+					is_culture_group = italian
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = THIS
+					is_core = ITA
+				}
+				remove_core = ITA
+			}
+			release_vassal = ITA
+			create_alliance = ITA
+			diplomatic_influence = {
+				who = ITA
+				value = 400
+			}
+			any_country = {
+				relation = {
+					who = THIS
+					value = -50
+				}
+				relation = {
+					who = ITA
+					value = -50
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					tag = AUS
+					tag = TUR
+					tag = ENG
+				}
+			}
+		}
+	}
+	
+			create_italy_sar = {
+		picture = form_italy
+		potential = {
+					NOT = {
+				has_country_flag = italian_integrated
+			}
+					NOT = {
+				has_country_flag = loveuitaly
+			}
+			NOT = {
+				exists = ITA
+				is_culture_group = italian
+			}
+			OR = {
+				any_owned_province = {
+					any_neighbor_province = { is_core = ITA }
+				}
+				is_sphere_leader_of = SAR
+			}	
+		}
+		allow = {
+			is_greater_power = yes
+			ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+			}
+		}
+		effect = {
+		set_country_flag = loveuitaly
+			prestige = 50
+			badboy = 2	
+			any_country = {
+				limit = {
+					NOT = {
+						tag = SAR
+					}
+					is_culture_group = italian
+				}
+				annex_to = SAR
+			}
+			create_vassal = SAR
+			diplomatic_influence = {
+				who = SAR
+				value = 400
+			}
+			any_country = {
+				relation = {
+					who = THIS
+					value = -50
+				}
+				relation = {
+					who = SAR
+					value = -50
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					tag = AUS
+					tag = TUR
+					tag = ENG
+				}
+			}
+		}
+	}
+
+
+}

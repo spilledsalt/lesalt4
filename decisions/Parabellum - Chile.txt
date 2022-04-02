@@ -1,0 +1,79 @@
+political_decisions = {
+	ohiggins = {
+		picture = "ohiggins"
+		potential = {
+			tag = CHL
+			year = 1869
+			exist = PEU
+			
+			NOT = {
+			    has_country_flag = ohiggins_done
+			}
+		}
+		
+		allow = {
+		    impressionism = 1
+			war = no
+		}
+		
+		effect = {
+		    any_pop = {
+				limit = {
+					culture = south_andean
+				}
+				militancy = -1.8
+				consciousness = -1
+			}
+			
+			prestige = 20
+			set_country_flag = ohiggins_done
+			
+		}
+		ai_will_do = {
+		    factor = 1
+        }
+    }
+
+
+    annex_easter_island = {
+		picture = annex_easter_island
+		potential = {
+			civilized = yes
+			owns = 2332
+			2336 = { empty = yes }
+		}
+
+		allow = {
+			war = no
+			raider_group_doctrine = 1
+			medicine = 1
+		}
+
+		effect = {
+			prestige = 3
+			2336 = {
+				secede_province = THIS
+				add_core = THIS
+				any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+			}
+		}
+	}
+	
+	university_of_santiago = {
+		picture = university_of_santiago
+		potential = {
+			tag = CHL
+			NOT = { has_country_flag = university_of_santiago }
+		}
+
+		allow = {
+			positivism = 1
+		}
+
+		effect = {
+			prestige = 3
+			years_of_research = 0.1
+			set_country_flag = university_of_santiago
+			}
+	}
+}

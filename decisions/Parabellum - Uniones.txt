@@ -1,0 +1,249 @@
+political_decisions = {
+
+restore_pbc = {
+    picture = peru_bolivia
+		potential = {
+			primary_culture = south_andean
+			NOT = {
+				exists = PBC
+				tag = CHL
+			}
+		}
+		
+
+		allow = {
+			prestige = 45
+			war = no
+			2310 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2295 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					primary_culture = south_andean
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			change_tag = PBC
+			any_owned = {
+				add_core = PBC
+			}
+			PBC = { all_core = { remove_core = PEU }
+                    all_core = { remove_core = BOL }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	
+	form_la_plata = {
+	    picture = unite_la_plata
+		potential = {			
+			primary_culture = platinean
+			NOT = {
+				exists = LAP				
+			}
+		}
+		
+		allow = {
+			war = no
+			prestige = 50
+			2348 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2339 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2344 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 25
+			any_country = {
+				limit = {
+					primary_culture = platinean
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					primary_culture = south_andean
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			change_tag = LAP
+			add_accepted_culture = south_andean
+			ARG_2369 = {
+				add_core = LAP
+			}		
+			ARG_2387 = {
+				add_core = LAP	
+			}
+			ARG_2393 = {
+				add_core = LAP
+			}
+			ARG_2364 = {
+				add_core = LAP
+			}
+			ARG_2379 = {
+				add_core = LAP
+			}
+			ARG_2357 = {
+				add_core = LAP
+			}
+            ARG_2363 = {
+				add_core = LAP	
+			}
+			ARG_2355 = {
+				add_core = LAP
+			}
+			ARG_2391 = {
+				add_core = LAP
+			}
+			ARG_2398 = {
+				add_core = LAP
+			}
+			ARG_2360 = {
+				add_core = LAP
+			}	
+			ARG_2366 = {
+				add_core = LAP
+			}
+			ARG_2376 = {
+				add_core = LAP
+			}	
+			ARG_2348 = {
+				add_core = LAP
+			}
+			ARG_2372 = {
+				add_core = LAP
+			}
+			ARG_2374 = {
+				add_core = LAP
+			}
+			ARG_2385 = {
+				add_core = LAP
+			}
+			ARG_2383 = {
+				add_core = LAP
+			}
+			ARG_2389 = {
+				add_core = LAP
+			}
+			ARG_2396 = {
+				add_core = LAP
+			}	
+			ARG_2400 = {
+				add_core = LAP
+			}		
+			PRG_2338 = {
+				add_core = LAP	
+			}
+			PRG_2343 = {
+				add_core = LAP
+			}
+			URU_2344 = {
+				add_core = LAP
+			}
+			CHL_2332 = {
+				add_core = LAP
+			}
+			CHL_2324 = {
+				add_core = LAP
+			}
+            CHL_2328 = {
+				add_core = LAP	
+			}
+			CHL_2323 = {
+				add_core = LAP
+			}
+			CHL_2325 = {
+				add_core = LAP
+			}
+			CHL_2330 = {
+				add_core = LAP
+			}
+			CHL_2333 = {
+				add_core = LAP
+			}	
+			BOL_2321 = {
+				add_core = LAP
+			}
+			BOL_2317 = {
+				add_core = LAP
+			}	
+			BOL_2314 = {
+				add_core = LAP
+			}
+			BOL_2309 = {
+				add_core = LAP
+			}
+			BRZ_2467 = {
+				add_core = LAP
+			}
+			2550 = {
+				add_core = LAP
+			}
+			2549 = {
+				add_core = LAP
+			}
+			2420 = {
+				add_core = LAP
+			}
+			LAP = { all_core = { remove_core = ARG }
+                    all_core = { remove_core = PRG }
+		}
+
+		ai_will_do = {
+			factor = 1
+		} 	
+	}
+}
+}

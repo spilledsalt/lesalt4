@@ -1,0 +1,219 @@
+
+political_decisions = {
+
+	manifest_arab = {
+		potential = {
+			is_culture_group = arab
+			NOT = {
+				exists = ARA
+				tag = ISR
+			}
+		}
+		allow = {
+			romanticism = 1
+		}
+		effect = {
+			set_country_flag = hasmanifestarab
+			any_pop = {
+				consciousness = 2
+			}
+			
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = YEM
+					}
+					}
+            		add_core = THIS
+            	}
+				}
+							any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = HDJ
+					}
+					}
+            		add_core = THIS
+            	}
+				}
+							any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ABU
+					}
+					}
+            		add_core = THIS
+            	}
+				}
+							any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = OMA
+					}
+					}
+            		add_core = THIS
+            	}
+				}
+				
+							any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = NEJ
+					}
+					}
+            		add_core = THIS
+            	}
+				}
+	
+		}
+	}
+
+
+	form_arabia = {
+
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		
+		allow = {
+			prestige = 45
+			war = no
+            EGY = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			ABU = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			OMA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			 NEJ = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			 YEM = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			 HDJ = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }					
+            }
+			
+		effect = {
+			prestige = 35
+		change_tag = ARA
+			
+		any_owned = {
+				limit = {
+					is_colonial = no
+				}
+				add_core = ARA
+			}
+			
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = EGY
+				remove_core = HDJ
+				remove_core = YEM
+				remove_core = NEJ
+				remove_core = OMA
+				remove_core = ABU
+			}
+			add_accepted_culture = Arabian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

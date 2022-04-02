@@ -1,0 +1,268 @@
+political_decisions = {
+
+    trans_siberianr = {
+        picture = "Transsiberianrailway"
+		potential = {
+			tag = RUS
+			NOT = {
+			    has_country_flag = trans_siberian_railway_construct
+			}
+		}
+		allow = {
+		    experimental_railroad = 1
+			owns = 1082
+			money = 500000
+		}
+		effect = {
+		    1008 = { 
+			    railroad = 5 
+			}
+			1013 = { 
+			    railroad = 5 
+			}
+			1001 = { 
+			    railroad = 5 
+			}
+			1055 = { 
+			    railroad = 5 
+			}
+			1057 = { 
+			    railroad = 5 
+			}
+			1050 = { 
+			    railroad = 5 
+			}
+			1030 = { 
+			    railroad = 5 
+			}
+			1031 = { 
+			    railroad = 5 
+			}
+			1045 = { 
+			    railroad = 5 
+			}
+			1056 = { 
+			    railroad = 5 
+			}
+			1058 = { 
+			    railroad = 5 
+			}
+			1059 = { 
+			    railroad = 5 
+			}
+			1061 = { 
+			    railroad = 5 
+			}
+			2686 = { 
+			    railroad = 5 
+			}
+			1064 = { 
+			    railroad = 5 
+		    }
+			1063 = { 
+			    railroad = 5 
+			}
+			1077 = { 
+			    railroad = 5 
+			}
+			1075 = { 
+			    railroad = 5 
+			}
+			1078 = { 
+			    railroad = 5 
+			}
+			1079 = { 
+			    railroad = 5 
+			}
+			1081 = { 
+			    railroad = 5 
+			}
+			2697 = { 
+			    railroad = 5 
+			}
+			1085 = { 
+			    railroad = 5 
+			}
+			2617 = { 
+			    railroad = 5 
+			}
+			1083 = { 
+			    railroad = 5 
+			}
+			1085 = { 
+			    railroad = 5 
+			}
+			1082 = { 
+			    railroad = 5 
+			}
+			1026 = { 
+			    railroad = 5 
+			}
+			1020 = {
+			    railroad = 5 
+			}
+			1009 = {
+			    railroad = 5 
+			}
+			1000 = {
+			    railroad = 5 
+			}
+			1005 = {
+			    railroad = 5 
+			}
+			1003 = {
+			    railroad = 5 
+			}
+			993 = {
+			    railroad = 5 
+			}
+			set_country_flag = trans_siberian_railway_construct
+			money = -500000
+		}
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	mongolian_teatry = {
+	    picture = "mongolianteatry"
+		potential = {
+			tag = RUS
+			MGL = {
+			    owns = 1469 
+			}
+			NOT = {
+				has_country_flag = mongolian_teatry_done
+				war_with = MGL
+			}
+			OR = {
+				is_sphere_leader_of = MGL
+				has_global_flag = summer_palace_torched
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			money = 100000
+		}
+		effect = {
+			1469 = {
+			secede_province = RUS
+		    }
+			set_country_flag = mongolian_teatry_done
+			prestige = 3
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	siberian_colonization = {
+	    picture = "siberiancolonization"
+	    potential = {
+		    tag = RUS
+			NOT = {
+			    has_country_flag = siberian_colonization_done
+			}
+		}
+		allow = {
+		    medicine = 1
+		}
+		effect = {
+		    2614 = {
+			    secede_province = RUS
+		    }
+			2684 = {
+			    secede_province = RUS
+		    }
+			2659 = {
+			    secede_province = RUS
+		    }
+			2613 = {
+			    secede_province = RUS
+		    }
+			2658 = {
+			    secede_province = RUS
+		    }
+			2654 = {
+			    secede_province = RUS
+		    }
+			2674 = {
+			    secede_province = RUS
+		    }
+		    2653 = {
+			    secede_province = RUS
+		    }
+			2673 = {
+			    secede_province = RUS
+		    }
+			2670 = {
+			    secede_province = RUS
+		    }
+			2655 = {
+			    secede_province = RUS
+		    }
+			2667 = {
+			    secede_province = RUS
+		    }
+			2647 = {
+			    secede_province = RUS
+		    }
+			2665 = {
+			    secede_province = RUS
+		    }
+			2619 = {
+			    secede_province = RUS
+		    }
+			2643 = {
+			    secede_province = RUS
+		    }
+			2664 = {
+			    secede_province = RUS
+		    }
+			2651 = {
+			    secede_province = RUS
+		    }
+			2640 = {
+			    secede_province = RUS
+		    }
+			2650 = {
+			    secede_province = RUS
+		    }
+			2660 = {
+			    secede_province = RUS
+		    }
+			2665 = {
+			    secede_province = RUS
+		    }
+			2661 = {
+			    secede_province = RUS
+		    }
+			2655 = {
+			    secede_province = RUS
+		    }
+			2666 = {
+			    secede_province = RUS
+		    }
+			2652 = {
+			    secede_province = RUS
+		    }
+			2662 = {
+			    secede_province = RUS
+		    }
+			2620 = {
+			    secede_province = RUS
+		    }
+			2621 = {
+			    secede_province = RUS
+		    }
+			2622 = {
+			    secede_province = RUS
+		    }
+			set_country_flag = siberian_colonization_done
+	    }
+		ai_will_do = {
+			factor = 1
+		}
+    }
+}

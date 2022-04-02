@@ -1,0 +1,147 @@
+political_decisions = {
+
+	form_benelux = {
+		picture = "form_benelux"
+		potential = {
+			is_culture_group = beneluxian
+			NOT = { has_country_flag = form_benelux }
+		}
+
+		allow = {
+			prestige = 50
+			war = no
+			BEL = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			NET = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			LUX = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+		}
+
+		effect = {
+			change_tag = BNX
+			set_country_flag = form_benelux
+			prestige = 20
+			NET = { all_core = { add_core = THIS } }
+			BEL = { all_core = { add_core = THIS } }
+			LUX = { all_core = { add_core = THIS } }
+			inherit = NET
+			inherit = BEL
+			inherit = LUX			
+			any_owned = {
+				limit = {
+					is_core = BEL
+					is_core = LUX
+					is_core = NET
+				}
+				add_core = BNX
+			}
+			BNX = { all_core = { remove_core = LUX }
+                    all_core = { remove_core = NET }
+                    all_core = { remove_core = BEL } }
+			add_accepted_culture = German
+			add_accepted_culture = french
+		}
+				ai_will_do = {
+			factor = 1
+	}
+}
+
+	accepting_walloon_people = {
+		picture = "become_wallonia"
+		potential = {
+			tag = BNX
+			NOT = { has_country_flag = accepting_walloon_people }
+		}
+
+		allow = {
+			war = no
+			is_greater_power = yes
+			money = 2000000
+		}
+
+		effect = {
+			set_country_flag = accepting_walloon_people
+			prestige = -15
+			money = 1000000
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = dutch
+						has_pop_culture = flemish
+					}
+				}
+				militancy = 2
+				consciousness = 3
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = wallonian
+				}
+				militancy = 2
+				consciousness = 3
+			}			
+			add_accepted_culture = wallonian				
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				NOT = {
+					year = 1880
+				}
+			}
+			modifier = {
+				factor = 1
+				average_militancy = 7
+			}		
+		}
+	}
+	
+}

@@ -1,0 +1,130 @@
+political_decisions = {
+
+			company_expasionism = {
+		picture = punjab
+		potential = {
+			tag = EIC
+			NOT = { has_country_flag = first_expansionism }
+			year = 1838
+			}
+
+		allow = { 
+			war = no
+		}
+
+		effect = {
+			set_country_flag = first_expansionism
+			war = {
+				target = PAN
+				attacker_goal = { casus_belli = lebensraum_cb }
+				call_ally = yes
+			}
+		}
+				ai_will_do = {
+			factor = 1
+		}
+	}
+	
+				company_expasionism2 = {
+		picture = baluchistan_agency
+		potential = {
+			tag = EIC
+			NOT = { has_country_flag = second_expansionism }
+			year = 1839
+			}
+
+		allow = { 
+			war = no
+		}
+
+		effect = {
+			set_country_flag = second_expansionism
+			war = {
+				target = KAL
+				attacker_goal = { casus_belli = lebensraum_cb }
+				call_ally = yes
+			}
+				inherit = MAK
+		}
+				ai_will_do = {
+			factor = 1
+		}
+	}
+	
+					company_expasionism3 = {
+		picture = bolan_pass
+		potential = {
+			tag = EIC
+			NOT = { has_country_flag = third_expansionism }
+			year = 1840
+			}
+
+		allow = { 
+			war = no
+		}
+
+		effect = {
+			set_country_flag = third_expansionism
+			war = {
+				target = AFG
+				attacker_goal = { casus_belli = lebensraum_cb }
+				call_ally = yes
+			}
+		}
+				ai_will_do = {
+			factor = 1
+		}
+	}
+	
+				company_expasionism4 = {
+		picture = sindh
+		potential = {
+			tag = EIC
+			NOT = { has_country_flag = four_expansionism }
+			year = 1837
+			}
+
+		allow = { 
+			war = no
+		}
+
+		effect = {
+			set_country_flag = four_expansionism
+			inherit = SIN
+			inherit = SIK
+			inherit = NEP
+			inherit = BHU
+				ENG = { inherit = JOH }
+			}
+				ai_will_do = {
+			factor = 1
+		}
+	}
+	
+					company_expasionism5 = {
+		picture = sindh
+		potential = {
+			tag = EIC
+			NOT = { has_country_flag = five_expansionism }
+			year = 1837
+			}
+
+		allow = { 
+			war = no
+		}
+
+		effect = {
+			set_country_flag = five_expansionism
+			war = {
+				target = BUR
+				attacker_goal = { casus_belli = lebensraum_cb }
+				call_ally = yes
+			}
+		}
+				ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+}

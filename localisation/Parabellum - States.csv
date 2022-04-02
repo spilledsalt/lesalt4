@@ -1,0 +1,217 @@
+#;;;;;;;;;;;;;x;;;
+MEC_545;Mecklenburg;;;;;;;;;;;;;x;;
+ENG_854;Malta;;;;;;;;;;;;;x;;
+GER_533;Heligoland;;;;;;;;;;;;;x;;
+SCH_370;Schleswig;;;;;;;;;;;;;x;;
+HOL_369;Holstein;;;;;;;;;;;;;x;;
+MOL;Moldavia-Wallachia;;;;;;;;;;;;;x;
+CLM_99999;Balboa;;;;;;;;;;;;;x;;
+EGY_99999;Suez;;;;;;;;;;;;;x;;
+AFG_1214;Afghanistan;;;;;;;;;;;;;x;;
+RUS_1098;South Caucasia;;;;;;;;;;;;;x;;
+DEN_3251;Indian Port;;;;;;;;;;;;;x;;
+ENG_1252;Bengal;;;;;;;;;;;;;x;;
+TUS_744;Roma�a-Toscana;;;;;;;;;;;;;x;;
+ALD_1718;Sahara;;;;;;;;;;;;;x;;
+MEX_2142;Sonora-Chihuahua;;;;;;;;;;;;;x;;
+ARG_2357;Santa Fe-Corrientes;;;;;;;;;;;;;x;;
+ARG_2377;Jujuy-Chaco;;;;;;;;;;;;;x;;
+ARG_2384;Rio Negro-La Pampa;;;;;;;;;;;;;x;;
+PRG_2343;Paraguay;;;;;;;;;;;;;x;;
+PEU_2297;Arequipa-Ica;;;;;;;;;;;;;x;;
+VNZ_2265;Zulia-Miranda;;;;;;;;;;;;;x;;
+CLM_2251;Antioquia;;;;;;;;;;;;;x;;
+NEJ_1157;Arabia;;;;;;;;;;;;;x;;
+NEJ_1157;Arabia;;;;;;;;;;;;;x;;
+ABU_1162;Arabian Coast;;;;;;;;;;;;;x;;
+EGY_1753;Matruh Desert;;;;;;;;;;;;;x;;
+RUS_336;Finland;;;;;;;;;;;;;x;;
+EAC_ADJ;British;;;;;;;;;;;;;x;
+EAC_ADJ;British;;;;;;;;;;;;;x;
+EAC;Australia;;;;;;;;;;;;;x;
+EAC_colonial_company;Australia;;;;;;;;;;;;;x;
+EAC_conservative;Court of Directors;;;;;;;;;;;;;x;
+EAC_liberal;Court of Directors;;;;;;;;;;;;;x;
+EAC_reactionary;Court of Directors;;;;;;;;;;;;;x;
+NAC_ADJ;British;;;;;;;;;;;;;x;
+NAC_ADJ;British;;;;;;;;;;;;;x;
+NAC;British Canada;;;;;;;;;;;;;x;
+NAC_colonial_company;Canada;;;;;;;;;;;;;x;
+NAC_conservative;Court of Directors;;;;;;;;;;;;;x;
+NAC_liberal;Court of Directors;;;;;;;;;;;;;x;
+NAC_reactionary;Court of Directors;;;;;;;;;;;;;x;
+EIC_ADJ;British;;;;;;;;;;;;;x;
+EIC_ADJ;British;;;;;;;;;;;;;x;
+EIC;British Raj;;;;;;;;;;;;;x;
+EIC_colonial_company;East India Company;;;;;;;;;;;;;x;
+EIC_conservative;Court of Directors;;;;;;;;;;;;;x;
+EIC_liberal;Court of Directors;;;;;;;;;;;;;x;
+EIC_reactionary;Court of Directors;;;;;;;;;;;;;x;
+EIC_independent_conservative;Imperial Conservative Party;;;;;;;;;;;;x
+EIC_independent_liberal;Responsible Rule Party;;;;;;;;;;;;x
+EIC_independent_anarcho_liberal;National Alliance Party;;;;;;;;;;;;x
+EIC_independent_reactionary;Imperial Governance League;;;;;;;;;;;;x
+EIC_independent_socialist;Indian National Congress;;;;;;;;;;;;x
+EIC_independent_communist;Indian Socialist Patriotic Front;;;;;;;;;;;;x
+EIC_independent_fascist;United Imperial Alliance;;;;;;;;;;;;x
+EVTNAME90820;Opium Epidemic;;;;;;;;;;;;x
+EVTDESC90820;The use of opium has spread throughout the land. Farmers and laborers fail to turn up for work, and entire fields fall fallow, as the people slip further and further down into the mists of consuming dependence.;;;;;;;;;;;;x
+EVTOPTA90820;Just say no.;;;;;;;;;;;;x
+EVTNAME90821;Opium Outlawed;;;;;;;;;;;;x
+EVTDESC90821;The consumption of opium has been outlawed. Only time will tell if this ban is successful.;;;;;;;;;;;;x
+EVTOPTA90821;Just say no.;;;;;;;;;;;;x
+EVTNAME90822;Unequal Chinese Treaty;;;;;;;;;;;;x
+EVTDESC90822;Now that we are in control of most of the world's supply of opium we can monopolize the drug trade in China.;;;;;;;;;;;;x
+EVTOPTA90822;They will not complain if they know what's good for them.;;;;;;;;;;;;x
+EVTNAME90823;Opium Monopoly Ended;;;;;;;;;;;;x
+EVTDESC90823;The opium trade with China has become untenable for us and our merchants have already begun to pull out of Chinese markets.;;;;;;;;;;;;x
+EVTOPTA90823;Disappointing.;;;;;;;;;;;;x
+EVTNAME90824;Defeated in the Opium Wars;;;;;;;;;;;;x
+EVTDESC90824;Our inability to protect our interests against the uncivilized Chinese has greatly diminished our standing among the Great Powers.;;;;;;;;;;;;x
+EVTOPTA90824;Damnit!;;;;;;;;;;;;x
+demand_concession_casus_belli_chi;Demand Chinese Port Concession;;;;;;;;;;;;;x
+demand_concession_casus_belli_chi_setup;Demand Chinese Port Concession;;;;;;;;;;;;;x
+demand_concession_casus_belli_chi_short;Demand Chinese Port Concession;;;;;;;;;;;;;x
+demand_concession_casus_belli_chi_desc;Take a Port from China.;;;;;;;;;;;;;x
+EVTNAME90825;Opium Outlawed in China;;;;;;;;;;;;x
+EVTDESC90825;The chinese government has burned our recent shipments of opium and expelled our merchants from their shores. Our economy will suffer a serious blow if the ban stays in place. What shall we do?;;;;;;;;;;;;x
+EVTOPTA90825;Force them to lift the ban and make sign a new ｧGUnequal Chinese Treatyｧb.;;;;;;;;;;;;x
+EVTOPTB90825;Respect their sovereignty.;;;;;;;;;;;;x
+chinese_treaty_port_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port2_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port2_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port3_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port3_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port4_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port4_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port5_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port5_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port6_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port6_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+chinese_treaty_port7_title;Establish Chinese Trading Port;;;;;;;;;;;;x
+chinese_treaty_port7_desc;This decision will turn any colonial treaty ports into states and change the trade goods of that province to market goods.;;;;;;;;;;;;x
+outlaw_opium_title;Outlaw Opium;;;;;;;;;;;;x
+outlaw_opium_desc;It is time we banned the use of this poison and expel the foreign barbarians that forced this drug upon us. Beware that enacting this decision will give other countries the Opium War casus belli against us.;;;;;;;;;;;;x
+opium_war;Opium War;;;;;;;;;;;;;x
+opium_war_setup;Force an unequal treaty.;;;;;;;;;;;;;x
+opium_war_short;Force an unequal treaty.;;;;;;;;;;;;;x
+opium_war_desc;This cb will give us the "Unequal Chinese Treaty" modifier that gives +2% tax efficiency, +5% tariff efficiency, and +0.2 daily research points while giving China the "Opium Addiction" modifier. If China owns Hong Kong they will also be forced to cede that province to us.;;;;;;;;;;;;;x
+NORMAL_OPIUM_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Opium War;;;;;;;;;;;;;;;;;;;;x
+AGRESSION_OPIUM_WAR_NAME;$ORDER$$FIRST$-$SECOND$ Opium War;;;;;;;;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_setup;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_short;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_desc;Take a treaty port from China.;;;;;;;;;;;;;x
+EVTNAME600600;Limited Constitutionalism;;;;;;;;;;;;;x;;
+EVTDESC600600;The political reforms enacted in the past few years have led to a situation where the extended constitutionalism of our Monarchy has become a problem.For this reason, we have decided to take a step back from the reforms made and give the king more powers again.;;;;;;;;;;;;;x;;
+EVTOPTA600600;It is the right thing to do;;;;;;;;;;;;;x;;
+communist_purge_title;The Great Purge;;;;;;;;;;;;;x;;
+communist_purge_desc;A little dirt in our society can be accepted, but when the garbage accumulates too much it becomes a problem. Time to "clean up" this garbage, for the good of our nation;;;;;;;;;;;;;x;;
+DEN_91234;Baltic Islands;;;;;;;;;;;;;x;;
+DEN_91234;Baltic Islands;;;;;;;;;;;;;x;;
+SPA_90006;Galicia-Leon;;;;;;;;;;;;;x;;
+SPA_90006;Galicia-Leon;;;;;;;;;;;;;x;;
+SER_794;Serbia;;;;;;;;;;;;;x;;
+TUR_805;Macedonia;;;;;;;;;;;;;x;;
+WUR_589;Baden-Wurttemberg;;;;;;;;;;;;;x;;
+AUS_657;Siebenburgen;;;;;;;;;;;;;x;;
+AUS_662;Galicia;;;;;;;;;;;;;x;;
+SPA_90007;Seville;;;;;;;;;;;;;x;;
+SPA_90008;Andalucia;;;;;;;;;;;;;x;;
+FRA_90009;Limousin-Auvergne;;;;;;;;;;;;;x;;
+FRA_90010;Le Midi-Languedoc;;;;;;;;;;;;;x;;
+CHI_90001;Hong Kong;;;;;;;;;;;;;x;;
+ARG_2398;Patagonia;;;;;;;;;;;;;x;;
+CHI_90002;Macao;;;;;;;;;;;;;x;;
+CHI_90003;Port Arthur;;;;;;;;;;;;;x;;
+CHI_90004;Qingdao;;;;;;;;;;;;;x;;
+CHI_90005;Shanghai Port;;;;;;;;;;;;;x;;
+CHI_90006;Weihaiwei;;;;;;;;;;;;;x;;
+CHI_90007;Tianjin Port;;;;;;;;;;;;;x;;
+DUN_90001;Canterburry Strait;;;;;;;;;;;;;x;;
+DUN_90002;Dunkirk Strait;;;;;;;;;;;;;x;;
+PROV3249;Tianjin Port;;;;;;;;;;;;;x;;
+PROV3250;Shanghai Port;;;;;;;;;;;;;x;;
+PROV3251;Tranquebar Port;;;;;;;;;;;;;x;;
+PROV3252;Dunkirk Strait;;;;;;;;;;;;;x;;
+precious_metal;Market Goods;;;;;;;;;;;;;x;;
+AUS_absolute_monarchy;The Austrian Empire;;;;;;;x
+GER_absolute_monarchy;The German Empire;;;;;;;x
+GER_prussian_constitutionalism;The German Empire;;;;;;;x
+PSB;The Persian Empire;;;;;;;x
+PSB_ADJ;Persian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PSB_prussian_constitutionalism;The Persian Empire;;;;;;;x
+PSB_hms_government;Iran;;;;;;;x
+PSB_absolute_monarchy;The Persian Empire;;;;;;;x
+PSB_proletarian_dictatorship;The Union of Socialist States of Iran;;;;;;;x
+PSB_fascist_dictatorship;The Greater Iran;;;;;;;x
+PSB_democracy;The Republic of Iran;;;;;;;x
+FSE;The French Empire;;;;;;;x
+FSE_prussian_constitutionalism;The French Empire;;;;;;;x
+FSE_hms_government;French Empire;;;;;;;x
+FRA_absolute_monarchy;The French Empire;;;;;;;x
+FSE_proletarian_dictatorship;Commune de France;;;;;;;x
+FSE_fascist_dictatorship;Regime de France;;;;;;;x
+FSE_democracy;Deuxieme Republique Francaise;;;;;;;x
+FSE_liberal;Républicain;Républicain;Républicain;;Républicain;;;;;;;x
+FSE_liberal_2;Union libérale;;;;;;;x
+FSE_liberal_3;Républicain libérale;;;;;;;x
+FSE_conservative;Orléaniste;Orléaniste;Orléaniste;;Orléaniste;;;;;;;x
+FSE_conservative_2;Bonapartiste;Bonapartiste;Bonapartiste;;Bonapartiste;;;;;;;x
+FSE_conservative_3;Républicain modéré;Républicain modéré;Républicain modéré;;Républicain modéré;;;;;;;x
+FSE_conservative_4;Orléaniste;Orléaniste;Orléaniste;;Orléaniste;;;;;;;x
+FSE_conservative_5;Royaliste;Royaliste;Royaliste;;Royaliste;;;;;;;x
+FSE_fascist;Parti Franciste;;;;;;;x
+FSE_reactionary_2;Droite Nationaliste;;;;;;;x
+FSE_anarcho_liberal;Républicain Radical;;;;;;;x
+PBS;Viceroyalty of Peru;;;;;;;;;;;;;x
+PBS_colonial_company;Viceroyalty of Peru;;;;;;;;;;;;;x
+PBS_absolute_monarchy;Great Peru;;;;;;;;;;;;;x
+PBS_prussian_constitutionalism;Great Peru;;;;;;;;;;;;;x
+PBS_hms_government;Peru-Bolivia;;;;;;;;;;;;;x
+PBS_proletarian_dictatorship;The People's Andine Republic;;;;;;;;;;;;;x
+PBS_proletarian_dictatorship_ADJ;Andine;;;;;;;;;;;;;
+PBS_democracy;Andine Federation;;;;;;;;;;;;;;;;;
+PBS_democracy_ADJ;Andine;;;;;;;;;;;;;
+PBS_ADJ;Andine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+GCS;Viceroyalty of New Granada;;;;;;;;;;;;x
+GCS_colonial_company;Viceroyalty of New Granada;;;;;;;;;;;;x
+GCS_communist;Partido Communista;;;;;;;;;;;;;;;;;;;;;;;;;x
+GCS_fascist;Partido Fascista;;;;;;;;;;;;;;;;;;;;;;;;;;x
+GCS_ADJ;Colombian;;;;;;;;;;;;x
+GCS_absolute_monarchy;New Granada;;;;;;;;;;;;x
+GCS_prussian_constitutionalism;New Granada;;;;;;;;;;;;x
+GCS_hms_government;New Granada;;;;;;;;;;;;x
+GCS_absolute_monarchy_ADJ;New Granadan;;;;;;;;;;;;x
+GCS_prussian_constitutionalism_ADJ;New Granadan;;;;;;;;;;;;x
+GCS_hms_government_ADJ;New Granadan;;;;;;;;;;;;x
+MXS;Viceroyalty of New Spain;;;;;;;;;;;;x
+MXS_ADJ;Mexican;;;;;;;;;;;;x
+MXS_socialist;Partido Laborista Mexicano;;;;;;;;;;;;x
+MXS_communist;Partido Socialista Obrero;;;;;;;;;;;;x
+MXS_fascist;Union Nacional Sinarquista;;;;;;;;;;;;x
+MXS_colonial_company;Viceroyalty of New Spain;;;;;;;;;;;;;x
+CHL_colonial_company;Captaincy General of Chile;;;;;;;;;;;;;x
+USA_78;Washington-Oregon;;;;;;;;;;;;;x
+MEX_85;California-Nevada;;;;;;;;;;;;;x
+USA_106;Utah-Colorado;;;;;;;;;;;;;x
+MEX_100;Arizona-New Mexico;;;;;;;;;;;;;x
+USA_111;Idaho-Montana-Wyoming;;;;;;;;;;;;;x
+TEX_132;Texas-Oklahoma;;;;;;;;;;;;;x
+USA_118;Dakota-Minnesota;;;;;;;;;;;;;x
+USA_124;Nebraska-Kansas;;;;;;;;;;;;;x
+USA_151;Iowa-Missouri-Illinois;;;;;;;;;;;;;x
+USA_162;Wisconsin-Michigan;;;;;;;;;;;;;x
+USA_170;Indiana-Kentucky-Ohio;;;;;;;;;;;;;x
+USA_139;Louisiana-Mississippi;;;;;;;;;;;;;x
+USA_196;Alabama-Georgia-Carolina;;;;;;;;;;;;;x
+BRZ_2401;Amazonas-Pará;;;;;;;;;;;;;x
+BRZ_2416;Mato Grosso-Maranhão;;;;;;;;;;;;;x
+SPA_1463;Visayas-Mindanao;;;;;;;;;;;;;x
+ANN_1383;Cambodia-Cochin China;;;;;;;;;;;;;x
+LUA_1356;Laos-Nakhon Ratchasima;;;;;;;;;;;;;x
+ANN_1371;Tonkin-Annam;;;;;;;;;;;;;x
+SIA_1392;Bangkok-Chiang Mai;;;;;;;;;;;;;x
+MAD_2121;Madagascar;;;;;;;;;;;;;x
+CLM_2247;Cundinamarca-Cauca;;;;;;;;;;;;;x

@@ -1,0 +1,29 @@
+country_event = {
+	id = 9999909
+	title = "EVTNAME9999909"
+	desc = "EVTDESC9999909"
+	picture = "Opiumwar"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Convert them to Slaves!"
+		any_owned = {
+				any_pop = {
+					limit = { 
+						AND = {
+							is_primary_culture = no
+							is_accepted_culture = no
+						}
+					}
+					pop_type = slaves
+					consciousness = 7
+					militancy = 7
+				}
+				
+		}
+		badboy = 5
+		
+	}
+}	

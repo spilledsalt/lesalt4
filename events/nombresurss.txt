@@ -1,0 +1,177 @@
+#Leningrad
+country_event = {
+	id = 9900
+	title = "EVTNAME9900"
+	desc = "EVTDESC9900"
+	major = yes
+	trigger = {
+		tag = RUS
+		government = proletarian_dictatorship
+		year = 1903
+		owns = 994 #st petersburg
+		NOT = {
+				has_global_flag = renombrado_leningrad
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9900"
+		994 = {
+				change_province_name = "Leningrad"
+			}
+			prestige = 5
+			set_global_flag = renombrado_leningrad
+	}
+}
+#Leningrad NO
+country_event = {
+	id = 9901
+	title = "EVTNAME9901"
+	desc = "EVTDESC9901"
+	picture = "bayern"
+	trigger = {
+		OR = {
+			NOT = { tag = RUS }
+			AND = {
+				tag = RUS
+				NOT = { government = proletarian_dictatorship }
+				}
+			}
+		owns = 994 #st petersburg
+		has_global_flag = renombrado_leningrad
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9901"
+		994 = {
+				change_province_name = "St Petersburg"
+			}
+		clr_global_flag = renombrado_leningrad
+	}
+}
+#Stalingrad
+country_event = {
+	id = 9902
+	title = "EVTNAME9902"
+	desc = "EVTDESC9902"
+	major = yes
+	trigger = {
+		tag = RUS
+		government = proletarian_dictatorship
+		year = 1903
+		owns = 1039 #tsaritsyin
+		NOT = {
+				has_global_flag = renombrado_stalingrad
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9900"
+		1039 = {
+				change_province_name = "Stalingrad"
+			}
+			prestige = 5
+			set_global_flag = renombrado_stalingrad
+	}
+}
+#Stalingrad NO
+country_event = {
+	id = 9903
+	title = "EVTNAME9903"
+	desc = "EVTDESC9903"
+	picture = "bayern"
+	trigger = {
+		OR = {
+			NOT = { tag = RUS }
+			AND = {
+				tag = RUS
+				NOT = { government = proletarian_dictatorship }
+				}
+			}
+		owns = 1039 #tsaritsyin
+		has_global_flag = renombrado_stalingrad
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9901"
+		1039 = {
+				change_province_name = "Volgograd"
+			}
+		clr_global_flag = renombrado_stalingrad
+	}
+}
+#Kaliningrad
+country_event = {
+	id = 9904
+	title = "EVTNAME9904"
+	desc = "EVTDESC9904"
+	major = yes
+	trigger = {
+		tag = RUS
+		government = proletarian_dictatorship
+		year = 1903
+		owns = 695 #Königsberg
+		NOT = {
+				has_global_flag = renombrado_kaliningrad
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9900"
+		695 = {
+				change_province_name = "Kaliningrad"
+			}
+			prestige = 5
+			set_global_flag = renombrado_kaliningrad
+	}
+}
+#Leningrad NO
+country_event = {
+	id = 9905
+	title = "EVTNAME9905"
+	desc = "EVTDESC9905"
+	picture = "bayern"
+	trigger = {
+		OR = {
+			NOT = { tag = RUS }
+			AND = {
+				tag = RUS
+				NOT = { government = proletarian_dictatorship }
+				}
+			}
+		owns = 695 #königsberg
+		has_global_flag = renombrado_kaliningrad
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9901"
+		695 = {
+				change_province_name = "Konigsberg"
+			}
+		clr_global_flag = renombrado_kaliningrad
+	}
+}

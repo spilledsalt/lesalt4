@@ -1,0 +1,467 @@
+country_event = {
+	title = "EVTNAME90900"
+	desc = "EVTDESC90900"
+	picture = "Celebration"
+
+	id = 90900
+	news = yes
+	news_desc_long = "EVTDESC90900_NEWS_LONG"
+	news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90900_NEWS_SHORT"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = the_dragon_wakes }
+		}
+
+	option = {				
+		name = "EVTOPTA90900"
+		set_global_flag = the_dragon_wakes
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+			country_event = { id=90901 days=0 }
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+# Event to Inherit
+country_event = {
+	id = 90901
+	title = "EVTNAME90900"
+	desc = "EVTDESC90901"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90901"
+		civilized = yes
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 10
+			 modifier = {
+				factor = 1000
+				relation = { who = FROM value = 100 }
+			} 
+		}
+	}
+
+	option = {
+		name = "EVTOPTB90100"
+		ai_chance = {
+			factor = 100
+		}
+		prestige = 10
+		relation = {
+			who = FROM
+			value = -200
+		}
+		civilized = yes
+		release_vassal = THIS
+		leave_alliance = CHI
+	}
+}
+
+# Event to reject
+country_event = {
+	id = 90902 #The Breakup of China
+	news = yes
+	news_desc_long = "EVTDESC90902_NEWS_LONG"
+	news_desc_medium = "EVTDESC90902_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90902_NEWS_SHORT"
+	
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		release_vassal = THIS
+		leave_alliance = CHI
+		civilized = yes
+	}
+}
+
+country_event = {
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	picture = "Celebration"
+
+	id = 90903
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = the_dragon_wakes }
+		OR = { 
+		tag = GXI
+		tag = MCK
+		tag = XIN
+		tag = YNN
+		tag = XBI
+		tag = MGL
+		tag = KOR
+		}
+		}
+
+	option = {				
+		name = "EVTOPTA90902"
+		set_global_flag = the_dragon_wakes
+		release_vassal = THIS
+		leave_alliance = CHI
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+			country_event = { id=90902 days=0 }
+		}
+		CHI = {
+			country_event = { id=90904 days=0 }
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+country_event = {
+	id = 90904
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		civilized = yes
+	}
+}
+
+###### OPIUM WARS ######
+country_event = {	#Opium Addiction
+	id = 90820
+	title = "EVTNAME90820"
+	desc = "EVTDESC90820"
+	picture = opium_addiction
+
+	trigger = {
+		has_country_flag = chinese
+		NOT = { has_country_modifier = opium_addiction }
+		NOT = { has_global_flag = opium_outlawed }
+	}
+
+	option = {
+		name = "EVTOPTA90820"
+		add_country_modifier = { name = opium_addiction duration = -1 }
+	}
+}
+
+country_event = {	#Opium Outlawed
+	id = 90821
+	title = "EVTNAME90821"
+	desc = "EVTDESC90821"
+	picture = opium_addiction
+
+	trigger = {
+		has_country_modifier = opium_addiction
+		OR = {
+			has_global_flag = opium_outlawed
+			year = 1900
+		}
+	}
+
+	option = {
+		name = "EVTOPTA90821"
+		remove_country_modifier = opium_addiction
+		set_global_flag = opium_outlawed
+	}
+}
+
+country_event = {	#Gain Unequal China Treaty
+	id = 90822
+	title = "EVTNAME90822"
+	desc = "EVTDESC90822"
+	picture = opium_monopoly
+
+	trigger = {
+		OR = {
+			AND = {
+				ENG_1247 = {
+					owned_by = THIS
+				}
+				civilized = yes
+				part_of_sphere = no
+			}
+			AND = {
+				ENG_1247 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+				civilized = yes
+			}
+		}
+		NOT = {
+			has_country_modifier = unequal_china_treaty
+			has_global_flag = opium_outlawed
+			year = 1900
+		}
+	}
+
+	option = {
+		name = "EVTOPTA90822"
+		add_country_modifier = { name = unequal_china_treaty duration = -1 }
+	}
+}
+
+country_event = {	#Lose Unequal China Treaty
+	id = 90823
+	title = "EVTNAME90823"
+	desc = "EVTDESC90823"
+	picture = opium_monopoly
+
+	trigger = {
+		has_country_modifier = unequal_china_treaty
+		NOT = { has_country_flag = started_opium_war }
+		OR = {
+			AND = {
+				NOT = {
+					ENG_1247 = {
+						owned_by = THIS
+					}
+				}
+				NOT = {
+					ENG_1247 = {
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			has_global_flag = warlord_era_ended
+			AND = {
+				CHI = { exists = no }
+			}
+			year = 1900
+		}
+	}
+
+	option = {
+		name = "EVTOPTA90823"
+		remove_country_modifier = unequal_china_treaty
+	}
+}
+
+country_event = {	#Europeans Lose Opium War
+	id = 90824
+	title = "EVTNAME90824"
+	desc = "EVTDESC90824"
+	picture = opium_war
+
+	trigger = {
+		has_country_flag = started_opium_war
+		NOT = { war_with = CHI }
+	}
+
+	option = {
+		name = "EVTOPTA90824"
+		remove_country_modifier = unequal_china_treaty
+		clr_country_flag = started_opium_war
+		prestige_factor = -0.3
+	}
+}
+
+country_event = {	#European Response to Opium Outlawed
+	id = 90825
+	title = "EVTNAME90825"
+	desc = "EVTDESC90825"
+	picture = opium_war
+
+	is_triggered_only = yes
+	
+	immediate = { remove_country_modifier = unequal_china_treaty }
+
+	option = {
+		name = "EVTOPTA90825"
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = opium_war }
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB90825"
+		prestige_factor = -0.2
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 91510
+	title = "Trade goods from China"
+
+	is_triggered_only = yes
+	
+	option = {
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				total_pops = 30000
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				total_pops = 20000
+				NOT = { total_pops = 30000 }
+			}
+			any_pop = {
+				reduce_pop = 1.33
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				total_pops = 10000
+				NOT = { total_pops = 20000 }
+			}
+			any_pop = {
+				reduce_pop = 2
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				total_pops = 5000
+				NOT = { total_pops = 10000 }
+			}
+			any_pop = {
+				reduce_pop = 4
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				total_pops = 2500
+				NOT = { total_pops = 5000 }
+			}
+			any_pop = {
+				reduce_pop = 8
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+						province_id = 3249
+						province_id = 1566
+						province_id = 1569
+						province_id = 1481
+						province_id = 3250
+						province_id = 1496
+						province_id = 1498
+				}
+				NOT = { total_pops = 2500 }
+			}
+			any_pop = {
+				reduce_pop = 16
+			}
+		}
+		trade_goods = precious_metal
+		annex_to = FROM
+	}
+}
+
