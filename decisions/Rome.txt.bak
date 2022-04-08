@@ -1,0 +1,432 @@
+political_decisions = {
+
+	form_rome = {
+		picture = form_romepic
+			potential = {
+			OR = {
+			tag = ITA
+			tag = BYZ
+			}
+			NOT = {
+			exists = RME
+				}
+			}
+		allow = {
+			is_greater_power = yes
+				783 = {owned_by = THIS}
+				853 = {owned_by = THIS}
+				860 = {owned_by = THIS}
+				 ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                        }
+				        owner = {
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+			war = no
+			}
+		effect = {
+		change_tag = RME
+		capital = 749
+		prestige = 100
+			add_accepted_culture = spanish
+				ITA = { all_core = { add_core = RME } }
+				BYZ = { all_core = { add_core = RME } }
+				BYZ = { all_core = { add_core = RME } }
+				TUR = { all_core = { add_core = RME } }
+				inherit = PAP
+				inherit = MOD
+				inherit = LUC
+				inherit = PAR
+				inherit = SAR
+				inherit = SIC
+				inherit = TUS
+				inherit = ITA
+				RME = { all_core = { remove_core = ITA } }
+				RME = { all_core = { remove_core = PAP } }	
+				RME = { all_core = { remove_core = MOD } }
+				RME = { all_core = { remove_core = LUC } }
+				RME = { all_core = { remove_core = PAR } }
+				RME = { all_core = { remove_core = SAR } }
+				RME = { all_core = { remove_core = SIC } }
+				RME = { all_core = { remove_core = TUS } }
+			}
+
+			ai_will_do = {
+			factor = -10
+		}
+}
+			
+
+			
+	new_cesar = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = new_cesar_done }
+}
+allow = { 
+prestige = 200
+is_greater_power = yes
+ }
+effect = {
+				any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = GRE
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				ALD = { all_core = { add_core = RME } }
+				TRI = { all_core = { add_core = RME } }
+				MOR = { all_core = { add_core = RME } }
+				TUN = { all_core = { add_core = RME } }
+				any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ROM
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = BUL
+					}
+					}
+            		add_core = RME
+            	}
+				}
+add_country_modifier = {
+				name = new_cesar_born
+				duration = -1
+				}
+				badboy = 20
+				set_country_flag = new_cesar_done
+}
+}
+
+	latinrome = {
+		picture = rome_treaty_eu
+		potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = french_ok
+			}
+				}
+		allow = {
+			money = 1000000
+			social_reform = good_schools
+			}
+		effect = {
+			add_accepted_culture = french
+			money = -1000000
+			set_country_flag = french_ok
+			}
+			ai_will_do = {
+			factor = 1
+			}
+		}
+
+integrate_egypt = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			EGY = {
+				exists = yes
+			}
+			NOT = {
+				has_country_flag = egypt_integrated }
+				}
+		allow = { 
+		EGY = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = EGY
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = EGY
+				set_country_flag = egypt_integrated
+				
+		}
+	}
+integrate_france = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = france_integrated }
+				}
+		allow = { 
+		FRA = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = FRA
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = FRA
+				set_country_flag = france_integrated
+				
+		}
+	}
+integrate_iberia = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = iberia_integrated }
+				}
+		allow = {
+			AND = {
+		SPA = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		POR = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+			 }
+		 }
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = SPA
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				 any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = POR
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = SPA
+				inherit = POR
+				set_country_flag = iberia_integrated
+				
+		}
+	}
+integrate_britain = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = britain_integrated }
+				}
+		allow = { 
+		ENG = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+				any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ENG
+					is_core = IRE
+					}
+					}
+            		remove_core = ENG
+            	}
+				}
+				ENG = {
+					release = IRE
+				}
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ENG
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = ENG
+				set_country_flag = britain_integrated
+				
+		}
+	}
+
+integrate_austria = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = austria_integrated }
+				KUK = {
+				exists = no
+				}
+				}
+		allow = { 
+		AUS = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+				AUS = {
+					release = HUN
+					release = RUT
+					release = CZH
+				}
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = AUS
+					NOT = {
+					 is_core = HUN
+					 is_core = RUT
+					 is_core = CZH
+					 }
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = AUS
+				set_country_flag = austria_integrated
+				
+		}
+	}
+give_czh = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = give_czh_done }
+				has_country_flag = austria_integrated
+				}
+		allow = {
+			 714 = { owned_by = RME }
+		 }
+		effect = {
+				
+				set_country_flag = austria_integrated
+					RME = {
+						714 = { secede_province = CZH }
+						703 = { secede_province = CZH }
+						2584 = { secede_province = CZH }
+						704 = { secede_province = CZH }
+						705 = { secede_province = CZH }
+					 }
+		}
+	}	
+	integrate_austria_hun = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = austria_integrated }
+				KUK = {
+				exists = yes
+				}
+				}
+		allow = { 
+		KUK = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+				KUK = {
+					release = HUN
+					release = RUT
+					release = CZH
+					714 = {
+					secede_province = POL
+				}
+				}
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = KUK
+					NOT = {
+					 is_core = HUN
+					 is_core = RUT
+					 is_core = CZH
+					 province_id = 714
+					 }
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = KUK
+				set_country_flag = austria_integrated
+				
+		}
+	}
+integrate_switzerland = {
+			picture = rome_treaty_eu
+			potential = {
+			tag = RME
+			NOT = {
+				has_country_flag = switzerland_integrated }
+				}
+		allow = { 
+		SWI = { OR = { vassal_of = RME
+					 in_sphere = RME	}
+				}
+		 }
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = SWI
+					}
+					}
+            		add_core = RME
+            	}
+				}
+				inherit = SWI
+				set_country_flag = switzerland_integrated
+				
+		}
+	}
+}

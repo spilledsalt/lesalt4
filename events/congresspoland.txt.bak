@@ -1,0 +1,91 @@
+# POLONIA SE REBELA A RUSIA
+country_event = {
+	id = 95100
+	title = "EVTNAME95100"
+	desc = "EVTDESC95100"
+	picture = "deliberation"
+
+	trigger = {
+		war = no
+		tag = CPL
+		ai = yes
+		vassal_of = RUS
+		year = 1849
+		NOT = {
+			has_global_flag = poloniareb
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = "EVTOPTA95100"
+		prestige = 40
+		RUS = {
+			release_vassal = CPL
+			country_event = 95101
+		}
+		any_pop = {
+				militancy = -5
+			}
+		any_country = {
+			limit = { is_greater_power = yes }					
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		set_global_flag = poloniareb
+		ai_chance = {
+			factor = 99
+		}
+	}
+}
+
+country_event = {
+	id = 95101
+	title = "EVTNAME95101"
+	desc = "EVTDESC95101"
+	picture = "deliberation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95101"
+		prestige = -10
+		badboy = -2.0
+		relation = {
+			who = CPL
+			value = +100
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 100
+				badboy = 0.7
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95101"
+		badboy = 6
+		RUS = {
+			war = {
+				target = CPL
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+			}
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				badboy = 0.7
+			}
+		}
+	}
+}

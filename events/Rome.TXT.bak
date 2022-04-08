@@ -1,0 +1,30 @@
+country_event = {
+    id = 88432
+    title = "EVTNAME88432" # CZech land give
+    desc = "EVTDESC88432"
+    picture = "egy_independence"
+
+    trigger = {
+		
+        has_country_flag = austria_integrated
+        NOT = {
+            has_country_flag = RME_CZH_land_given
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "EVT88432PTA"
+        set_country_flag = RME_CZH_land_given
+		relation = { who = AUS value = 100 }
+						714 = { secede_province = CZH }
+						703 = { secede_province = CZH }
+						2584 = { secede_province = CZH }
+						704 = { secede_province = CZH }
+						705 = { secede_province = CZH }
+					
+    }
+}

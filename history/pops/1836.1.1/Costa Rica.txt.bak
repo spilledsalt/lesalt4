@@ -1,0 +1,128 @@
+#Costa Rica Region (84000)
+#Ruled by Central America 1836
+#San Jose (52000/13000 POPS)
+2201 = {
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 300
+		militancy = 50 rebel_type = nationalist
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = catholic
+		size = 50
+		militancy = 50 rebel_type = nationalist
+	}
+
+	officers = {
+		culture = central_american
+		religion = catholic
+		size = 25
+		militancy = 50 rebel_type = nationalist
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 125
+		militancy = 50 rebel_type = nationalist
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 650
+		militancy = 50 rebel_type = nationalist
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 125
+		militancy = 50 rebel_type = nationalist
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 11725
+		militancy = 50 rebel_type = nationalist
+	}
+}
+#Liberia (20000/5000 POPS)
+2202 = {
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 150
+		militancy = 50 rebel_type = nationalist
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 50
+		militancy = 50 rebel_type = nationalist
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 250
+		militancy = 50 rebel_type = nationalist
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 50
+		militancy = 50 rebel_type = nationalist
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 4500
+		militancy = 50 rebel_type = nationalist
+	}
+}
+#Limon (12000/3000 POPS)
+2203 = {
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 75
+		militancy = 50 rebel_type = nationalist
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 50
+		militancy = 50 rebel_type = nationalist
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 150
+		militancy = 50 rebel_type = nationalist
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 25
+		militancy = 50 rebel_type = nationalist
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 2700
+		militancy = 50 rebel_type = nationalist
+	}
+
+}

@@ -1,0 +1,285 @@
+political_decisions = {
+liberate_mexico = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = USA
+			NOT = { has_country_flag = liberate_mexico }
+			MEX = { vassal_of = FRA }
+			
+		}
+
+		allow = {
+			FRA = {
+				has_country_flag = invaded_mexico
+			}
+			CSA = {
+				exists = no
+			}
+			
+			has_global_flag = american_civil_war_has_happened
+		}
+
+		effect = {
+			set_country_flag = liberate_mexico
+			war = {
+				target = FRA
+				attacker_goal = { casus_belli = release_puppet }
+				call_ally = no
+			}
+			badboy = -10
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+	liberate_mexico_csa = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = CSA
+			NOT = { has_country_flag = liberate_mexico }
+			MEX = { vassal_of = FRA }
+			
+		}
+
+		allow = {
+
+			war = no
+			has_global_flag = american_civil_war_has_happened
+		}
+
+		effect = {
+			set_country_flag = liberate_mexico
+			war = {
+				target = MEX
+				attacker_goal = { casus_belli = conquest }
+				call_ally = no
+			}
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+	csa_wins_america = {
+			picture = rome_treaty_eu
+			potential = {
+			USA = {
+				exists = yes
+			}
+			tag = CSA
+			NOT = {
+				has_country_flag = csa_victory }
+				}
+		allow = { 
+		USA = { OR = { vassal_of = CSA
+					 in_sphere = CSA	
+						AND = {
+							USA = {
+								war_with = CSA
+								}
+							CSA = {
+								war_score = 99
+								}
+						}
+					  }
+					 }
+				}
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = USA
+					}
+					}
+            		add_core = CSA
+            	}
+				}
+				inherit = USA
+				set_country_flag = csa_victory
+		}
+	}
+	further_south = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = CSA
+			has_country_flag = liberate_mexico
+			MEX = { exists = no }
+			NOT = { has_country_flag = invaded_central_america }
+			
+		}
+
+		allow = {
+			has_country_flag = liberate_mexico
+			has_global_flag = american_civil_war_has_happened
+			war = no
+			
+		}
+
+		effect = {
+			set_country_flag = invaded_central_america
+			casus_belli = {
+				target = UCA
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = PAN
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = HON
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = GUA
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = NIC
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = COS
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = ELS
+				type = conquest
+				months = 999
+			}
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+	even_souther = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = CSA
+			has_country_flag = invaded_central_america
+			PAN = { exists = no }
+			HON = { exists = no }
+			ELS = { exists = no }
+			UCA = { exists = no }
+			NIC = { exists = no }
+			COS = { exists = no }
+			GUA = { exists = no }
+			NOT = { has_country_flag = invaded_south_america }
+			
+		}
+
+		allow = {
+			war = no
+			has_country_flag = invaded_central_america
+			has_global_flag = american_civil_war_has_happened
+			
+		}
+
+		effect = {
+			set_country_flag = invaded_central_america
+			casus_belli = {
+				target = VNZ
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = CLM
+				type = conquest
+				months = 999
+			}
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+	crown_jewel = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = CSA
+			has_country_flag = invaded_south_america
+			CLM = { exists = no }
+			VNZ = { exists = no }
+			NOT = { has_country_flag = invaded_carribean}
+			
+		}
+
+		allow = {
+			war = no
+			has_country_flag = invaded_south_america
+			has_global_flag = american_civil_war_has_happened
+			
+		}
+
+		effect = {
+			set_country_flag = invaded_carribean
+			casus_belli = {
+				target = CUB
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = DOM
+				type = conquest
+				months = 999
+			}
+			casus_belli = {
+				target = HAI
+				type = conquest
+				months = 999
+			}
+			CUB = {all_core = {add_core = CSA } }
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+		
+	form_golden_circle = {
+		picture = cochinchina_campaign
+		potential = {
+			tag = CSA
+			NOT = { has_country_flag = formed_golden_circle}
+		}
+
+		allow = {
+			war = no
+			
+			has_global_flag = american_civil_war_has_happened
+			CUB = {all_core = {owned_by = CSA } }
+			PAN = {all_core = {owned_by = CSA } }
+			HAI = {all_core = {owned_by = CSA } }
+			DOM = {all_core = {owned_by = CSA } }
+			MEX = {all_core = {owned_by = CSA } }
+			UCA = {all_core = {owned_by = CSA } }
+			CLM = {all_core = {owned_by = CSA } }
+			VNZ = {all_core = {owned_by = CSA } }
+		}
+
+		effect = {
+			set_country_flag = formed_golden_circle
+			CUB = {all_core = {add_core = GOL } }
+			PAN = {all_core = {add_core = GOL } }
+			HAI = {all_core = {add_core = GOL } }
+			DOM = {all_core = {add_core = GOL } }
+			MEX = {all_core = {add_core = GOL } }
+			UCA = {all_core = {add_core = GOL } }
+			CLM = {all_core = {add_core = GOL } }
+			VNZ = {all_core = {add_core = GOL } }
+			change_tag = GOL
+			capital = 2209
+			prestige = 100
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}			
+}

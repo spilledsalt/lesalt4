@@ -1,0 +1,207 @@
+political_decisions = {
+
+slavic_dream = {
+picture = embrace_minority
+		potential = {
+			tag = SER
+			NOT = {
+				has_country_flag = slavic_wet_dream
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = YUG
+					}
+					}
+            		add_core = SER
+            	}
+				}
+			badboy = -5
+			set_country_flag = slavic_wet_dream
+	}
+}
+
+	
+	claim_greater_yugoslavia= {
+	    picture = "claimgreateryugoslavia"
+	    potential = {
+	        tag = YUG
+
+	        NOT = {  has_country_flag = claimed_balkans }
+	    }
+	    allow = {
+	        is_greater_power = yes
+	        war = no
+	    }
+
+	    effect = {
+	        set_country_flag = claimed_balkans
+
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = BUL
+					}
+					}
+            		add_core = YUG
+            	}
+            }
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ALB
+					}
+					}
+            		add_core = YUG
+	    }
+	}
+	any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = ROM
+					}
+					}
+            		add_core = YUG
+	
+   }
+ }
+any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = GRE
+					}
+					}
+            		add_core = YUG
+	     }
+      }
+	  			TUR_860 = {
+				add_core = YUG
+			}
+			TUR_863 = {
+				add_core = YUG
+			}
+			TUR_869 = {
+				add_core = YUG
+			}
+						TUR_873 = {
+				add_core = YUG
+			}
+        } 
+    }
+	form_byzantine_empire_serb = {
+	picture = form_byzantine_empire
+		potential = {
+			       tag = YUG 
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			is_greater_power = yes	
+            NOT = {
+				exists = BYZ }		
+		}
+		
+		allow = {
+			owns = 825
+			owns = 828
+			owns = 829
+			owns = 830
+			owns = 831
+			owns = 832
+			owns = 833
+			owns = 834
+			owns = 835
+			owns = 836
+			owns = 837
+			owns = 838
+			owns = 839
+			owns = 840
+			owns = 841
+			owns = 842
+			owns = 843
+			owns = 844
+			owns = 845
+			owns = 846
+			owns = 847
+			owns = 848
+			owns = 858
+			owns = 859
+			owns = 860	# Constantinople
+			owns = 861
+			owns = 862
+			owns = 863
+			owns = 864
+			owns = 865
+			owns = 866
+			owns = 867
+			owns = 868
+			owns = 869
+			owns = 870
+			owns = 871
+			owns = 872
+			owns = 873
+			owns = 874
+			owns = 875			
+		}
+		
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			860 = {
+				change_province_name = "Constantinople"
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+				}
+				add_core = BYZ
+			}
+			prestige = 50
+			badboy = -10
+			
+			BYZ = { all_core = { remove_core = YUG }
+                    all_core = { remove_core = SER }
+                    all_core = { remove_core = GRE }
+                    all_core = { remove_core = BUL }
+                    all_core = { remove_core = ALB }
+                    all_core = { remove_core = CRO }
+                    all_core = { remove_core = MOL }
+                    all_core = { remove_core = WAL }
+                    all_core = { remove_core = SLO }
+                    all_core = { remove_core = TUR }
+                    all_core = { remove_core = ROM }
+                    all_core = { remove_core = MON }
+                    all_core = { remove_core = AUS }
+                    all_core = { remove_core = HUN }
+                    all_core = { remove_core = BOS }					}
+			
+			add_accepted_culture = serb
+			add_accepted_culture = greek
+			add_accepted_culture = slovak
+			add_accepted_culture = slovene
+			add_accepted_culture = croat
+			add_accepted_culture = hungarian
+			add_accepted_culture = romanian
+			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
+			add_accepted_culture = bosniak
+			
+			add_country_modifier = {
+				name = rex_regum
+				duration = -1
+			}
+		}
+	}

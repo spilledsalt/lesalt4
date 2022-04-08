@@ -1,0 +1,252 @@
+political_decisions = {
+	hellenic_parliament = {
+		potential = {
+			tag = GRE
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = voule_ton_ellinon
+			}
+		}
+	
+		allow = {
+			plurality = 3
+			prestige = 1
+		}
+		
+		effect = {
+			set_country_flag = voule_ton_ellinon
+			political_reform = wealth_weighted_voting
+			government = hms_government
+			any_pop = {
+				militancy = -2
+			}
+		}
+	}
+	
+	megali_idea = {
+		potential = {
+			tag = GRE
+			NOT = {
+				has_country_flag = greece_has_got_a_brand_new_bag
+			}
+		}
+		
+		allow = {
+			owns = 832
+			owns = 831
+			owns = 833
+			owns = 825
+			owns = 824
+			owns = 820
+			owns = 819
+			owns = 821
+			owns = 805
+			owns = 822
+			owns = 823
+			owns = 829
+			owns = 830
+			owns = 844
+			owns = 843
+			owns = 846
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			TUR_860 = {
+				add_core = GRE
+			}
+			TUR_863 = {
+				add_core = GRE
+			}
+			TUR_869 = {
+				add_core = GRE
+			}
+				TUR_873 = {
+				add_core = GRE
+			}
+			set_country_flag = greece_has_got_a_brand_new_bag
+		}
+	}
+	
+	form_byzantine_empire = {
+		potential = {
+			OR = {
+				tag = GRE
+				tag = ROM
+			}
+            NOT = {
+				exists = BYZ }		
+		}
+		
+		allow = {
+			owns = 825
+			owns = 828
+			owns = 829
+			owns = 830
+			owns = 831
+			owns = 832
+			owns = 833
+			owns = 834
+			owns = 835
+			owns = 836
+			owns = 837
+			owns = 838
+			owns = 839
+			owns = 840
+			owns = 841
+			owns = 842
+			owns = 843
+			owns = 844
+			owns = 845
+			owns = 846
+			owns = 847
+			owns = 848
+			owns = 858
+			owns = 859
+			owns = 860	# Constantinople
+			owns = 861
+			owns = 862
+			owns = 863
+			owns = 864
+			owns = 865
+			owns = 866
+			owns = 867
+			owns = 868
+			owns = 869
+			owns = 870
+			owns = 871
+			owns = 872
+			owns = 873
+			owns = 874
+			owns = 875			
+		}
+		
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			860 = {
+				change_province_name = "Constantinople"
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+				}
+				add_core = BYZ
+			}
+			prestige = 50
+			badboy = -10
+			
+			BYZ = { all_core = { remove_core = YUG }
+                    all_core = { remove_core = SER }
+                    all_core = { remove_core = GRE }
+                    all_core = { remove_core = BUL }
+                    all_core = { remove_core = ALB }
+                    all_core = { remove_core = CRO }
+                    all_core = { remove_core = MOL }
+                    all_core = { remove_core = WAL }
+                    all_core = { remove_core = SLO }
+                    all_core = { remove_core = TUR }
+                    all_core = { remove_core = ROM }
+                    all_core = { remove_core = MON }
+                    all_core = { remove_core = AUS }
+                    all_core = { remove_core = HUN }
+                    all_core = { remove_core = BOS }					}
+			YUG = { all_core = { add_core = BYZ} }		
+			ALB = { all_core = { add_core = BYZ} }
+			BUL = { all_core = { add_core = BYZ} }
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = TUR
+					is_core = WAL
+					}
+					}
+            		add_core = BYZ 
+            	}
+				}
+			
+			add_accepted_culture = serb
+			add_accepted_culture = slovak
+			add_accepted_culture = slovene
+			add_accepted_culture = croat
+			add_accepted_culture = hungarian
+			add_accepted_culture = romanian
+			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
+			add_accepted_culture = bosniak
+			add_accepted_culture = greek
+			
+			add_country_modifier = {
+				name = rex_regum
+				duration = -1
+			}
+		}
+	}
+	integrate_egypt_byz = {
+			picture = rome_treaty_eu
+			potential = {
+			EGY = {
+				exists = yes
+			}
+			tag = BYZ
+			NOT = {
+				has_country_flag = egypt_integrated }
+				}
+		allow = { 
+		EGY = { OR = { vassal_of = BYZ
+					 in_sphere = BYZ	
+						AND = {
+							EGY = {
+								war_with = BYZ
+								}
+							BYZ = {
+								war_score = 99
+								}
+						}
+					  }
+					 }
+				}
+		effect = {
+                any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = EGY
+					}
+					}
+            		add_core = BYZ
+            	}
+				}
+				inherit = EGY
+				set_country_flag = egypt_integrated
+		}
+	}
+	end_the_ottomans = {
+		potential = {
+			tag = BYZ
+			NOT = {
+				has_country_flag = has_ended_the_ottomans
+			}
+		}
+		
+		allow = {
+			owns = 783
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 5
+			TUR = {all_core = { add_core = BYZ } }
+			TUR = {all_owned = { add_core = BYZ } }
+			war = {
+				target = TUR
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			set_country_flag = has_ended_the_ottomans
+		}
+	}
+}

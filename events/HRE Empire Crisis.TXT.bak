@@ -1,0 +1,69 @@
+#HRE crisis intervention by france or russia
+country_event = {
+    id = 90090
+    title = "EVTNAME90090" # hre crisis
+    desc = "EVTDESC90090"
+    picture = "egy_independence"
+
+    trigger = {
+        is_greater_power = yes
+		OR = {
+        tag = RUS
+		
+		tag = FRA
+		}
+		
+        has_global_flag = HRE_crisis
+        AUS = { war_score = 30 }
+		
+        NOT = {
+            truce_with = AUS
+            war_with = AUS
+			war_with = YUG
+			war_with = HUN
+            has_country_flag = HRE_crisis_support_rebels
+            has_country_flag = HRE_crisis_neutral
+            has_global_flag = end_of_HRE_crisis
+            relation = { who = AUS value = 100 }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 2
+    }
+
+    option = {
+        name = "EVT90090OPTA"
+        set_country_flag = HRE_crisis_support_rebels
+        prestige = 10
+        relation = { who = YUG value = 200 }
+		relation = { who = HUN value = 200 }
+        diplomatic_influence = { who = YUG value = 200 }
+		diplomatic_influence = { who = HUN value = 200 }
+        AUS = { country_event = ####event that notifies them that they done are gonna get fucked }
+				create_alliance = YUG
+				create_alliance = HUN
+        ai_chance = {
+            factor = 75
+            modifier = {
+				factor = 1.25
+				OR = {
+					HUN = {    national_provinces_occupied = .5 }
+					YUG = {    national_provinces_occupied = .5 }
+				}
+			}
+        }
+    }
+
+    option = {
+        name = "EVT90090OPTB"
+        set_country_flag = HRE_crisis_neutral
+        prestige = -5
+        relation = { who = HUN value = -25 }
+		relation = { who = YUG value = -25 }
+
+        ai_chance = {
+            factor = 25
+        }
+    }
+}
